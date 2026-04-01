@@ -1,5 +1,5 @@
 import UnicornSectionBg from "../components/ui/ComparisonUnicornSectionBg";
-
+import card from "/src/assets/icons/card-bg.png";
 export default function Comparison() {
     return (
         <section className="relative py-32 text-white overflow-hidden">
@@ -17,7 +17,7 @@ export default function Comparison() {
 
                     {/* Imagen = TODO */}
                     <img
-                        src="/src/assets/icons/card-bg.png"
+                        src={card}
                         alt=""
                         className="w-full h-full object-contain"
                     />

@@ -1,3 +1,4 @@
+import Logo from "/src/assets/icons/Logo.png";
 import { useState } from "react";
 
 export default function Navbar() {
@@ -14,7 +15,7 @@ export default function Navbar() {
   return (
     <header className="absolute top-0 left-0 w-full z-50">
       <div className="flex items-center justify-between px-10 py-4 text-white">
-        <img src="/src/assets/icons/Logo.png" alt="Alcaware" className="h-8" />
+        <img src={Logo} alt="Alcaware" className="h-8" />
         <nav className="flex gap-8 font-montserrat text-sm">
           <a className="text-primary">INICIO</a>
           <a>SERVICIOS</a>
