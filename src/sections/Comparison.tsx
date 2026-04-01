@@ -41,7 +41,7 @@ export default function Comparison() {
 
                     {/* Imagen = TODO */}
                     <img
-                        src="/src/assets/icons/card-bg.png"
+                        src={card}
                         alt=""
                         className="w-full h-full object-contain"
                     />
