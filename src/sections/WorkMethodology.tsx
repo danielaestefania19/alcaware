@@ -1,37 +1,19 @@
 import bgMethodology from "../assets/icons/Rectangle 4.png";
+import { useTranslation } from "react-i18next";
 
-const steps = [
-  {
-    number: "1",
-    title: "ANALISIS DEL PROYECTO",
-    description:
-      "Evaluamos las necesidades del cliente, los objetivos del negocio y los requerimientos técnicos para definir el alcance y la estrategia del desarrollo.",
-    side: "left",
-  },
-  {
-    number: "2",
-    title: "DESARROLLO PERSONALIZADO",
-    description:
-      "Diseñamos y desarrollamos la solución tecnológica a medida, utilizando metodologías ágiles que permiten iteraciones rápidas y entregas constantes.",
-    side: "right",
-  },
-  {
-    number: "3",
-    title: "DESPLIEGUE\nA\n PRODUCCION",
-    description:
-      "Implementamos la solución en el entorno final, asegurando estabilidad, seguridad y correcto funcionamiento antes de su lanzamiento.",
-    side: "left",
-  },
-  {
-    number: "4",
-    title: "SOPORTE CONTINUO",
-    description:
-      "Brindamos mantenimiento, mejoras y acompañamiento técnico para garantizar el crecimiento y la evolución del producto a largo plazo.",
-    side: "right",
-  },
-];
+type Step = {
+  title: string;
+  description: string;
+};
+
+const stepSides = ["left", "right", "left", "right"] as const;
 
 export default function WorkMethodology() {
+  const { t } = useTranslation();
+  const steps = (t("methodology.steps", { returnObjects: true }) as Step[]).map(
+    (step, i) => ({ ...step, number: String(i + 1), side: stepSides[i] })
+  );
+
   return (
     <section
       className="relative text-white pb-16 md:pb-24 px-4 md:px-6"
@@ -52,9 +34,9 @@ export default function WorkMethodology() {
               textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3",
             }}
           >
-            NUESTRA<br />
-            METODOLOGIA<br />
-            DE TRABAJO
+            {t("methodology.title_line1")}<br />
+            {t("methodology.title_line2")}<br />
+            {t("methodology.title_line3")}
           </h2>
         </div>
 
@@ -91,7 +73,7 @@ export default function WorkMethodology() {
 function StepBlock({
   step,
 }: {
-  step: (typeof steps)[number];
+  step: { number: string; title: string; description: string; side: string };
 }) {
   return (
     <div className="w-full">

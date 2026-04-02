@@ -1,6 +1,10 @@
 import Logo from "../assets/icons/Logo.png";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const { t } = useTranslation();
+  const navLinks = t("footer.nav_links", { returnObjects: true }) as string[];
+
   return (
     <footer
       className="text-white"
@@ -14,12 +18,12 @@ export default function Footer() {
           <img src={Logo} alt="Alcaware" className="h-8 w-auto object-contain object-left" />
 
           <div className="flex flex-col gap-1">
-            <p className="font-montserrat text-sm font-bold text-white">Llámanos</p>
+            <p className="font-montserrat text-sm font-bold text-white">{t("footer.call")}</p>
             <p className="font-montserrat text-sm text-white/60">+52 81 1635 9851</p>
           </div>
 
           <div className="flex flex-col gap-1">
-            <p className="font-montserrat text-sm font-bold text-white">Contáctanos</p>
+            <p className="font-montserrat text-sm font-bold text-white">{t("footer.contact")}</p>
             <a
               href="mailto:it@alcaware.com"
               className="font-montserrat text-sm text-white/60 hover:text-primary transition-colors"
@@ -32,7 +36,7 @@ export default function Footer() {
             href="#servicios"
             className="w-fit border border-primary rounded-full px-6 py-2 font-montserrat text-xs tracking-widest text-white hover:bg-primary/10 transition-colors"
           >
-            VER SERVICIOS
+            {t("footer.see_services")}
           </a>
 
           {/* Social icons */}
@@ -69,9 +73,9 @@ export default function Footer() {
 
         {/* Column 2 — Nav links */}
         <div className="flex flex-col gap-4">
-          <p className="font-montserrat text-sm font-bold text-white">Información</p>
+          <p className="font-montserrat text-sm font-bold text-white">{t("footer.info_title")}</p>
           <nav className="flex flex-col gap-3">
-            {["Inicio", "Servicios", "Proceso", "Nosotros"].map((item) => (
+            {navLinks.map((item) => (
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
@@ -85,9 +89,9 @@ export default function Footer() {
 
         {/* Column 3 — Address */}
         <div className="flex flex-col gap-4">
-          <p className="font-montserrat text-sm font-bold text-white">Visítanos</p>
+          <p className="font-montserrat text-sm font-bold text-white">{t("footer.visit_title")}</p>
           <address className="font-montserrat text-sm text-white/60 not-italic leading-relaxed">
-            Francisco Villa 650, Jardín Español, 64820 M Monterrey, N.L.
+            {t("footer.address")}
           </address>
         </div>
 
@@ -96,7 +100,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-white/10">
         <p className="text-center font-montserrat text-xs text-white/40 py-4 tracking-widest">
-          ©2025 CAMPS. TODOS LOS DERECHOS RESERVADOS
+          {t("footer.copyright")}
         </p>
       </div>
     </footer>

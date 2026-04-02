@@ -1,0 +1,195 @@
+{
+  "navbar": {
+    "home": "HOME",
+    "services": "SERVICES",
+    "process": "PROCESS",
+    "about": "ABOUT US"
+  },
+  "hero": {
+    "title_line1": "CUSTOM SOFTWARE TO",
+    "title_line2": "BOOST YOUR BUSINESS",
+    "subtitle": "WE DEVELOP WEB AND MOBILE PRODUCTS AND BLOCKCHAIN SOLUTIONS WITH FOCUS ON STRUCTURE, SECURITY AND SCALABILITY",
+    "cta_start": "GET STARTED",
+    "cta_services": "VIEW SERVICES →"
+  },
+  "comparison": {
+    "others_title": "WITH OTHERS:",
+    "others_items": [
+      "IMPROVISED SYSTEMS",
+      "THIRD-PARTY DEPENDENCY",
+      "SOFTWARE THAT DOESN'T SCALE"
+    ],
+    "alcaware_title": "WITH ALCAWARE:",
+    "alcaware_items": [
+      "CLEAR TECHNOLOGICAL STRUCTURE",
+      "PHASED ROADMAP (MVP → SCALE)",
+      "SECURITY FROM THE START"
+    ]
+  },
+  "services": {
+    "see_more": "SEE MORE",
+    "items": [
+      {
+        "title": "WEB & MOBILE DEVELOPMENT",
+        "imageAlt": "Web & Mobile Development",
+        "items": [
+          "WEB APPS AND PLATFORMS",
+          "MOBILE APPS IOS/ANDROID",
+          "APIS AND INTEGRATIONS",
+          "CONVERSION-FOCUSED UI/UX"
+        ]
+      },
+      {
+        "title": "BLOCKCHAIN SOLUTIONS",
+        "imageAlt": "Blockchain Solutions",
+        "items": [
+          "SMART CONTRACTS",
+          "TOKENIZATION / TRACEABILITY",
+          "WEB2 ↔ WEB3 INTEGRATION",
+          "SECURITY AND BEST PRACTICES"
+        ]
+      },
+      {
+        "title": "ARTIFICIAL INTELLIGENCE SOLUTIONS",
+        "imageAlt": "Artificial Intelligence",
+        "items": [
+          "AI CHATBOTS AND ASSISTANTS",
+          "PROCESS AUTOMATION",
+          "INTELLIGENT DATA ANALYSIS",
+          "AI MODEL INTEGRATION"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "title": "WHY ALCAWARE?",
+    "cards": [
+      {
+        "title": "ARCHITECTURE",
+        "description": "WE DESIGN THE SYSTEM ARCHITECTURE BEFORE WRITING A SINGLE LINE OF CODE. THIS ENSURES STABLE, MAINTAINABLE PRODUCTS READY TO GROW."
+      },
+      {
+        "title": "QUALITY AND DISCIPLINE",
+        "description": "WE WORK WITH STRICT DEVELOPMENT STANDARDS AND WELL-DEFINED PROCESSES. EVERY PROJECT IS BUILT WITH TECHNICAL RIGOR AND ATTENTION TO DETAIL."
+      },
+      {
+        "title": "REAL SCALABILITY",
+        "description": "WE DESIGN THE SYSTEM ARCHITECTURE BEFORE WRITING A SINGLE LINE OF CODE. THIS ENSURES STABLE, MAINTAINABLE PRODUCTS READY TO GROW."
+      },
+      {
+        "title": "STRUCTURAL SECURITY",
+        "description": "SECURITY IS INTEGRATED FROM THE SYSTEM DESIGN. WE PROTECT DATA, PROCESSES AND OPERATIONS TO ENSURE TECHNOLOGICAL TRUST."
+      },
+      {
+        "title": "CONTINUOUS IMPROVEMENT",
+        "description": "WE APPLY CONTINUOUS IMPROVEMENT METHODOLOGIES TO OPTIMIZE EVERY PHASE OF DEVELOPMENT AND DELIVER INCREASINGLY EFFICIENT PRODUCTS."
+      },
+      {
+        "title": "FULL TRANSPARENCY",
+        "description": "WE WORK WITH CLEAR SPRINTS AND VISIBLE DELIVERABLES. OUR CLIENTS ALWAYS KNOW WHAT STAGE THEIR PROJECT IS AT."
+      }
+    ]
+  },
+  "methodology": {
+    "title_line1": "OUR",
+    "title_line2": "WORK",
+    "title_line3": "METHODOLOGY",
+    "steps": [
+      {
+        "title": "PROJECT ANALYSIS",
+        "description": "We evaluate the client's needs, business objectives and technical requirements to define the scope and development strategy."
+      },
+      {
+        "title": "CUSTOM DEVELOPMENT",
+        "description": "We design and develop the tailored technology solution, using agile methodologies that allow rapid iterations and constant deliveries."
+      },
+      {
+        "title": "PRODUCTION\nDEPLOYMENT",
+        "description": "We implement the solution in the final environment, ensuring stability, security and correct functioning before launch."
+      },
+      {
+        "title": "CONTINUOUS SUPPORT",
+        "description": "We provide maintenance, improvements and technical accompaniment to ensure the long-term growth and evolution of the product."
+      }
+    ]
+  },
+  "success": {
+    "title": "SUCCESS STORIES",
+    "subtitle": "Projects that demonstrate how well-applied technology can generate real value for businesses.",
+    "stories": [
+      {
+        "paragraphs": [
+          "We developed an enterprise web platform that allows companies to centralize the management of their operations in a single digital system.",
+          "The project consisted of designing and implementing an intuitive dashboard where users can manage key processes such as billing, operations tracking and real-time report generation. To achieve this, we used modern web development technologies that allow a scalable and secure architecture.",
+          "This solution helped optimize the client's internal processes, reducing operational errors and improving information visibility within the organization."
+        ]
+      },
+      {
+        "paragraphs": [
+          "We designed and developed a decentralized application based on blockchain technology that allows users to exchange digital assets securely and transparently.",
+          "The solution integrates smart contracts that automate transaction execution without the need for intermediaries, ensuring greater efficiency and reliability in each operation.",
+          "Additionally, we implemented an intuitive web interface that facilitates interaction with the blockchain network, allowing users to manage their assets and perform operations easily within a fully decentralized environment."
+        ]
+      },
+      {
+        "paragraphs": [
+          "We developed an artificial intelligence solution inspired by technologies like IBM and its IBM Watson platform, used by companies to automate processes, analyze data and improve the digital experience.",
+          "The implementation consisted of integrating an intelligent assistant within the client's platform capable of processing queries, analyzing business information and generating responses or recommendations in real time through natural language processing.",
+          "This type of technology has been used by companies like Banco Bradesco, which implemented IBM Watson to assist its customer service team and automatically respond to thousands of queries. Our solution allowed automating internal processes, improving information management and offering a more efficient digital experience for end users."
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FREQUENTLY ASKED QUESTIONS",
+    "items": [
+      {
+        "question": "How long does it take to develop a project?",
+        "answer": "The time depends on the scope of the project. Development can take from a few weeks to several months, depending on the complexity and required features."
+      },
+      {
+        "question": "Do you work with custom projects?",
+        "answer": "Yes, all our projects are tailor-made. We analyze each client's specific needs to design and develop a solution that adapts exactly to their objectives."
+      },
+      {
+        "question": "Do you offer post-launch support?",
+        "answer": "Yes, we provide continuous post-launch support. We offer maintenance plans that include bug fixes, security updates and evolutionary improvements of the product."
+      },
+      {
+        "question": "What are your rates?",
+        "answer": "Rates vary depending on the type of project, its complexity and estimated development time. Contact us to receive a personalized quote with no commitment."
+      },
+      {
+        "question": "How can I start a project with you?",
+        "answer": "You can contact us through the contact form or through our direct channels. We schedule an initial meeting to understand your idea and present you with a detailed proposal."
+      }
+    ]
+  },
+  "contact": {
+    "title": "LET'S BUILD THE DIGITAL FUTURE OF YOUR COMPANY",
+    "description": "We develop software, blockchain solutions and artificial intelligence integrations that help companies grow, optimize processes and create new technological opportunities.",
+    "name_label": "NAME",
+    "name_placeholder": "NAME",
+    "company_label": "COMPANY",
+    "company_placeholder": "YOUR COMPANY NAME",
+    "email_label": "EMAIL",
+    "email_placeholder": "hello@yoursite.com",
+    "phone_label": "PHONE",
+    "phone_placeholder": "000-000-0000",
+    "service_label": "SERVICE TYPE",
+    "service_placeholder": "SERVICE",
+    "project_label": "TELL US ABOUT YOUR PROJECT",
+    "project_placeholder": "WRITE ABOUT YOUR PROJECT",
+    "submit": "SEND"
+  },
+  "footer": {
+    "call": "Call us",
+    "contact": "Contact us",
+    "see_services": "VIEW SERVICES",
+    "info_title": "Information",
+    "nav_links": ["Home", "Services", "Process", "About"],
+    "visit_title": "Visit us",
+    "address": "Francisco Villa 650, Jardín Español, 64820 M Monterrey, N.L.",
+    "copyright": "©2025 CAMPS. ALL RIGHTS RESERVED"
+  }
+}

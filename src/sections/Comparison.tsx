@@ -1,6 +1,13 @@
 import UnicornSectionBg from "../components/ui/ComparisonUnicornSectionBg";
 import card from "/src/assets/icons/card-bg.png";
+import { useTranslation } from "react-i18next";
+
 export default function Comparison() {
+    const { t } = useTranslation();
+
+    const othersItems = t("comparison.others_items", { returnObjects: true }) as string[];
+    const alcawareItems = t("comparison.alcaware_items", { returnObjects: true }) as string[];
+
     return (
         <section className="relative py-32 text-white overflow-hidden">
 
@@ -26,13 +33,13 @@ export default function Comparison() {
                     <div className="absolute inset-0 flex flex-col justify-center px-14 py-12 text-white">
 
                         <h3 className="font-melete text-xl tracking-[0.2em] mb-6">
-                            CON OTROS:
+                            {t("comparison.others_title")}
                         </h3>
 
                         <ul className="space-y-6 font-montserrat text-white/80">
-                            <li>• SISTEMAS IMPROVISADOS</li>
-                            <li>• DEPENDENCIA DE TERCEROS</li>
-                            <li>• SOFTWARE QUE NO ESCALA</li>
+                            {othersItems.map((item) => (
+                                <li key={item}>• {item}</li>
+                            ))}
                         </ul>
 
                     </div>
@@ -50,13 +57,13 @@ export default function Comparison() {
                     <div className="absolute inset-0 flex flex-col justify-center px-14 py-12 text-white">
 
                         <h3 className="font-melete text-xl tracking-[0.2em] mb-6">
-                            CON ALCAVARE:
+                            {t("comparison.alcaware_title")}
                         </h3>
 
                         <ul className="space-y-6 font-montserrat text-white/80">
-                            <li>• ESTRUCTURA TECNOLÓGICA CLARA</li>
-                            <li>• ROADMAP POR ETAPAS (MVP → ESCALA)</li>
-                            <li>• SEGURIDAD DESDE EL INICIO</li>
+                            {alcawareItems.map((item) => (
+                                <li key={item}>• {item}</li>
+                            ))}
                         </ul>
                     </div>
                 </div>

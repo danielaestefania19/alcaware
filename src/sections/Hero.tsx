@@ -1,7 +1,10 @@
 import UnicornBackground from "../components/ui/UnicornBackground";
 import TechBar from "./TechBar";
+import { useTranslation } from "react-i18next";
 
 export default function Hero() {
+    const { t } = useTranslation();
+
     return (
         <section className="relative h-screen overflow-hidden text-white pb-28">
             <UnicornBackground />
@@ -11,20 +14,20 @@ export default function Hero() {
                     <div className="max-w-162.5">
                         <div className="max-w-225 w-fit">
                             <h1 className=" whitespace-nowrap font-melete text-[50px] md:text-[32px] leading-[1.6] tracking-[0.28em] text-left ">
-                                SOFTWARE A MEDIDA PARA
+                                {t("hero.title_line1")}
                                 <br />
-                                POTENCIAR TU NEGOCIO
+                                {t("hero.title_line2")}
                             </h1>
                             <p className=" mt-6 font-montserrat text-[13px] tracking-[0.15em] text-white/70 whitespace-nowrap">
-                                DESARROLLAMOS PRODUCTOS WEB, MÓVILES Y SOLUCIONES BLOCKCHAIN CON ENFOQUE EN ESTRUCTURA, SEGURIDAD Y ESCALABILIDAD
+                                {t("hero.subtitle")}
                             </p>
                         </div>
                         <div className="mt-8 flex gap-4">
                             <button className="rounded-full bg-primary px-8 py-3 text-sm font-montserrat text-white">
-                                COMENZAR
+                                {t("hero.cta_start")}
                             </button>
                             <button className="rounded-full border border-primary px-8 py-3 text-sm font-montserrat font-light text-primary">
-                                VER SERVICIOS →
+                                {t("hero.cta_services")}
                             </button>
                         </div>
 

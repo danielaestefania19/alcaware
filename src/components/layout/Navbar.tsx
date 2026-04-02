@@ -1,26 +1,33 @@
 import Logo from "/src/assets/icons/Logo.png";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
-  const [lang, setLang] = useState<"ES" | "EN">("ES");
+  const { t, i18n } = useTranslation();
 
   const options = [
-    { code: "ES" as const, label: "Español", flag: "🇪🇸" },
-    { code: "EN" as const, label: "English", flag: "🇺🇸" },
+    { code: "es", label: "Español", flag: "🇪🇸" },
+    { code: "en", label: "English", flag: "🇺🇸" },
   ];
 
-  const current = options.find((o) => o.code === lang)!;
+  const currentLang = i18n.language;
+  const current = options.find((o) => o.code === currentLang) ?? options[0];
+
+  const handleLangChange = (code: string) => {
+    i18n.changeLanguage(code);
+    setOpen(false);
+  };
 
   return (
     <header className="absolute top-0 left-0 w-full z-50">
       <div className="flex items-center justify-between px-10 py-4 text-white">
         <img src={Logo} alt="Alcaware" className="h-8" />
         <nav className="flex gap-8 font-montserrat text-sm">
-          <a className="text-primary">INICIO</a>
-          <a>SERVICIOS</a>
-          <a>PROCESO</a>
-          <a>NOSOTROS</a>
+          <a className="text-primary">{t("navbar.home")}</a>
+          <a>{t("navbar.services")}</a>
+          <a>{t("navbar.process")}</a>
+          <a>{t("navbar.about")}</a>
         </nav>
 
         {/* Idioma */}
@@ -30,7 +37,7 @@ export default function Navbar() {
             className="flex items-center gap-2 cursor-pointer"
           >
             <span>{current.flag}</span>
-            <span>{current.code}</span>
+            <span>{current.code.toUpperCase()}</span>
             <span className="text-xs text-white/50">{open ? "▲" : "▼"}</span>
           </button>
 
@@ -39,8 +46,8 @@ export default function Navbar() {
               {options.map((opt) => (
                 <button
                   key={opt.code}
-                  onClick={() => { setLang(opt.code); setOpen(false); }}
-                  className={`w-full flex items-center gap-3 px-4 py-2.5 hover:bg-white/10 transition-colors ${lang === opt.code ? "text-primary" : "text-white/80"}`}
+                  onClick={() => handleLangChange(opt.code)}
+                  className={`w-full flex items-center gap-3 px-4 py-2.5 hover:bg-white/10 transition-colors ${currentLang === opt.code ? "text-primary" : "text-white/80"}`}
                 >
                   <span>{opt.flag}</span>
                   <span>{opt.label}</span>

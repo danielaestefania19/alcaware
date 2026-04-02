@@ -1,0 +1,195 @@
+{
+  "navbar": {
+    "home": "INICIO",
+    "services": "SERVICIOS",
+    "process": "PROCESO",
+    "about": "NOSOTROS"
+  },
+  "hero": {
+    "title_line1": "SOFTWARE A MEDIDA PARA",
+    "title_line2": "POTENCIAR TU NEGOCIO",
+    "subtitle": "DESARROLLAMOS PRODUCTOS WEB, MÓVILES Y SOLUCIONES BLOCKCHAIN CON ENFOQUE EN ESTRUCTURA, SEGURIDAD Y ESCALABILIDAD",
+    "cta_start": "COMENZAR",
+    "cta_services": "VER SERVICIOS →"
+  },
+  "comparison": {
+    "others_title": "CON OTROS:",
+    "others_items": [
+      "SISTEMAS IMPROVISADOS",
+      "DEPENDENCIA DE TERCEROS",
+      "SOFTWARE QUE NO ESCALA"
+    ],
+    "alcaware_title": "CON ALCAVARE:",
+    "alcaware_items": [
+      "ESTRUCTURA TECNOLÓGICA CLARA",
+      "ROADMAP POR ETAPAS (MVP → ESCALA)",
+      "SEGURIDAD DESDE EL INICIO"
+    ]
+  },
+  "services": {
+    "see_more": "VER MÁS",
+    "items": [
+      {
+        "title": "DESARROLLO WEB & MÓVIL",
+        "imageAlt": "Desarrollo Web & Móvil",
+        "items": [
+          "WEB APPS Y PLATAFORMAS",
+          "APPS MÓVILES IOS/ANDROID",
+          "APIS E INTEGRACIONES",
+          "UI/UX ORIENTADO A CONVERSIÓN"
+        ]
+      },
+      {
+        "title": "SOLUCIONES BLOCKCHAIN",
+        "imageAlt": "Soluciones Blockchain",
+        "items": [
+          "SMART CONTRACTS",
+          "TOKENIZACIÓN / TRAZABILIDAD",
+          "INTEGRACIÓN WEB2 ↔ WEB3",
+          "SEGURIDAD Y BUENAS PRÁCTICAS"
+        ]
+      },
+      {
+        "title": "SOLUCIONES DE INTELIGENCIA ARTIFICIAL",
+        "imageAlt": "Inteligencia Artificial",
+        "items": [
+          "CHATBOTS Y ASISTENTES IA",
+          "AUTOMATIZACIÓN DE PROCESOS",
+          "ANÁLISIS INTELIGENTE DE DATOS",
+          "INTEGRACIÓN DE MODELOS IA"
+        ]
+      }
+    ]
+  },
+  "why": {
+    "title": "PORQUE ALCAWARE?",
+    "cards": [
+      {
+        "title": "ARQUITECTURA",
+        "description": "DISEÑAMOS LA ARQUITECTURA DEL SISTEMA ANTES DE ESCRIBIR UNA SOLA LÍNEA DE CÓDIGO. ESTO GARANTIZA PRODUCTOS ESTABLES, MANTENIBLES Y PREPARADOS PARA CRECER."
+      },
+      {
+        "title": "CALIDAD Y DISCIPLINA",
+        "description": "TRABAJAMOS CON ESTÁNDARES ESTRICTOS DE DESARROLLO Y PROCESOS BIEN DEFINIDOS. CADA PROYECTO SE CONSTRUYE CON RIGOR TÉCNICO Y ATENCIÓN AL DETALLE."
+      },
+      {
+        "title": "ESCALABILIDAD REAL",
+        "description": "DISEÑAMOS LA ARQUITECTURA DEL SISTEMA ANTES DE ESCRIBIR UNA SOLA LÍNEA DE CÓDIGO. ESTO GARANTIZA PRODUCTOS ESTABLES, MANTENIBLES Y PREPARADOS PARA CRECER."
+      },
+      {
+        "title": "SEGURIDAD ESTRUCTURAL",
+        "description": "LA SEGURIDAD SE INTEGRA DESDE EL DISEÑO DEL SISTEMA. PROTEGEMOS DATOS, PROCESOS Y OPERACIONES PARA GARANTIZAR CONFIANZA TECNOLÓGICA."
+      },
+      {
+        "title": "MEJORA CONTINUA",
+        "description": "APLICAMOS METODOLOGÍAS DE MEJORA CONTINUA PARA OPTIMIZAR CADA FASE DEL DESARROLLO Y ENTREGAR PRODUCTOS CADA VEZ MÁS EFICIENTES."
+      },
+      {
+        "title": "TRANSPARENCIA TOTAL",
+        "description": "TRABAJAMOS CON SPRINTS CLAROS Y ENTREGABLES VISIBLES. NUESTROS CLIENTES SIEMPRE SABEN EN QUÉ ETAPA ESTÁ SU PROYECTO."
+      }
+    ]
+  },
+  "methodology": {
+    "title_line1": "NUESTRA",
+    "title_line2": "METODOLOGIA",
+    "title_line3": "DE TRABAJO",
+    "steps": [
+      {
+        "title": "ANALISIS DEL PROYECTO",
+        "description": "Evaluamos las necesidades del cliente, los objetivos del negocio y los requerimientos técnicos para definir el alcance y la estrategia del desarrollo."
+      },
+      {
+        "title": "DESARROLLO PERSONALIZADO",
+        "description": "Diseñamos y desarrollamos la solución tecnológica a medida, utilizando metodologías ágiles que permiten iteraciones rápidas y entregas constantes."
+      },
+      {
+        "title": "DESPLIEGUE\nA\n PRODUCCION",
+        "description": "Implementamos la solución en el entorno final, asegurando estabilidad, seguridad y correcto funcionamiento antes de su lanzamiento."
+      },
+      {
+        "title": "SOPORTE CONTINUO",
+        "description": "Brindamos mantenimiento, mejoras y acompañamiento técnico para garantizar el crecimiento y la evolución del producto a largo plazo."
+      }
+    ]
+  },
+  "success": {
+    "title": "HISTORIAS DE ÉXITO",
+    "subtitle": "Proyectos que demuestran cómo la tecnología bien aplicada puede generar valor real para las empresas.",
+    "stories": [
+      {
+        "paragraphs": [
+          "Desarrollamos una plataforma web empresarial que permite a las compañías centralizar la gestión de sus operaciones en un solo sistema digital.",
+          "El proyecto consistió en diseñar e implementar un dashboard intuitivo donde los usuarios pueden administrar procesos clave como facturación, seguimiento de operaciones y generación de reportes en tiempo real. Para lograrlo, utilizamos tecnologías modernas de desarrollo web que permiten una arquitectura escalable y segura.",
+          "Esta solución ayudó a optimizar los procesos internos del cliente, reduciendo errores operativos y mejorando la visibilidad de la información dentro de la organización."
+        ]
+      },
+      {
+        "paragraphs": [
+          "Diseñamos y desarrollamos una aplicación descentralizada basada en tecnología blockchain que permite a los usuarios intercambiar activos digitales de manera segura y transparente.",
+          "La solución integra contratos inteligentes que automatizan la ejecución de transacciones sin la necesidad de intermediarios, garantizando mayor eficiencia y confiabilidad en cada operación.",
+          "Además, implementamos una interfaz web intuitiva que facilita la interacción con la red blockchain, permitiendo a los usuarios gestionar sus activos y realizar operaciones de forma sencilla dentro de un entorno completamente descentralizado."
+        ]
+      },
+      {
+        "paragraphs": [
+          "Desarrollamos una solución de inteligencia artificial inspirada en tecnologías como IBM y su plataforma IBM Watson, utilizadas por empresas para automatizar procesos, analizar datos y mejorar la experiencia digital.",
+          "La implementación consistió en integrar un asistente inteligente dentro de la plataforma del cliente capaz de procesar consultas, analizar información empresarial y generar respuestas o recomendaciones en tiempo real mediante procesamiento de lenguaje natural.",
+          "Este tipo de tecnología ha sido utilizada por empresas como Banco Bradesco, que implementó IBM Watson para asistir a su equipo de atención al cliente y responder miles de consultas de forma automática. Nuestra solución permitió automatizar procesos internos, mejorar la gestión de información y ofrecer una experiencia digital más eficiente para los usuarios finales."
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "PREGUNTAS FRECUENTES",
+    "items": [
+      {
+        "question": "¿Cuánto tiempo tarda desarrollar un proyecto?",
+        "answer": "El tiempo depende del alcance del proyecto. Un desarrollo puede tomar desde algunas semanas hasta varios meses, dependiendo de la complejidad y las funcionalidades requeridas."
+      },
+      {
+        "question": "¿Trabajan con proyectos personalizados?",
+        "answer": "Sí, todos nuestros proyectos son a medida. Analizamos las necesidades específicas de cada cliente para diseñar y desarrollar una solución que se adapte exactamente a sus objetivos."
+      },
+      {
+        "question": "¿Ofrecen soporte después del lanzamiento?",
+        "answer": "Sí, brindamos soporte continuo post-lanzamiento. Ofrecemos planes de mantenimiento que incluyen corrección de errores, actualizaciones de seguridad y mejoras evolutivas del producto."
+      },
+      {
+        "question": "¿Cuáles son sus tarifas?",
+        "answer": "Las tarifas varían según el tipo de proyecto, su complejidad y el tiempo de desarrollo estimado. Contáctanos para recibir una cotización personalizada sin compromiso."
+      },
+      {
+        "question": "¿Cómo puedo iniciar un proyecto con ustedes?",
+        "answer": "Puedes contactarnos a través del formulario de contacto o por nuestros canales directos. Agendamos una reunión inicial para entender tu idea y te presentamos una propuesta detallada."
+      }
+    ]
+  },
+  "contact": {
+    "title": "CONSTRUYAMOS EL FUTURO DIGITAL DE TU EMPRESA",
+    "description": "Desarrollamos software, soluciones blockchain e integraciones de inteligencia artificial que ayudan a las empresas a crecer, optimizar procesos y crear nuevas oportunidades tecnológicas.",
+    "name_label": "NOMBRE",
+    "name_placeholder": "NOMBRE",
+    "company_label": "EMPRESA",
+    "company_placeholder": "NOMBRE DE TU EMPRESA",
+    "email_label": "CORREO",
+    "email_placeholder": "hola@unsitiogenial.es",
+    "phone_label": "TELÉFONO",
+    "phone_placeholder": "000-000-0000",
+    "service_label": "TIPO DE SERVICIO",
+    "service_placeholder": "SERVICIO",
+    "project_label": "CUÉNTANOS SOBRE TU PROYECTO",
+    "project_placeholder": "ESCRIBE SOBRE TU PROYECTO",
+    "submit": "ENVIAR"
+  },
+  "footer": {
+    "call": "Llámanos",
+    "contact": "Contáctanos",
+    "see_services": "VER SERVICIOS",
+    "info_title": "Información",
+    "nav_links": ["Inicio", "Servicios", "Proceso", "Nosotros"],
+    "visit_title": "Visítanos",
+    "address": "Francisco Villa 650, Jardín Español, 64820 M Monterrey, N.L.",
+    "copyright": "©2025 CAMPS. TODOS LOS DERECHOS RESERVADOS"
+  }
+}
