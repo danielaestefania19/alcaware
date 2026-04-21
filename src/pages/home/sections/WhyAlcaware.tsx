@@ -13,11 +13,11 @@ export default function WhyAlcaware() {
   const cards = t("why.cards", { returnObjects: true }) as Card[];
 
   return (
-    <section className="relative py-24 lg:py-32 xl:py-40 2xl:py-52 px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-72 z-10">
+    <section className="relative py-10 lg:py-14 xl:py-16 2xl:py-20 px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-72 z-10">
       <div className="absolute inset-0 pointer-events-none" style={{background: "linear-gradient(to bottom, black 70%, transparent 100%)"}} />
       <div className="relative z-10">
 
-        <h2 className="font-melete text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl tracking-widest text-white text-center mb-16 lg:mb-20 xl:mb-24"
+        <h2 className="font-melete text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl tracking-widest text-white text-center mb-8 lg:mb-10 xl:mb-14"
         style={{
               textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3",
             }}
@@ -40,11 +40,11 @@ export default function WhyAlcaware() {
               />
               <div className="absolute inset-0 bg-black/75" />
 
-              <div className="relative z-10 p-8 lg:p-10 xl:p-12 2xl:p-14 flex flex-col items-center justify-center gap-5 lg:gap-6 xl:gap-8 aspect-square md:aspect-auto md:min-h-72 lg:min-h-80 xl:min-h-96 2xl:min-h-112">
-                <h4 className="font-melete text-sm md:text-sm lg:text-lg xl:text-xl 2xl:text-2xl text-white text-center w-full px-1">
+              <div className="relative z-10 p-5 lg:p-6 xl:p-8 2xl:p-10 flex flex-col items-center justify-center gap-2 lg:gap-3 xl:gap-4 aspect-square md:aspect-auto md:min-h-48 lg:min-h-52 xl:min-h-60 2xl:min-h-72">
+                <h4 className="font-melete text-xs md:text-xs lg:text-xs xl:text-sm 2xl:text-base text-white text-center w-full px-1">
                   {card.title}
                 </h4>
-                <p className="font-montserrat text-[11px] md:text-xs lg:text-sm xl:text-base 2xl:text-lg tracking-widest text-white leading-loose text-center">
+                <p className="font-montserrat text-[10px] md:text-[10px] lg:text-[11px] xl:text-xs 2xl:text-sm tracking-widest text-white leading-loose text-center">
                   {card.description}
                 </p>
               </div>

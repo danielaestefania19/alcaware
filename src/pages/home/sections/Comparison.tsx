@@ -16,10 +16,10 @@ export default function Comparison() {
                 <div className="relative w-full max-w-95 md:max-w-none aspect-662/570 mx-auto transition-transform duration-300 hover:scale-105 hover:-translate-y-2">
                     <img src={card} alt="" className="w-full h-full object-contain" />
                     <div className="absolute inset-0 flex flex-col justify-center p-[10%] text-white">
-                        <h3 className="font-melete text-base md:text-lg lg:text-2xl xl:text-3xl 2xl:text-4xl tracking-[0.2em] mb-3 lg:mb-4 xl:mb-5">
+                        <h3 className="font-melete text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl tracking-[0.2em] mb-2 lg:mb-3 xl:mb-4">
                             {t("comparison.others_title")}
                         </h3>
-                        <ul className="space-y-2 lg:space-y-3 xl:space-y-4 font-montserrat text-xs md:text-sm lg:text-xl xl:text-2xl 2xl:text-3xl text-white/80">
+                        <ul className="space-y-1 lg:space-y-2 xl:space-y-3 font-montserrat text-xs md:text-xs lg:text-sm xl:text-base 2xl:text-lg text-white/80">
                             {othersItems.map((item) => (
                                 <li key={item}>• {item}</li>
                             ))}
@@ -30,10 +30,10 @@ export default function Comparison() {
                 <div className="relative w-full max-w-95 md:max-w-none aspect-662/570 mx-auto -mt-6 md:-mt-8 lg:-mt-10 xl:-mt-12 transition-transform duration-300 hover:scale-105 hover:-translate-y-2">
                     <img src={card} alt="" className="w-full h-full object-contain" />
                     <div className="absolute inset-0 flex flex-col justify-center p-[10%] text-white">
-                        <h3 className="font-melete text-base md:text-lg lg:text-2xl xl:text-3xl 2xl:text-4xl tracking-[0.2em] mb-3 lg:mb-4 xl:mb-5">
+                        <h3 className="font-melete text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl tracking-[0.2em] mb-2 lg:mb-3 xl:mb-4">
                             {t("comparison.alcaware_title")}
                         </h3>
-                        <ul className="space-y-2 lg:space-y-3 xl:space-y-4 font-montserrat text-xs md:text-sm lg:text-xl xl:text-2xl 2xl:text-3xl text-white/80">
+                        <ul className="space-y-1 lg:space-y-2 xl:space-y-3 font-montserrat text-xs md:text-xs lg:text-sm xl:text-base 2xl:text-lg text-white/80">
                             {alcawareItems.map((item) => (
                                 <li key={item}>• {item}</li>
                             ))}

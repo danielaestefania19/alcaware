@@ -32,23 +32,23 @@ export default function Testimonials() {
     const testimonial = testimonials[active];
 
     return (
-        <section className="relative overflow-hidden text-white py-20 lg:py-28 xl:py-36 2xl:py-44 min-h-150">
+        <section className="relative overflow-hidden text-white py-14 lg:py-18 xl:py-22 2xl:py-28 min-h-150">
             <div className="absolute inset-0 top-40">
                 <TestimonialsBackground />
             </div>
             <div className="absolute inset-0 bg-black/30" />
             <div className="relative z-10 w-full px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-72">
                 <h2
-                    className="font-melete text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl tracking-widest mb-4"
+                    className="font-melete text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl tracking-widest mb-3"
                     style={{ textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3" }}
                 >
                     {t("testimonials.title")}
                 </h2>
-                <p className="mt-2 font-montserrat text-base lg:text-lg xl:text-xl 2xl:text-2xl tracking-widest text-white/60">
+                <p className="mt-2 font-montserrat text-sm lg:text-base xl:text-lg 2xl:text-xl tracking-widest text-white/60">
                     {t("testimonials.subtitle")}
                 </p>
-                <div className="mt-12 lg:mt-16 xl:mt-20 flex flex-col md:flex-row items-center gap-8 md:gap-10 lg:gap-14 xl:gap-20">
-                    <div className="shrink-0 w-44 h-52 md:w-56 md:h-60 lg:w-72 lg:h-80 xl:w-88 xl:h-96 rounded-2xl overflow-hidden border-2 border-primary shadow-[0_0_24px_rgba(58,224,179,0.35)]">
+                <div className="mt-8 lg:mt-10 xl:mt-14 flex flex-col md:flex-row items-center gap-6 md:gap-8 lg:gap-10 xl:gap-14">
+                    <div className="shrink-0 w-36 h-44 md:w-44 md:h-52 lg:w-56 lg:h-64 xl:w-68 xl:h-76 rounded-2xl overflow-hidden border-2 border-primary shadow-[0_0_24px_rgba(58,224,179,0.35)]">
                         <img
                             src={testimonioImg}
                             alt={testimonial.name}
@@ -56,25 +56,25 @@ export default function Testimonials() {
                         />
                     </div>
                     <div className="flex-1 text-center md:text-left">
-                        <div className="flex items-center gap-4 flex-wrap justify-center md:justify-start">
-                            <span className="font-melete text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl tracking-[0.2em]">
+                        <div className="flex items-center gap-3 flex-wrap justify-center md:justify-start">
+                            <span className="font-melete text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl tracking-[0.2em]">
                                 {testimonial.name}
                             </span>
                             <StarRating rating={testimonial.rating} />
                         </div>
-                        <p className="mt-1 font-montserrat text-sm lg:text-base xl:text-lg 2xl:text-xl text-white/50 tracking-widest">
+                        <p className="mt-1 font-montserrat text-xs lg:text-sm xl:text-base 2xl:text-lg text-white/50 tracking-widest">
                             {testimonial.role}
                         </p>
-                        <p className="mt-6 font-montserrat text-base lg:text-lg xl:text-xl 2xl:text-2xl leading-relaxed text-white/90">
+                        <p className="mt-4 font-montserrat text-sm lg:text-base xl:text-lg 2xl:text-xl leading-relaxed text-white/90">
                             {testimonial.quote}
                         </p>
                     </div>
-                    <div className="flex md:flex-col flex-row gap-3 lg:gap-4 shrink-0">
+                    <div className="flex md:flex-col flex-row gap-3 shrink-0">
                         {testimonials.map((_, i) => (
                             <button
                                 key={i}
                                 onClick={() => setActive(i)}
-                                className={`w-3 h-3 lg:w-4 lg:h-4 rounded-full transition-all ${i === active ? "bg-primary scale-110" : "bg-primary/40 hover:bg-primary/70"}`}
+                                className={`w-2.5 h-2.5 lg:w-3 lg:h-3 rounded-full transition-all ${i === active ? "bg-primary scale-110" : "bg-primary/40 hover:bg-primary/70"}`}
                             />
                         ))}
                     </div>

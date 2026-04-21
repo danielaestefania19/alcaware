@@ -6,11 +6,11 @@ export default function Hero() {
     const { t } = useTranslation();
 
     return (
-        <section className="relative h-screen overflow-hidden text-white">
+        <section className="relative h-screen overflow-hidden text-white flex flex-col">
             <HeroBackground />
             <div className="absolute inset-0 bg-black/20" />
-            <div className="relative z-10 flex h-full items-start pt-[25vh] md:pt-[30vh]">
-                <div className="w-full px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-72 pb-36 md:pb-32 lg:pb-28">
+            <div className="relative z-10 flex-1 flex items-start pt-[25vh] md:pt-[30vh]">
+                <div className="w-full px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-72">
                     <div>
                         <h1 className="font-melete text-[16px] md:text-[22px] lg:text-[24px] xl:text-[30px] 2xl:text-[36px] leading-[1.6] tracking-[0.2em] md:tracking-[0.28em] text-left">
                             {t("hero.title_line1")} {t("hero.title_line2")}
@@ -29,7 +29,7 @@ export default function Hero() {
                     </div>
                 </div>
             </div>
-            <div className="absolute bottom-8 md:bottom-12 lg:bottom-16 xl:bottom-20 left-0 right-0 z-20 px-6 md:px-16 lg:px-28 xl:px-44 2xl:px-80">
+            <div className="relative z-10 px-6 md:px-16 lg:px-28 xl:px-44 2xl:px-80 pb-8 md:pb-6 lg:pb-8 xl:pb-20">
                 <TechBar />
             </div>
         </section>

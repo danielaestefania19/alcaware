@@ -61,8 +61,8 @@ export default function Navbar() {
   return (
     <header className="absolute top-0 left-0 w-full z-50">
       <div className="flex items-center justify-between px-6 md:px-10 lg:px-20 xl:px-32 2xl:px-72 py-4 lg:py-5 xl:py-6 text-white">
-        <img src={Logo} alt="Alcaware" className="h-6 lg:h-8 xl:h-10 cursor-pointer" onClick={() => goTo("home")} />
-        <nav className="hidden md:flex gap-8 lg:gap-9 xl:gap-10 font-montserrat text-sm lg:text-sm xl:text-base 2xl:text-lg">
+        <img src={Logo} alt="Alcaware" className="h-5 lg:h-6 xl:h-7 cursor-pointer" onClick={() => goTo("home")} />
+        <nav className="hidden md:flex gap-6 lg:gap-8 xl:gap-9 font-montserrat text-xs lg:text-xs xl:text-sm 2xl:text-base">
           <a
             className={`cursor-pointer transition-colors hover:text-primary ${isHome ? "text-primary" : ""}`}
             onClick={() => goTo("home")}
@@ -98,7 +98,7 @@ export default function Navbar() {
           <a>{t("navbar.about")}</a>
         </nav>
         <div className="flex items-center gap-4">
-          <div className="hidden md:block relative text-sm lg:text-sm xl:text-base 2xl:text-lg font-montserrat" ref={langRef}>
+          <div className="hidden md:block relative text-xs lg:text-xs xl:text-sm 2xl:text-base font-montserrat" ref={langRef}>
             <button
               onClick={() => setOpen(!open)}
               className="flex items-center gap-2 cursor-pointer"

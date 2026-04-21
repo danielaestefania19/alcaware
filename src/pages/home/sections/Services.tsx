@@ -19,14 +19,14 @@ export default function Services() {
 
     return (
         <section
-            className="relative py-24 lg:py-32 xl:py-40 2xl:py-52 text-white overflow-hidden"
+            className="relative py-16 lg:py-20 xl:py-24 2xl:py-32 text-white overflow-hidden"
             style={{ backgroundImage: `url(${bgWaves})`, backgroundSize: "cover", backgroundPosition: "center" }}
         >
-            <div className="w-full px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-72 flex flex-col gap-16 lg:gap-24 xl:gap-32">
+            <div className="w-full px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-72 flex flex-col gap-10 lg:gap-14 xl:gap-20">
                 {services.map((service, index) => (
                     <div
                         key={service.title}
-                        className={`flex flex-col md:flex-row items-center gap-10 lg:gap-14 xl:gap-20 ${
+                        className={`flex flex-col md:flex-row items-center gap-6 lg:gap-10 xl:gap-14 ${
                             reverseFlags[index] ? "md:flex-row-reverse" : ""
                         }`}
                     >
@@ -39,15 +39,15 @@ export default function Services() {
                         </div>
 
                         <div className="w-full md:w-1/2">
-                            <h3 className="font-melete text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl tracking-[0.2em] mb-6 lg:mb-8 xl:mb-10">
+                            <h3 className="font-melete text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl tracking-[0.2em] mb-4 lg:mb-6 xl:mb-8">
                                 {service.title}
                             </h3>
-                            <ul className="space-y-3 lg:space-y-5 xl:space-y-6 font-montserrat text-xs md:text-sm lg:text-xl xl:text-2xl 2xl:text-3xl tracking-widest text-white/80">
+                            <ul className="space-y-2 lg:space-y-3 xl:space-y-4 font-montserrat text-xs md:text-xs lg:text-sm xl:text-base 2xl:text-lg tracking-widest text-white/80">
                                 {service.items.map((item) => (
                                     <li key={item}>• {item}</li>
                                 ))}
                             </ul>
-                            <button className="mt-8 lg:mt-10 xl:mt-12 font-montserrat text-xs md:text-sm lg:text-lg xl:text-xl 2xl:text-2xl tracking-[0.15em] text-primary underline underline-offset-4 transition-all duration-300 hover:text-primary/70 hover:underline-offset-8 active:scale-95">
+                            <button className="mt-6 lg:mt-8 xl:mt-10 font-montserrat text-xs md:text-xs lg:text-sm xl:text-base 2xl:text-lg tracking-[0.15em] text-primary underline underline-offset-4 transition-all duration-300 hover:text-primary/70 hover:underline-offset-8 active:scale-95">
                                 {t("services.see_more")}
                             </button>
                         </div>
