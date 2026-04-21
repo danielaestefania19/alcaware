@@ -148,6 +148,18 @@
   font-style: italic;
 }
 
+/* Global button animations */
+@layer base {
+  button {
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+
+  button:active {
+    transform: scale(0.95);
+  }
+}
+
 /* Theme */
 @theme {
   --color-primary: #3AE0B3;

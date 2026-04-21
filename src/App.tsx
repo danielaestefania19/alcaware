@@ -1,27 +1,20 @@
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/layout/Navbar";
-import Hero from "./sections/Hero";
-import WhyAlcaware from "./sections/WhyAlcaware";
-import Comparison from "./sections/Comparison";
-import Services from "./sections/Services";
-import WorkMethodology from "./sections/WorkMethodology";
-import SuccessStories from "./sections/SuccessStories";
-import FAQ from "./sections/FAQ";
-import Contact from "./sections/Contact";
-import Footer from "./sections/Footer";
+import HomePage from "./pages/home/HomePage";
+import WebMobilePage from "./pages/services/web-mobile/WebMobilePage";
+import BlockchainPage from "./pages/services/blockchain/BlockchainPage";
+import AIPage from "./pages/services/ai/AIPage";
 
 function App() {
   return (
     <div className="bg-black">
       <Navbar />
-      <Hero />
-      <Comparison />
-      <Services />
-      <WhyAlcaware />
-      <WorkMethodology />
-      <SuccessStories />
-      <FAQ />
-      <Contact />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/web-mobil" element={<WebMobilePage />} />
+        <Route path="/blockchain" element={<BlockchainPage />} />
+        <Route path="/inteligencia-artificial" element={<AIPage />} />
+      </Routes>
     </div>
   );
 }

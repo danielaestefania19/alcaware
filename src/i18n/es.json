@@ -140,6 +140,36 @@
       }
     ]
   },
+  "testimonials": {
+    "title": "TESTIMONIOS",
+    "subtitle": "Colaboramos con empresas que buscan desarrollar tecnología confiable y escalable.",
+    "items": [
+      {
+        "name": "CARLOS RAMIREZ",
+        "role": "Director de Tecnología",
+        "quote": "\"Nos ayudaron a integrar nuevas tecnologías en nuestro sistema existente sin afectar la operación del negocio.\"",
+        "rating": 4
+      },
+      {
+        "name": "RAMIREZ",
+        "role": "Director de Tecnología",
+        "quote": "\"Nos ayudaron a integrar nuevas tecnologías en nuestro sistema existente sin afectar la operación del negocio.\"",
+        "rating": 4
+      },
+      {
+        "name": "CARLOS RAMIREZ",
+        "role": "Director de Tecnología",
+        "quote": "\"Nos ayudaron a integrar nuevas tecnologías en nuestro sistema existente sin afectar la operación del negocio.\"",
+        "rating": 4
+      },
+      {
+        "name": "CARLOS RAMIREZ",
+        "role": "Director de Tecnología",
+        "quote": "\"Nos ayudaron a integrar nuevas tecnologías en nuestro sistema existente sin afectar la operación del negocio.\"",
+        "rating": 4
+      }
+    ]
+  },
   "faq": {
     "title": "PREGUNTAS FRECUENTES",
     "items": [
@@ -181,6 +211,351 @@
     "project_label": "CUÉNTANOS SOBRE TU PROYECTO",
     "project_placeholder": "ESCRIBE SOBRE TU PROYECTO",
     "submit": "ENVIAR"
+  },
+  "webmobil": {
+    "hero_line1": "DESARROLLO WEB Y",
+    "hero_line2": "MÓVIL A MEDIDA",
+    "hero_subtitle": "CREAMOS WEB APPS, PLATAFORMAS Y APPS MÓVILES LISTAS PARA ESCALAR, CON ARQUITECTURA SÓLIDA Y SEGURIDAD DESDE EL INICIO",
+    "cta_start": "COMENZAR",
+    "cta_more": "VER CAPACIDADES",
+    "services_accordion": {
+      "cta": "INICIAR PROYECTO",
+      "items": [
+        {
+          "title": "WEB APPS",
+          "paragraphs": [
+            "Desarrollamos aplicaciones web modernas, rápidas y escalables adaptadas a las necesidades de tu negocio.",
+            "Desde dashboards internos hasta plataformas SaaS completas, construimos con arquitectura limpia y rendimiento óptimo.",
+            "Cada proyecto incluye diseño responsivo, integración con APIs y un stack pensado para crecer contigo."
+          ]
+        },
+        {
+          "title": "PLATAFORMAS",
+          "paragraphs": [
+            "Creamos plataformas digitales robustas que centralizan operaciones y potencian la eficiencia de tu equipo.",
+            "Portales empresariales, marketplaces y sistemas de gestión diseñados para manejar grandes volúmenes de datos y usuarios.",
+            "Arquitectura modular que permite incorporar nuevas funcionalidades sin reescribir lo que ya funciona."
+          ]
+        },
+        {
+          "title": "APPS MÓVILES",
+          "paragraphs": [
+            "Desarrollamos aplicaciones móviles intuitivas y de alto rendimiento que conectan a las empresas con sus usuarios desde cualquier lugar.",
+            "Creamos experiencias digitales modernas para iOS y Android, integrando funcionalidades como cuentas de usuario, notificaciones, pagos, geolocalización y conexión con sistemas empresariales.",
+            "Nuestras apps están diseñadas para escalar, optimizar procesos y abrir nuevos canales de interacción con los clientes, combinando tecnología, diseño y funcionalidad en una sola experiencia móvil."
+          ]
+        },
+        {
+          "title": "BACKENDS & APIS",
+          "paragraphs": [
+            "Diseñamos backends sólidos y APIs bien documentadas que sostienen el crecimiento de tu producto digital.",
+            "REST, GraphQL y arquitecturas de microservicios adaptadas a la escala y complejidad de tu sistema.",
+            "Integramos servicios externos, automatizamos flujos y garantizamos seguridad y disponibilidad desde el primer deploy."
+          ]
+        }
+      ]
+    },
+    "como_trabajamos": {
+      "title": "COMO TRABAJAMOS?",
+      "text1": "Nuestro proceso convierte ideas en productos digitales a través de pasos claros y eficientes.",
+      "text2": "Desde el diagnóstico inicial hasta el despliegue final, trabajamos de forma iterativa para construir soluciones sólidas, escalables y alineadas con tus objetivos.",
+      "steps": [
+        {
+          "title": "",
+          "description": "Analizamos tu idea, objetivos y contexto del negocio. Identificamos necesidades técnicas, alcance y oportunidades de mejora antes de comenzar el desarrollo."
+        },
+        {
+          "title": "",
+          "description": "Definimos la estrategia del proyecto: Funcionalidades clave, tiempos estimados y una propuesta técnica alineada con tus objetivos."
+        },
+        {
+          "title": "",
+          "description": "Diseñamos la arquitectura del sistema y la experiencia de usuario. Esto asegura una base tecnológica sólida y una interfaz clara y eficiente."
+        },
+        {
+          "title": "",
+          "description": "Diseñamos la arquitectura del sistema y la experiencia de usuario. Esto asegura una base tecnológica sólida y una interfaz clara y eficiente."
+        },
+        {
+          "title": "",
+          "description": "Iteramos el producto mediante ciclos de desarrollo cortos, agregando nuevas funcionalidades, optimizando rendimiento y mejorando la experiencia."
+        },
+        {
+          "title": "",
+          "description": "Publicamos el producto y ofrecemos soporte continuo, mantenimiento y mejoras para asegurar estabilidad y crecimiento."
+        }
+      ]
+    },
+    "casos": {
+      "title": "CASOS",
+      "subtitle": "Ejemplos reales de cómo ayudamos a empresas a construir soluciones digitales eficientes y escalables.",
+      "paragraphs": [
+        "Se construyó un dashboard interactivo para una empresa de servicios financieros que permite visualizar el rendimiento de portafolios de inversión, tendencias del mercado y recomendaciones automatizadas.",
+        "El sistema redujo el tiempo de análisis manual en más de 60% y mejoró la retención de clientes en 42%, ya que los usuarios podían acceder a información financiera en tiempo real desde una sola plataforma."
+      ]
+    },
+    "entregables": {
+      "title": "ENTREGABLES",
+      "subtitle": "CADA PROYECTO SE ENTREGA CON UNA BASE TÉCNICA SÓLIDA, DOCUMENTACIÓN CLARA Y TODO LO NECESARIO PARA QUE TU PRODUCTO FUNCIONE DESDE EL PRIMER DÍA.",
+      "producto": {
+        "title": "PRODUCTO",
+        "subtitle": "LA BASE TECNOLÓGICA COMPLETA DE TU SOLUCIÓN",
+        "items": [
+          "DISEÑO UI/UX: INTERFACES PENSADAS PARA UNA EXPERIENCIA CLARA Y FUNCIONAL",
+          "FRONTEND: DESARROLLO DE LA INTERFAZ CON TECNOLOGÍAS MODERNAS Y OPTIMIZADAS",
+          "BACKEND / API: LÓGICA DEL SISTEMA Y SERVICIOS QUE CONECTAN TU PRODUCTO",
+          "BASE DE DATOS: ESTRUCTURA SEGURA Y ESCALABLE PARA ALMACENAR Y GESTIONAR INFORMACIÓN"
+        ]
+      },
+      "calidad": {
+        "title": "CALIDAD",
+        "subtitle": "NOS ASEGURAMOS DE QUE TODO FUNCIONE CORRECTAMENTE:",
+        "items": [
+          "QA Y PRUEBAS BÁSICAS VALIDACIÓN DE FUNCIONALIDADES ANTES DEL LANZAMIENTO",
+          "REVISIÓN DE SEGURIDAD (BASELINE) BUENAS PRÁCTICAS PARA PROTEGER DATOS Y ESTABILIDAD DEL SISTEMA"
+        ]
+      },
+      "entrega": {
+        "title": "ENTREGA",
+        "subtitle": "TU PRODUCTO LISTO PARA OPERAR",
+        "items": [
+          "DEPLOY EN STAGING Y PRODUCCIÓN PUBLICACIÓN DEL SISTEMA EN UN ENTORNO DE PRUEBAS Y EN PRODUCCIÓN",
+          "DOCUMENTACIÓN MÍNIMA INFORMACIÓN CLAVE PARA ENTENDER Y UTILIZAR EL SISTEMA",
+          "SOPORTE DE ARRANQUE ACOMPAÑAMIENTO INICIAL DURANTE LAS PRIMERAS SEMANAS TRAS EL LANZAMIENTO"
+        ]
+      }
+    },
+    "diferenciadores": {
+      "title": "DIFERENCIADORES",
+      "subtitle": "TECNOLOGÍA ESTRATÉGICA PARA EMPRESAS QUE BUSCAN CRECER, AUTOMATIZAR Y ESCALAR.",
+      "cta": "AGENDA UNA CONSULTA →",
+      "items": [
+        {
+          "title": "NECESITAS UN PRODUCTO QUE ESCALE",
+          "description": "Estás construyendo una plataforma, sistema o app que debe crecer con tu negocio."
+        },
+        {
+          "title": "TU OPERACIÓN DEPENDE DE EXCEL O PROCESOS MANUALES",
+          "description": "Buscas automatizar procesos, centralizar información y mejorar la eficiencia."
+        },
+        {
+          "title": "QUIERES INDEPENDENCIA TECNOLÓGICA",
+          "description": "Prefieres tener control sobre tu producto y no depender de herramientas limitadas o plataformas cerradas."
+        },
+        {
+          "title": "TIENES UNA IDEA DE PRODUCTO DIGITAL",
+          "description": "Quieres convertir un concepto en una plataforma funcional con bases técnicas sólidas."
+        },
+        {
+          "title": "NECESITAS UN PRODUCTO QUE ESCALE",
+          "description": "Estás construyendo una plataforma, sistema o app que debe crecer con tu negocio."
+        },
+        {
+          "title": "TU OPERACIÓN DEPENDE DE EXCEL O PROCESOS MANUALES",
+          "description": "Buscas automatizar procesos, centralizar información y mejorar la eficiencia."
+        },
+        {
+          "title": "QUIERES INDEPENDENCIA TECNOLÓGICA",
+          "description": "Prefieres tener control sobre tu producto y no depender de herramientas limitadas o plataformas cerradas."
+        },
+        {
+          "title": "NECESITAS INTEGRAR DIFERENTES HERRAMIENTAS O SISTEMAS",
+          "description": "Tu operación utiliza varias plataformas y quieres conectarlas para centralizar datos y mejorar el flujo de trabajo."
+        }
+      ]
+    },
+    "faq": {
+      "title": "PREGUNTAS FRECUENTES",
+      "items": [
+        {
+          "question": "¿Cuánto tarda un MVP?",
+          "answer": "Un MVP suele desarrollarse entre 4 y 8 semanas, dependiendo de la complejidad del producto y las funcionalidades necesarias para validar la idea."
+        },
+        {
+          "question": "¿Trabajan por sprints?",
+          "answer": "Sí, trabajamos con metodología ágil en ciclos de 1 a 2 semanas. Esto nos permite entregar avances continuos, incorporar feedback rápido y adaptarnos a cambios sin perder velocidad."
+        },
+        {
+          "question": "¿Incluye diseño UI/UX?",
+          "answer": "Sí. Cada proyecto incluye diseño de interfaz y experiencia de usuario. Creamos wireframes, prototipos interactivos y diseño visual alineado con tu marca antes de comenzar el desarrollo."
+        },
+        {
+          "question": "¿Qué pasa después del lanzamiento?",
+          "answer": "Ofrecemos planes de soporte y mantenimiento post-lanzamiento que incluyen corrección de errores, actualizaciones de seguridad, optimizaciones de rendimiento y evolución continua del producto."
+        },
+        {
+          "question": "¿Pueden integrar pagos/ERP/CRM?",
+          "answer": "Sí. Integramos pasarelas de pago (Stripe, PayPal, Mercado Pago), sistemas ERP, CRM y cualquier API o servicio externo que necesite tu operación."
+        }
+      ]
+    }
+  },
+  "blockchain": {
+    "label": "SERVICIOS / SOLUCIONES BLOCKCHAIN",
+    "hero_line1": "BLOCKCHAIN",
+    "hero_line2": "A MEDIDA",
+    "hero_subtitle": "SMART CONTRACTS, TOKENIZACIÓN E INTEGRACIÓN WEB3 CON SEGURIDAD Y BUENAS PRÁCTICAS DESDE EL INICIO",
+    "cta_start": "COMENZAR",
+    "cta_more": "VER CAPACIDADES",
+    "tech": ["SOLIDITY", "ETHEREUM", "HARDHAT", "WEB3.JS", "IPFS", "POLYGON"],
+    "overview": {
+      "tag": "¿QUÉ CONSTRUIMOS?",
+      "title": "SOLUCIONES BLOCKCHAIN QUE GENERAN CONFIANZA",
+      "description": "Diseñamos e implementamos contratos inteligentes, sistemas de tokenización y aplicaciones descentralizadas que integran lo mejor de Web2 y Web3. Seguridad y trazabilidad desde el diseño.",
+      "image_alt": "Soluciones Blockchain"
+    },
+    "features": {
+      "tag": "CAPACIDADES",
+      "title": "TECNOLOGÍA DESCENTRALIZADA",
+      "items": [
+        {
+          "title": "SMART CONTRACTS",
+          "description": "Contratos auditados en Solidity para Ethereum, Polygon y otras redes EVM compatibles."
+        },
+        {
+          "title": "TOKENIZACIÓN",
+          "description": "NFTs, tokens de utilidad y trazabilidad de activos en blockchain con estándares ERC."
+        },
+        {
+          "title": "INTEGRACIÓN WEB2 ↔ WEB3",
+          "description": "Conectamos tu sistema actual con la blockchain sin interrumpir la operación del negocio."
+        },
+        {
+          "title": "SEGURIDAD Y AUDITORÍA",
+          "description": "Revisión de código, análisis de vulnerabilidades y buenas prácticas en cada contrato."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿LISTO PARA ENTRAR A WEB3?",
+      "subtitle": "Te ayudamos a diseñar e implementar tu solución blockchain con rigor técnico y sin improvisación.",
+      "button": "INICIAR PROYECTO"
+    },
+    "services_accordion": {
+      "cta": "INICIAR PROYECTO",
+      "items": [
+        {
+          "title": "SOLUCIONES BLOCKCHAIN",
+          "paragraphs": [
+            "Diseñamos y desarrollamos soluciones blockchain a medida que permiten a las empresas operar con mayor seguridad, transparencia y trazabilidad.",
+            "Desde contratos inteligentes hasta aplicaciones descentralizadas, construimos cada pieza con rigor técnico y orientación a resultados.",
+            "Nuestras soluciones están pensadas para integrarse con tus sistemas actuales y escalar junto a tu negocio."
+          ]
+        },
+        {
+          "title": "TOKENIZACIÓN",
+          "paragraphs": [
+            "Creamos soluciones de tokenización que permiten representar activos, accesos o utilidades dentro de ecosistemas digitales.",
+            "Diseñamos modelos que aprovechan blockchain para habilitar nuevas dinámicas de valor, propiedad e interacción.",
+            "Nuestras soluciones están pensadas para abrir nuevas oportunidades de negocio con una base tecnológica sólida y escalable."
+          ]
+        },
+        {
+          "title": "SMART CONTRACTS",
+          "paragraphs": [
+            "Desarrollamos contratos inteligentes auditados en Solidity para Ethereum, Polygon y otras redes EVM compatibles.",
+            "Cada contrato se diseña con lógica robusta, cobertura de edge cases y pruebas exhaustivas antes del deploy.",
+            "Garantizamos contratos seguros, gas-eficientes y alineados con los estándares de la industria."
+          ]
+        },
+        {
+          "title": "AUTOMATIZACIÓN CON BLOCKCHAIN",
+          "paragraphs": [
+            "Automatizamos procesos de negocio mediante smart contracts que ejecutan reglas de forma autónoma y transparente.",
+            "Eliminamos intermediarios y reducimos costos operativos con lógica on-chain confiable y auditable.",
+            "Desde pagos automáticos hasta gobernanza descentralizada, diseñamos flujos que funcionan solos."
+          ]
+        }
+      ]
+    },
+    "diferenciadores": {
+      "title": "DIFERENCIADORES",
+      "subtitle": "TECNOLOGÍA ESTRATÉGICA PARA EMPRESAS QUE BUSCAN INTEGRAR BLOCKCHAIN SIN FRICCIÓN.",
+      "cta": "AGENDA UNA CONSULTA →",
+      "items": [
+        {
+          "title": "NECESITAS MODERNIZAR TU OPERACIÓN CON TECNOLOGÍA MÁS SEGURA",
+          "description": "Buscas una infraestructura digital más confiable, con procesos verificables y menor dependencia de sistemas tradicionales limitados."
+        },
+        {
+          "title": "QUIERES MAYOR TRANSPARENCIA EN TUS DATOS Y OPERACIONES",
+          "description": "Necesitas registros claros, trazables e inmutables que fortalezcan el control y la confianza en tu negocio."
+        },
+        {
+          "title": "TIENES DIFERENTES PLATAFORMAS QUE NECESITAN TRABAJAR JUNTAS",
+          "description": "Tu operación utiliza múltiples sistemas y necesitas integrarlos para centralizar datos, automatizar procesos y mejorar el flujo de trabajo."
+        },
+        {
+          "title": "BUSCAS NUEVOS MODELOS DIGITALES PARA TU NEGOCIO",
+          "description": "Te interesa implementar tokenización, pagos Web3 o experiencias descentralizadas que impulsen nuevas oportunidades de valor."
+        },
+        {
+          "title": "TU OPERACIÓN DEPENDE DE PROCESOS MANUALES O INTERMEDIARIOS",
+          "description": "Quieres automatizar tareas, validaciones y flujos de trabajo para reducir errores y mejorar eficiencia."
+        },
+        {
+          "title": "BUSCAS INTEGRAR BLOCKCHAIN SIN RECONSTRUIR TODO DESDE CERO",
+          "description": "Prefieres conectar nuevas capacidades Web3 con tu infraestructura actual de forma práctica y escalable."
+        },
+        {
+          "title": "QUIERES INDEPENDENCIA TECNOLÓGICA",
+          "description": "Prefieres tener control sobre tu producto y no depender de herramientas limitadas o plataformas cerradas."
+        },
+        {
+          "title": "NECESITAS MAYOR TRAZABILIDAD EN TUS PROCESOS O ACTIVOS",
+          "description": "Quieres rastrear operaciones, movimientos o registros con visibilidad completa y datos verificables en todo momento."
+        }
+      ]
+    }
+  },
+  "ai": {
+    "label": "SERVICIOS / INTELIGENCIA ARTIFICIAL",
+    "hero_line1": "INTELIGENCIA",
+    "hero_line2": "ARTIFICIAL A MEDIDA",
+    "hero_subtitle": "CHATBOTS, AUTOMATIZACIÓN Y ANÁLISIS INTELIGENTE DE DATOS PARA TRANSFORMAR LOS PROCESOS DE TU EMPRESA",
+    "cta_start": "COMENZAR",
+    "cta_more": "VER CAPACIDADES",
+    "tech": [
+      "PYTHON",
+      "OPENAI",
+      "LANGCHAIN",
+      "FASTAPI",
+      "TENSORFLOW",
+      "POSTGRESQL"
+    ],
+    "overview": {
+      "tag": "¿QUÉ CONSTRUIMOS?",
+      "title": "IA QUE TRABAJA PARA TU NEGOCIO",
+      "description": "Integramos inteligencia artificial en los procesos de tu empresa: asistentes conversacionales, automatización de tareas repetitivas y análisis predictivo de datos para tomar mejores decisiones.",
+      "image_alt": "Inteligencia Artificial"
+    },
+    "features": {
+      "tag": "CAPACIDADES",
+      "title": "SOLUCIONES INTELIGENTES",
+      "items": [
+        {
+          "title": "CHATBOTS & ASISTENTES IA",
+          "description": "Asistentes entrenados en tus datos que atienden a clientes y equipo las 24 horas."
+        },
+        {
+          "title": "AUTOMATIZACIÓN DE PROCESOS",
+          "description": "Eliminamos tareas repetitivas con flujos de trabajo inteligentes y eficientes."
+        },
+        {
+          "title": "ANÁLISIS DE DATOS",
+          "description": "Extraemos patrones y métricas clave para que tomes decisiones con información real."
+        },
+        {
+          "title": "INTEGRACIÓN DE MODELOS IA",
+          "description": "Conectamos modelos como GPT, Claude o propios directamente a tu sistema actual."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿LISTO PARA AUTOMATIZAR TU NEGOCIO?",
+      "subtitle": "Te ayudamos a identificar dónde la IA puede generar más valor y lo implementamos con precisión.",
+      "button": "INICIAR PROYECTO"
+    }
   },
   "footer": {
     "call": "Llámanos",
