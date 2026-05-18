@@ -59,7 +59,7 @@ export default function DiferenciadoresBackground() {
   return (
     <div
       ref={containerRef}
-      data-us-project="2DxbQKhoVGrWcvLUJL5z"
+      data-us-project="MGN6aphxun4e5Pttz66s"
       data-us-scale="1"
       data-us-dpi="1.5"
       data-us-production="true"

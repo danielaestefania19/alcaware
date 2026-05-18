@@ -65,7 +65,7 @@ export default function ComparisonBackground() {
   return (
     <div
       ref={containerRef}
-      data-us-project="UPOhLzIEArUmsMx2qV1T"
+      data-us-project="jLwPNLwC7jU19JAgX9XZ"
       data-us-scale="1"
       data-us-dpi="1.5"
       data-us-production="true"

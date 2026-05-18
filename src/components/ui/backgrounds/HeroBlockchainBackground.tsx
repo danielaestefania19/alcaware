@@ -65,7 +65,7 @@ export default function HeroBlockchainBackground() {
   return (
     <div
       ref={containerRef}
-      data-us-project="HntmFFE62Untr81yfO1V"
+      data-us-project="Pix67vHMSG6rzoV2ynIJ"
       data-us-scale="1"
       data-us-dpi="1.5"
       data-us-production="true"

@@ -65,7 +65,7 @@ export default function HeroWebMobileBackground() {
   return (
     <div
       ref={containerRef}
-      data-us-project="6OFu0YVbJ3R8VgOtC9GX"
+      data-us-project="Qcj6GWYNIZD9jr4yvEFs"
       data-us-scale="1"
       data-us-dpi="1.5"
       data-us-production="true"

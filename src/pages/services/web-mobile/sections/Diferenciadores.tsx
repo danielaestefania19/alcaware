@@ -9,11 +9,11 @@ interface DifItem {
 
 function Card({ title, description }: DifItem) {
   return (
-    <div className="rounded-2xl border border-primary/20 bg-secondary/20 backdrop-blur-sm p-6 md:p-10 hover:border-primary/50 hover:bg-black/60 transition-all duration-300 min-h-36 md:min-h-52 flex flex-col justify-center">
-      <h3 className="text-center font-montserrat font-light text-[16px] md:text-[20px] text-white mb-2 md:mb-3 leading-snug">
+    <div className="rounded-2xl border border-primary/20 bg-secondary/20 backdrop-blur-sm p-6 md:p-8 lg:p-10 hover:border-primary/50 hover:bg-black/60 transition-all duration-300 min-h-36 md:min-h-44 lg:min-h-52 flex flex-col justify-center">
+      <h3 className="text-center font-montserrat font-light text-[16px] md:text-[17px] lg:text-[20px] text-white mb-2 md:mb-3 leading-snug">
         {title}
       </h3>
-      <p className="text-center font-montserrat font-light text-[14px] md:text-[18px] text-white/60 leading-relaxed">
+      <p className="text-center font-montserrat font-light text-[14px] md:text-[15px] lg:text-[18px] text-white/60 leading-relaxed">
         {description}
       </p>
     </div>
@@ -42,7 +42,7 @@ export default function Diferenciadores() {
         {/* Header */}
         <div className="text-center mb-10 md:mb-16">
           <h2
-            className="font-melete text-[24px] md:text-[42px] tracking-[0.15em] md:tracking-[0.3em] mb-4"
+            className="font-melete text-[24px] md:text-[32px] lg:text-[42px] tracking-[0.15em] md:tracking-[0.22em] lg:tracking-[0.3em] mb-4"
             style={{
               textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3",
             }}

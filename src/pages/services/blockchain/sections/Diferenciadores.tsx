@@ -42,7 +42,7 @@ export default function Diferenciadores() {
         {/* Header */}
         <div className="text-center mb-10 md:mb-16">
           <h2
-            className="font-melete text-[24px] md:text-[42px] tracking-[0.15em] md:tracking-[0.3em] mb-4"
+            className="font-melete text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl tracking-widest mb-4"
             style={{
               textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3",
             }}

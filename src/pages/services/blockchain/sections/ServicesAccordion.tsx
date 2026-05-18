@@ -1,11 +1,10 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
-import tokenizacion from "../../../../assets/images/tokenizacion.jpg";
-import smart from "../../../../assets/images/smart.jpg"
-import soluciones from "../../../../assets/images/soluciones.jpg"
-import automatizacion from "../../../../assets/images/automatizacion.jpg"
-
+import tokenizacion from "../../../../assets/images/blockchain/automatizacion.jpg";
+import smart from "../../../../assets/images/blockchain/smart.jpg"
+import soluciones from "../../../../assets/images/blockchain/soluciones.jpg"
+import automatizacion from "../../../../assets/images/blockchain/automatizacion.jpg"
 
 interface AccordionItem {
   title: string;

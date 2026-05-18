@@ -59,7 +59,7 @@ export default function DiferenciadoresBlockchainBackground() {
   return (
     <div
       ref={containerRef}
-      data-us-project="esemNqAiF7vI6BjUqNQb"
+      data-us-project="2xj5JTbadFgoMEMtdlJj"
       data-us-scale="1"
       data-us-dpi="1.5"
       data-us-production="true"

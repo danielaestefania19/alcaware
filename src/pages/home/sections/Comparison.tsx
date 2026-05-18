@@ -1,5 +1,5 @@
 import ComparisonBackground from "../../../components/ui/backgrounds/ComparisonBackground";
-import card from "../../../assets/images/card-bg.png";
+import card from "../../../assets/images/home/card-bg.png";
 import { useTranslation } from "react-i18next";
 
 export default function Comparison() {

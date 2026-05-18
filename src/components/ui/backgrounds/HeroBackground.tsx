@@ -65,7 +65,7 @@ export default function HeroBackground() {
   return (
     <div
       ref={containerRef}
-      data-us-project="EX9dsoC0EsaVNSzYjUBg"
+      data-us-project="DzOTrKO07xjoxc8wK0Wn"
       data-us-scale="1"
       data-us-dpi="1.5"
       data-us-production="true"

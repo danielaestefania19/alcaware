@@ -1,5 +1,4 @@
 import TechnologiesBackground from "../../../../components/ui/backgrounds/TechnologiesBackground";
-
 import firebase from "../../../../assets/images/technologies/firebase.png";
 import aws from "../../../../assets/images/technologies/aws.png";
 import postgresql from "../../../../assets/images/technologies/postgreSQL.png";
@@ -34,13 +33,13 @@ const row3 = [
 
 function TechRow({ items }: { items: { src: string; alt: string }[] }) {
   return (
-    <div className="flex justify-center gap-8 md:gap-16 w-full">
+    <div className="flex justify-center gap-6 md:gap-10 lg:gap-16 w-full">
       {items.map(({ src, alt }) => (
         <div key={alt} className="flex items-center justify-center">
           <img
             src={src}
             alt={alt}
-            className="h-24 md:h-32 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
+            className="h-20 md:h-24 lg:h-32 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
           />
         </div>
       ))}
@@ -53,13 +52,13 @@ export default function Technologies() {
     <section className="relative w-full overflow-hidden py-24">
       <TechnologiesBackground />
 
-      <div className="relative z-10 max-w-5xl mx-auto px-6 flex flex-col items-center gap-14">
-        <h2
-          className="font-melete text-[20px] md:text-[24px] tracking-[0.15em] text-center text-white"
-          style={{
-            textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3",
-          }}
-        >
+      <div className="relative z-10 max-w-7xl mx-auto px-6 flex flex-col items-center gap-14">
+          <h2
+            className="font-melete text-center text-2xl md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl tracking-widest mb-4 text-white"
+            style={{
+              textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3",
+            }}
+          >
           Tecnologías y Aplicaciones
         </h2>
 

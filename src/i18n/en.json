@@ -210,7 +210,11 @@
     "service_placeholder": "SERVICE",
     "project_label": "TELL US ABOUT YOUR PROJECT",
     "project_placeholder": "WRITE ABOUT YOUR PROJECT",
-    "submit": "SEND"
+    "submit": "SEND",
+    "sending": "SENDING...",
+    "success": "Message sent! We'll get in touch soon.",
+    "error": "Something went wrong. Please try again.",
+    "error_required": "This field is required"
   },
   "webmobil": {
     "hero_line1": "WEB & MOBILE",
@@ -260,12 +264,30 @@
       "text1": "Our process turns ideas into digital products through clear and efficient steps.",
       "text2": "From the initial diagnosis to the final deployment, we work iteratively to build solid, scalable solutions aligned with your goals.",
       "steps": [
-        { "title": "", "description": "We analyze your idea, objectives and business context. We identify technical needs, scope and improvement opportunities before starting development." },
-        { "title": "", "description": "We define the project strategy: key features, estimated timelines and a technical proposal aligned with your goals." },
-        { "title": "", "description": "We design the system architecture and user experience. This ensures a solid technological foundation and a clear, efficient interface." },
-        { "title": "", "description": "We design the system architecture and user experience. This ensures a solid technological foundation and a clear, efficient interface." },
-        { "title": "", "description": "We iterate the product through short development cycles, adding new features, optimizing performance and improving the experience." },
-        { "title": "", "description": "We publish the product and provide continuous support, maintenance and improvements to ensure stability and growth." }
+        {
+          "title": "",
+          "description": "We analyze your idea, objectives and business context. We identify technical needs, scope and improvement opportunities before starting development."
+        },
+        {
+          "title": "",
+          "description": "We define the project strategy: key features, estimated timelines and a technical proposal aligned with your goals."
+        },
+        {
+          "title": "",
+          "description": "We design the system architecture and user experience. This ensures a solid technological foundation and a clear, efficient interface."
+        },
+        {
+          "title": "",
+          "description": "We design the system architecture and user experience. This ensures a solid technological foundation and a clear, efficient interface."
+        },
+        {
+          "title": "",
+          "description": "We iterate the product through short development cycles, adding new features, optimizing performance and improving the experience."
+        },
+        {
+          "title": "",
+          "description": "We publish the product and provide continuous support, maintenance and improvements to ensure stability and growth."
+        }
       ]
     },
     "casos": {
@@ -379,7 +401,14 @@
     "hero_subtitle": "SMART CONTRACTS, TOKENIZATION AND WEB3 INTEGRATION WITH SECURITY AND BEST PRACTICES FROM THE START",
     "cta_start": "GET STARTED",
     "cta_more": "VIEW CAPABILITIES",
-    "tech": ["SOLIDITY", "ETHEREUM", "HARDHAT", "WEB3.JS", "IPFS", "POLYGON"],
+    "tech": [
+      "SOLIDITY",
+      "ETHEREUM",
+      "HARDHAT",
+      "WEB3.JS",
+      "IPFS",
+      "POLYGON"
+    ],
     "overview": {
       "tag": "WHAT WE BUILD",
       "title": "BLOCKCHAIN SOLUTIONS THAT BUILD TRUST",
@@ -450,6 +479,69 @@
         }
       ]
     },
+    "entregables": {
+      "title": "DELIVERABLES",
+      "subtitle": "EVERY PROJECT IS DELIVERED WITH A SOLID TECHNICAL FOUNDATION, CLEAR DOCUMENTATION AND EVERYTHING NEEDED FOR YOUR SOLUTION TO WORK FROM DAY ONE.",
+      "producto": {
+        "title": "PRODUCT",
+        "subtitle": "THE COMPLETE TECHNOLOGICAL BASE OF YOUR BLOCKCHAIN IMPLEMENTATION",
+        "items": [
+          "BLOCKCHAIN ARCHITECTURE DESIGN AND FUNCTIONAL DEFINITION OF THE SOLUTION",
+          "SMART CONTRACT DEVELOPMENT BASED ON YOUR BUSINESS LOGIC",
+          "INTEGRATION WITH WALLETS, PAYMENTS AND WEB3 COMPONENTS",
+          "CONNECTION WITH PLATFORMS, APIS AND ENTERPRISE SYSTEMS"
+        ]
+      },
+      "calidad": {
+        "title": "QUALITY",
+        "subtitle": "WE ENSURE THE SOLUTION WORKS CORRECTLY AND CAN OPERATE WITH STABILITY",
+        "items": [
+          "QA AND FUNCTIONAL TESTING ON KEY FLOWS BEFORE LAUNCH",
+          "VALIDATION OF INTEGRATIONS BETWEEN TRADITIONAL SYSTEMS AND BLOCKCHAIN",
+          "TECHNICAL SECURITY REVIEW AND BASELINE BEST PRACTICES",
+          "CONSISTENCY VERIFICATION BETWEEN ON-CHAIN AND OFF-CHAIN DATA"
+        ]
+      },
+      "entrega": {
+        "title": "DELIVERY",
+        "subtitle": "YOUR SOLUTION READY TO BE DEPLOYED AND START OPERATING",
+        "items": [
+          "DEPLOY ON TESTNET AND PRODUCTION ACCORDING TO PROJECT SCOPE",
+          "INITIAL ENVIRONMENT AND INFRASTRUCTURE CONFIGURATION",
+          "MINIMUM TECHNICAL DOCUMENTATION TO UNDERSTAND THE SOLUTION",
+          "ONBOARDING SUPPORT DURING THE FIRST WEEKS AFTER DELIVERY"
+        ]
+      }
+    },
+    "faq": {
+      "title": "FREQUENTLY ASKED QUESTIONS",
+      "items": [
+        {
+          "question": "What is a smart contract and what is it for?",
+          "answer": "A smart contract is a program that runs automatically on the blockchain when certain conditions are met. It eliminates intermediaries, reduces costs and ensures rules are enforced without human intervention."
+        },
+        {
+          "question": "Do I need to know about blockchain to work with you?",
+          "answer": "No. We handle all the technical side. We explain how the solution works in clear terms and make decisions together based on your business objectives."
+        },
+        {
+          "question": "Which networks do you work with?",
+          "answer": "We primarily work with Ethereum, Polygon and other EVM-compatible networks. We also have experience with Solana and Internet Computer depending on project requirements."
+        },
+        {
+          "question": "How long does a blockchain project take?",
+          "answer": "It depends on complexity. A simple smart contract can be ready in 2 to 4 weeks. More complete projects with Web3 integration typically take between 6 and 16 weeks."
+        },
+        {
+          "question": "Are the contracts audited?",
+          "answer": "Yes. All our contracts go through security review, exhaustive testing and validation before deployment. For high-value projects we also coordinate specialized external audits."
+        },
+        {
+          "question": "Can you integrate blockchain with my existing systems?",
+          "answer": "Yes. We connect your traditional infrastructure with blockchain without needing to rebuild everything from scratch. We design the integration so it doesn't disrupt your current operation."
+        }
+      ]
+    },
     "diferenciadores": {
       "title": "DIFFERENTIATORS",
       "subtitle": "STRATEGIC TECHNOLOGY FOR COMPANIES LOOKING TO INTEGRATE BLOCKCHAIN WITHOUT FRICTION.",
@@ -488,7 +580,8 @@
           "description": "You want to track operations, movements or records with complete visibility and verifiable data at all times."
         }
       ]
-    }
+    },
+    "contact_title": "LET'S TALK ABOUT YOUR PROJECT"
   },
   "ai": {
     "label": "SERVICES / ARTIFICIAL INTELLIGENCE",
@@ -537,6 +630,152 @@
       "title": "READY TO AUTOMATE YOUR BUSINESS?",
       "subtitle": "We help you identify where AI can generate the most value and implement it with precision.",
       "button": "START PROJECT"
+    },
+    "technologies": {
+      "title": "TECHNOLOGIES & APPLICATIONS"
+    },
+    "faq": {
+      "title": "FREQUENTLY ASKED QUESTIONS",
+      "items": [
+        {
+          "question": "How long does it take to develop a project?",
+          "answer": "It depends on the scope, but an initial implementation can take between 2 and 6 weeks."
+        },
+        {
+          "question": "Can it be integrated with my current systems?",
+          "answer": "Yes. We design the solution to connect with your existing infrastructure, whether APIs, databases or enterprise platforms, without needing to replace what you already have."
+        },
+        {
+          "question": "Do I need technical knowledge to use it?",
+          "answer": "No. We handle all the technical implementation and deliver a ready-to-use solution. We also accompany you throughout the process so your team can operate it with confidence."
+        },
+        {
+          "question": "Can it be customized for my business?",
+          "answer": "Completely. Each solution is designed from scratch: the model, flows, training data and integration logic are adapted to the specific needs of your company."
+        },
+        {
+          "question": "Can you integrate payments/ERP/CRM?",
+          "answer": "Yes. We can integrate the AI solution with tools like Stripe, HubSpot, Salesforce, SAP and other platforms, depending on what your operation requires."
+        }
+      ]
+    },
+    "services_accordion": {
+      "cta": "START PROJECT",
+      "items": [
+        {
+          "title": "MLL MODELS",
+          "paragraphs": [
+            "We train and fine-tune language and machine learning models adapted to your company's data and processes.",
+            "We select the optimal architecture —from regressions to transformers— based on the problem to solve.",
+            "Our models integrate directly into your operation, improving decision-making with accurate and scalable predictions."
+          ]
+        },
+        {
+          "title": "AI APIS",
+          "paragraphs": [
+            "We connect the most advanced AI models on the market —OpenAI, Anthropic, Cohere and others— to your existing systems.",
+            "We design robust integration layers that allow consuming artificial intelligence without changing your entire infrastructure.",
+            "We manage authentication, rate limiting, caching and error handling so APIs work reliably in production."
+          ]
+        },
+        {
+          "title": "INTELLIGENT AUTOMATION",
+          "paragraphs": [
+            "We combine process automation with artificial intelligence to optimize complex tasks.",
+            "We create flows that execute actions automatically based on data, rules and learning.",
+            "Our solutions allow scaling operations, reducing errors and improving productivity."
+          ]
+        },
+        {
+          "title": "NLP",
+          "paragraphs": [
+            "We implement Natural Language Processing solutions so your systems understand and generate text intelligently.",
+            "From document classification and sentiment analysis to response generation and automatic summaries.",
+            "We train models on your own data to ensure accuracy and relevance in every use case."
+          ]
+        }
+      ]
+    },
+    "entregables": {
+      "title": "DELIVERABLES",
+      "subtitle": "EVERY PROJECT IS DELIVERED WITH A SOLID TECHNICAL BASE, CLEAR DOCUMENTATION AND EVERYTHING NEEDED FOR YOUR PRODUCT TO WORK FROM DAY ONE.",
+      "producto": {
+        "title": "PRODUCT",
+        "subtitle": "THE COMPLETE TECHNOLOGICAL BASE OF YOUR AI IMPLEMENTATION",
+        "items": [
+          "AI MODEL INTEGRATION BASED ON THE USE CASE",
+          "DEVELOPMENT OF INTELLIGENT AUTOMATED FLOWS",
+          "CONNECTION WITH APIS AND ENTERPRISE SYSTEMS",
+          "IMPLEMENTATION OF ASSISTANTS, ANALYSIS OR DATA PROCESSING"
+        ]
+      },
+      "calidad": {
+        "title": "QUALITY",
+        "subtitle": "WE MAKE SURE THE SOLUTION WORKS CORRECTLY AND GENERATES REAL RESULTS.",
+        "items": [
+          "FUNCTIONAL TESTING IN REAL SCENARIOS",
+          "VALIDATION OF RESPONSES AND MODEL ACCURACY",
+          "REVIEW OF INTEGRATIONS AND AUTOMATED FLOWS",
+          "INITIAL ADJUSTMENTS TO OPTIMIZE PERFORMANCE"
+        ]
+      },
+      "entrega": {
+        "title": "DELIVERY",
+        "subtitle": "YOUR SOLUTION READY TO OPERATE FROM DAY ONE",
+        "items": [
+          "DEPLOYMENT IN PRODUCTION ENVIRONMENT",
+          "INITIAL CONFIGURATION OF TOOLS AND APIS",
+          "BASIC USAGE DOCUMENTATION",
+          "INITIAL POST-LAUNCH SUPPORT"
+        ]
+      }
+    },
+    "diferenciadores": {
+      "title": "DIFFERENTIATORS",
+      "subtitle": "STRATEGIC TECHNOLOGY FOR COMPANIES LOOKING TO IMPLEMENT AI IN A PRACTICAL AND FUNCTIONAL WAY.",
+      "cta": "SCHEDULE A CONSULTATION →",
+      "items": [
+        {
+          "title": "YOU WANT TO AUTOMATE PROCESSES WITH ARTIFICIAL INTELLIGENCE",
+          "description": "You're looking to reduce manual tasks and optimize workflows through intelligent automation."
+        },
+        {
+          "title": "YOUR COMPANY GENERATES DATA BUT DOESN'T USE IT",
+          "description": "You need tools that analyze information and generate actionable insights."
+        },
+        {
+          "title": "YOU WANT TO IMPLEMENT CHATBOTS OR INTELLIGENT ASSISTANTS",
+          "description": "You're looking to improve customer service or internal processes with conversational AI."
+        },
+        {
+          "title": "YOU WANT TO IMPROVE THE USER EXPERIENCE",
+          "description": "You're looking for more personalized, dynamic and efficient products."
+        },
+        {
+          "title": "YOU NEED TO INTEGRATE AI INTO YOUR CURRENT SYSTEMS",
+          "description": "You prefer to connect artificial intelligence with your infrastructure without replacing it."
+        },
+        {
+          "title": "YOU NEED TO SCALE YOUR OPERATION WITHOUT INCREASING COSTS",
+          "description": "You want AI to help you grow without relying entirely on human resources."
+        },
+        {
+          "title": "YOU HAVE REPETITIVE PROCESSES THAT CONSUME TIME",
+          "description": "You want to automate operational tasks through intelligent workflows."
+        },
+        {
+          "title": "YOU WANT TO IMPLEMENT AI WITHOUT TECHNICAL COMPLEXITY",
+          "description": "You need a clear, functional solution ready to integrate quickly."
+        }
+      ]
+    },
+    "casos": {
+      "title": "CASE STUDIES",
+      "subtitle": "Real examples of how we help companies implement artificial intelligence in a strategic and functional way.",
+      "paragraphs": [
+        "We developed a conversational AI assistant for a financial services company that automates customer support, responds to queries in real time, and scales without expanding the human team.",
+        "The system reduced average response time by over 70% and freed the team from repetitive tasks, allowing them to focus on higher-value business cases."
+      ]
     }
   },
   "footer": {
@@ -544,7 +783,12 @@
     "contact": "Contact us",
     "see_services": "VIEW SERVICES",
     "info_title": "Information",
-    "nav_links": ["Home", "Services", "Process", "About"],
+    "nav_links": [
+      "Home",
+      "Services",
+      "Process",
+      "About"
+    ],
     "visit_title": "Visit us",
     "address": "Francisco Villa 650, Jardín Español, 64820 M Monterrey, N.L.",
     "copyright": "©2025 CAMPS. ALL RIGHTS RESERVED"

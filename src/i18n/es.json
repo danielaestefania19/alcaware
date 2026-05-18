@@ -210,7 +210,11 @@
     "service_placeholder": "SERVICIO",
     "project_label": "CUÉNTANOS SOBRE TU PROYECTO",
     "project_placeholder": "ESCRIBE SOBRE TU PROYECTO",
-    "submit": "ENVIAR"
+    "submit": "ENVIAR",
+    "sending": "ENVIANDO...",
+    "success": "¡Mensaje enviado! Te contactaremos pronto.",
+    "error": "Ocurrió un error. Por favor intenta de nuevo.",
+    "error_required": "Este campo es obligatorio"
   },
   "webmobil": {
     "hero_line1": "DESARROLLO WEB Y",
@@ -397,7 +401,14 @@
     "hero_subtitle": "SMART CONTRACTS, TOKENIZACIÓN E INTEGRACIÓN WEB3 CON SEGURIDAD Y BUENAS PRÁCTICAS DESDE EL INICIO",
     "cta_start": "COMENZAR",
     "cta_more": "VER CAPACIDADES",
-    "tech": ["SOLIDITY", "ETHEREUM", "HARDHAT", "WEB3.JS", "IPFS", "POLYGON"],
+    "tech": [
+      "SOLIDITY",
+      "ETHEREUM",
+      "HARDHAT",
+      "WEB3.JS",
+      "IPFS",
+      "POLYGON"
+    ],
     "overview": {
       "tag": "¿QUÉ CONSTRUIMOS?",
       "title": "SOLUCIONES BLOCKCHAIN QUE GENERAN CONFIANZA",
@@ -468,6 +479,69 @@
         }
       ]
     },
+    "entregables": {
+      "title": "ENTREGABLES",
+      "subtitle": "CADA PROYECTO SE ENTREGA CON UNA BASE TÉCNICA SÓLIDA, DOCUMENTACIÓN CLARA Y TODO LO NECESARIO PARA QUE TU SOLUCIÓN FUNCIONE DESDE EL PRIMER DÍA.",
+      "producto": {
+        "title": "PRODUCTO",
+        "subtitle": "LA BASE TECNOLÓGICA COMPLETA DE TU IMPLEMENTACIÓN BLOCKCHAIN",
+        "items": [
+          "DISEÑO DE ARQUITECTURA BLOCKCHAIN Y DEFINICIÓN FUNCIONAL DE LA SOLUCIÓN",
+          "DESARROLLO DE SMART CONTRACTS SEGÚN LA LÓGICA DE TU NEGOCIO",
+          "INTEGRACIÓN CON WALLETS, PAGOS Y COMPONENTES WEB3",
+          "CONEXIÓN CON PLATAFORMAS, APIS Y SISTEMAS EMPRESARIALES"
+        ]
+      },
+      "calidad": {
+        "title": "CALIDAD",
+        "subtitle": "NOS ASEGURAMOS DE QUE LA SOLUCIÓN FUNCIONE CORRECTAMENTE Y PUEDA OPERAR CON ESTABILIDAD",
+        "items": [
+          "QA Y PRUEBAS FUNCIONALES EN FLUJOS CLAVE ANTES DEL LANZAMIENTO",
+          "VALIDACIÓN DE INTEGRACIONES ENTRE SISTEMAS TRADICIONALES Y BLOCKCHAIN",
+          "REVISIÓN TÉCNICA DE SEGURIDAD Y BUENAS PRÁCTICAS BASE",
+          "VERIFICACIÓN DE CONSISTENCIA ENTRE DATOS ON-CHAIN Y OFF-CHAIN"
+        ]
+      },
+      "entrega": {
+        "title": "ENTREGA",
+        "subtitle": "TU SOLUCIÓN LISTA PARA IMPLEMENTARSE Y COMENZAR A OPERAR",
+        "items": [
+          "DEPLOY EN TESTNET Y PRODUCCIÓN SEGÚN EL ALCANCE DEL PROYECTO",
+          "CONFIGURACIÓN INICIAL DE ENTORNOS E INFRAESTRUCTURA NECESARIA",
+          "DOCUMENTACIÓN TÉCNICA MÍNIMA PARA COMPRENDER LA SOLUCIÓN",
+          "SOPORTE DE ARRANQUE DURANTE LAS PRIMERAS SEMANAS TRAS LA ENTREGA"
+        ]
+      }
+    },
+    "faq": {
+      "title": "PREGUNTAS FRECUENTES",
+      "items": [
+        {
+          "question": "¿Qué es un smart contract y para qué sirve?",
+          "answer": "Un smart contract es un programa que se ejecuta automáticamente en la blockchain cuando se cumplen ciertas condiciones. Elimina intermediarios, reduce costos y garantiza que las reglas se cumplan sin intervención humana."
+        },
+        {
+          "question": "¿Necesito saber de blockchain para trabajar con ustedes?",
+          "answer": "No. Nos encargamos de toda la parte técnica. Te explicamos en términos claros cómo funciona la solución y tomamos decisiones juntos basándonos en los objetivos de tu negocio."
+        },
+        {
+          "question": "¿En qué redes trabajan?",
+          "answer": "Trabajamos principalmente con Ethereum, Polygon y otras redes EVM compatibles. También tenemos experiencia con Solana e Internet Computer según los requerimientos del proyecto."
+        },
+        {
+          "question": "¿Cuánto tarda un proyecto blockchain?",
+          "answer": "Depende de la complejidad. Un contrato inteligente simple puede estar listo en 2 a 4 semanas. Proyectos más completos con integración Web3 suelen tomar entre 6 y 16 semanas."
+        },
+        {
+          "question": "¿Los contratos son auditados?",
+          "answer": "Sí. Todos nuestros contratos pasan por revisión de seguridad, pruebas exhaustivas y validación antes del deploy. Para proyectos de alto valor también coordinamos auditorías externas especializadas."
+        },
+        {
+          "question": "¿Pueden integrar blockchain con mis sistemas actuales?",
+          "answer": "Sí. Conectamos tu infraestructura tradicional con la blockchain sin necesidad de reconstruir todo desde cero. Diseñamos la integración para que no interrumpa tu operación actual."
+        }
+      ]
+    },
     "diferenciadores": {
       "title": "DIFERENCIADORES",
       "subtitle": "TECNOLOGÍA ESTRATÉGICA PARA EMPRESAS QUE BUSCAN INTEGRAR BLOCKCHAIN SIN FRICCIÓN.",
@@ -506,7 +580,8 @@
           "description": "Quieres rastrear operaciones, movimientos o registros con visibilidad completa y datos verificables en todo momento."
         }
       ]
-    }
+    },
+    "contact_title": "HABLEMOS DE TU PROYECTO"
   },
   "ai": {
     "label": "SERVICIOS / INTELIGENCIA ARTIFICIAL",
@@ -555,6 +630,152 @@
       "title": "¿LISTO PARA AUTOMATIZAR TU NEGOCIO?",
       "subtitle": "Te ayudamos a identificar dónde la IA puede generar más valor y lo implementamos con precisión.",
       "button": "INICIAR PROYECTO"
+    },
+    "technologies": {
+      "title": "TECNOLOGÍAS Y APLICACIONES"
+    },
+    "faq": {
+      "title": "PREGUNTAS FRECUENTES",
+      "items": [
+        {
+          "question": "¿Cuánto tiempo tarda desarrollar un proyecto?",
+          "answer": "Depende del alcance, pero una implementación inicial puede tomar entre 2 y 6 semanas."
+        },
+        {
+          "question": "¿Se puede integrar con mis sistemas actuales?",
+          "answer": "Sí. Diseñamos la solución para conectarse con tu infraestructura existente, ya sean APIs, bases de datos o plataformas empresariales, sin necesidad de reemplazar lo que ya tienes."
+        },
+        {
+          "question": "¿Necesito conocimiento técnico para usarla?",
+          "answer": "No. Nos encargamos de toda la implementación técnica y te entregamos una solución lista para usar. Además te acompañamos durante el proceso para que tu equipo pueda operarla con confianza."
+        },
+        {
+          "question": "¿Se puede personalizar según mi negocio?",
+          "answer": "Completamente. Cada solución se diseña a medida: el modelo, los flujos, los datos de entrenamiento y la lógica de integración se adaptan a las necesidades específicas de tu empresa."
+        },
+        {
+          "question": "¿Pueden integrar pagos/ERP/CRM?",
+          "answer": "Sí. Podemos integrar la solución de IA con herramientas como Stripe, HubSpot, Salesforce, SAP y otras plataformas, según lo que requiera tu operación."
+        }
+      ]
+    },
+    "services_accordion": {
+      "cta": "INICIAR PROYECTO",
+      "items": [
+        {
+          "title": "MODELOS MLL",
+          "paragraphs": [
+            "Entrenamos y ajustamos modelos de lenguaje y aprendizaje automático adaptados a los datos y procesos de tu empresa.",
+            "Seleccionamos la arquitectura óptima —desde regresiones hasta transformers— según el problema a resolver.",
+            "Nuestros modelos se integran directamente en tu operación, mejorando la toma de decisiones con predicciones precisas y escalables."
+          ]
+        },
+        {
+          "title": "APIS DE IA",
+          "paragraphs": [
+            "Conectamos los modelos de IA más avanzados del mercado —OpenAI, Anthropic, Cohere y otros— a tus sistemas existentes.",
+            "Diseñamos capas de integración robustas que permiten consumir inteligencia artificial sin cambiar toda tu infraestructura.",
+            "Gestionamos autenticación, rate limiting, caché y manejo de errores para que las APIs funcionen de forma confiable en producción."
+          ]
+        },
+        {
+          "title": "AUTOMATIZACIÓN INTELIGENTE",
+          "paragraphs": [
+            "Combinamos automatización de procesos con inteligencia artificial para optimizar tareas complejas.",
+            "Creamos flujos que ejecutan acciones automáticamente basadas en datos, reglas y aprendizaje.",
+            "Nuestras soluciones permiten escalar operaciones, reducir errores y mejorar la productividad."
+          ]
+        },
+        {
+          "title": "NLP",
+          "paragraphs": [
+            "Implementamos soluciones de Procesamiento de Lenguaje Natural para que tus sistemas comprendan y generen texto de forma inteligente.",
+            "Desde clasificación de documentos y análisis de sentimiento hasta generación de respuestas y resúmenes automáticos.",
+            "Entrenamos modelos sobre tus propios datos para garantizar precisión y relevancia en cada caso de uso."
+          ]
+        }
+      ]
+    },
+    "entregables": {
+      "title": "ENTREGABLES",
+      "subtitle": "CADA PROYECTO SE ENTREGA CON UNA BASE TÉCNICA SÓLIDA, DOCUMENTACIÓN CLARA Y TODO LO NECESARIO PARA QUE TU PRODUCTO FUNCIONE DESDE EL PRIMER DÍA.",
+      "producto": {
+        "title": "PRODUCTO",
+        "subtitle": "LA BASE TECNOLÓGICA COMPLETA DE TU IMPLEMENTACIÓN CON IA",
+        "items": [
+          "INTEGRACIÓN DE MODELOS DE IA SEGÚN EL CASO DE USO",
+          "DESARROLLO DE FLUJOS AUTOMATIZADOS INTELIGENTES",
+          "CONEXIÓN CON APIS Y SISTEMAS EMPRESARIALES",
+          "IMPLEMENTACIÓN DE ASISTENTES, ANÁLISIS O PROCESAMIENTO DE DATOS"
+        ]
+      },
+      "calidad": {
+        "title": "CALIDAD",
+        "subtitle": "NOS ASEGURAMOS DE QUE LA SOLUCIÓN FUNCIONE CORRECTAMENTE Y GENERE RESULTADOS REALES.",
+        "items": [
+          "PRUEBAS DE FUNCIONAMIENTO EN ESCENARIOS REALES",
+          "VALIDACIÓN DE RESPUESTAS Y PRECISIÓN DE MODELOS",
+          "REVISIÓN DE INTEGRACIONES Y FLUJOS AUTOMATIZADOS",
+          "AJUSTES INICIALES PARA OPTIMIZAR RENDIMIENTO"
+        ]
+      },
+      "entrega": {
+        "title": "ENTREGA",
+        "subtitle": "TU SOLUCIÓN LISTA PARA OPERAR DESDE EL PRIMER DÍA",
+        "items": [
+          "IMPLEMENTACIÓN EN ENTORNO PRODUCTIVO",
+          "CONFIGURACIÓN INICIAL DE HERRAMIENTAS Y APIS",
+          "DOCUMENTACIÓN BÁSICA DE USO",
+          "SOPORTE INICIAL POST-LANZAMIENTO"
+        ]
+      }
+    },
+    "diferenciadores": {
+      "title": "DIFERENCIADORES",
+      "subtitle": "TECNOLOGÍA ESTRATÉGICA PARA EMPRESAS QUE BUSCAN IMPLEMENTAR IA DE FORMA PRÁCTICA Y FUNCIONAL.",
+      "cta": "AGENDA UNA CONSULTA →",
+      "items": [
+        {
+          "title": "QUIERES AUTOMATIZAR PROCESOS CON INTELIGENCIA ARTIFICIAL",
+          "description": "Buscas reducir tareas manuales y optimizar flujos de trabajo mediante automatización inteligente."
+        },
+        {
+          "title": "TU EMPRESA GENERA DATOS PERO NO LOS APROVECHA",
+          "description": "Necesitas herramientas que analicen información y generen insights accionables."
+        },
+        {
+          "title": "QUIERES IMPLEMENTAR CHATBOTS O ASISTENTES INTELIGENTES",
+          "description": "Buscas mejorar la atención al cliente o procesos internos con IA conversacional."
+        },
+        {
+          "title": "QUIERES MEJORAR LA EXPERIENCIA DE USUARIO",
+          "description": "Buscas productos más personalizados, dinámicos y eficientes."
+        },
+        {
+          "title": "NECESITAS INTEGRAR IA A TUS SISTEMAS ACTUALES",
+          "description": "Prefieres conectar inteligencia artificial con tu infraestructura sin reemplazarla."
+        },
+        {
+          "title": "NECESITAS ESCALAR TU OPERACIÓN SIN AUMENTAR COSTOS",
+          "description": "Quieres que la IA te ayude a crecer sin depender completamente de recursos humanos."
+        },
+        {
+          "title": "TIENES PROCESOS REPETITIVOS QUE CONSUMEN TIEMPO",
+          "description": "Quieres automatizar tareas operativas mediante flujos inteligentes."
+        },
+        {
+          "title": "BUSCAS IMPLEMENTAR IA SIN COMPLEJIDAD TÉCNICA",
+          "description": "Necesitas una solución clara, funcional y lista para integrarse rápidamente."
+        }
+      ]
+    },
+    "casos": {
+      "title": "CASOS",
+      "subtitle": "Ejemplos reales de cómo ayudamos a empresas a implementar inteligencia artificial de forma estratégica y funcional.",
+      "paragraphs": [
+        "Desarrollamos un asistente conversacional con IA para una empresa de servicios financieros que automatiza la atención al cliente, responde consultas en tiempo real y escala sin necesidad de ampliar el equipo humano.",
+        "El sistema redujo el tiempo de respuesta promedio en más de 70% y liberó al equipo de tareas repetitivas, permitiéndoles enfocarse en casos de mayor valor para el negocio."
+      ]
     }
   },
   "footer": {
@@ -562,7 +783,12 @@
     "contact": "Contáctanos",
     "see_services": "VER SERVICIOS",
     "info_title": "Información",
-    "nav_links": ["Inicio", "Servicios", "Proceso", "Nosotros"],
+    "nav_links": [
+      "Inicio",
+      "Servicios",
+      "Proceso",
+      "Nosotros"
+    ],
     "visit_title": "Visítanos",
     "address": "Francisco Villa 650, Jardín Español, 64820 M Monterrey, N.L.",
     "copyright": "©2025 CAMPS. TODOS LOS DERECHOS RESERVADOS"

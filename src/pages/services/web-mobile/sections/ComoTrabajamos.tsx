@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
-import Met1 from "../../../../assets/images/Metodologia1.png";
-import Met2 from "../../../../assets/images/Metodologia2.png";
-import Met3 from "../../../../assets/images/Metodologia3.png";
-import Met4 from "../../../../assets/images/Metodologia4.png";
-import Met5 from "../../../../assets/images/Metodologia5.png";
-import Met6 from "../../../../assets/images/Metodologia6.png";
+import Met1 from "../../../../assets/images/web-mobile/Metodologia1.png";
+import Met2 from "../../../../assets/images/web-mobile/Metodologia2.png";
+import Met3 from "../../../../assets/images/web-mobile/Metodologia3.png";
+import Met4 from "../../../../assets/images/web-mobile/Metodologia4.png";
+import Met5 from "../../../../assets/images/web-mobile/Metodologia5.png";
+import Met6 from "../../../../assets/images/web-mobile/Metodologia6.png";
 
 const steps = [Met1, Met2, Met3, Met4, Met5, Met6];
 
@@ -93,9 +93,9 @@ export default function ComoTrabajamos() {
   return (
     <section className="overflow-hidden bg-black px-6 py-20 text-white md:px-10 xl:px-14 2xl:px-16">
       <div className="mx-auto max-w-400">
-        {/* Mobile */}
+        {/* Mobile / Tablet */}
         <div className="flex flex-col gap-4 lg:hidden">
-          <div className="mb-4">
+          <div className="mb-4 md:mb-8">
             <SectionIntro
               title={t("webmobil.como_trabajamos.title")}
               text1={t("webmobil.como_trabajamos.text1")}
@@ -103,9 +103,11 @@ export default function ComoTrabajamos() {
             />
           </div>
 
-          {items.map((item, i) => (
-            <StepCard key={i} item={item} icon={steps[i]} />
-          ))}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {items.map((item, i) => (
+              <StepCard key={i} item={item} icon={steps[i]} />
+            ))}
+          </div>
         </div>
 
         {/* Desktop grande: layout con líneas */}

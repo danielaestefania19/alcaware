@@ -65,7 +65,7 @@ export default function TechnologiesBackground() {
   return (
     <div
       ref={containerRef}
-      data-us-project="TkkP2Bnd8yxy4b7OXUMb"
+      data-us-project="5jtxykb7mswDdx8z0MJL"
       data-us-scale="1"
       data-us-dpi="1.5"
       data-us-production="true"
