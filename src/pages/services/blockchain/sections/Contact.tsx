@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import emailjs from "@emailjs/browser";
 
 type Fields = {
   name: string;
@@ -16,6 +17,7 @@ export default function Contact() {
   const { t } = useTranslation();
   const [fields, setFields] = useState<Fields>(EMPTY);
   const [errors, setErrors] = useState<Partial<Fields>>({});
+  const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
 
   const set = (key: keyof Fields) => (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFields(prev => ({ ...prev, [key]: e.target.value }));
@@ -35,8 +37,21 @@ export default function Contact() {
     return Object.keys(next).length === 0;
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     if (!validate()) return;
+    setStatus("sending");
+    try {
+      await emailjs.send(
+        "service_un6bv88",
+        "template_akaha45",
+        { name: fields.name, company: fields.company, email: fields.email, phone: fields.phone, service: fields.service, project: fields.project },
+        "1JZeeL5cy6SAxc48C"
+      );
+      setStatus("success");
+      setFields(EMPTY);
+    } catch {
+      setStatus("error");
+    }
   };
 
   const inputClass = (key: keyof Fields) =>
@@ -106,11 +121,18 @@ export default function Contact() {
           {errors.project && <p className="font-montserrat text-xs text-red-500">{errors.project}</p>}
         </div>
 
+        {status === "success" && (
+          <p className="text-center font-montserrat text-sm text-primary font-bold">{t("contact.success")}</p>
+        )}
+        {status === "error" && (
+          <p className="text-center font-montserrat text-sm text-red-500">{t("contact.error")}</p>
+        )}
         <button
           onClick={handleSubmit}
-          className="w-full rounded-lg bg-primary py-3 lg:py-4 font-montserrat text-xs lg:text-sm tracking-widest text-secondary font-bold transition-all duration-300 hover:brightness-110 hover:shadow-[0_0_20px_rgba(58,224,179,0.45)] hover:-translate-y-0.5 active:scale-95"
+          disabled={status === "sending"}
+          className="w-full rounded-lg bg-primary py-3 lg:py-4 font-montserrat text-xs lg:text-sm tracking-widest text-secondary font-bold transition-all duration-300 hover:brightness-110 hover:shadow-[0_0_20px_rgba(58,224,179,0.45)] hover:-translate-y-0.5 active:scale-95 disabled:opacity-60 disabled:cursor-not-allowed"
         >
-          {t("contact.submit")}
+          {status === "sending" ? t("contact.sending") : t("contact.submit")}
         </button>
       </div>
     </section>
