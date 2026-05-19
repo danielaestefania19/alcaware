@@ -1,4 +1,4 @@
-import bgMethodology from "../../../assets/images/Rectangle 4.png";
+import bgMethodology from "../../../assets/images/home/bgMethodology.webp";
 import { useTranslation } from "react-i18next";
 
 type Step = {

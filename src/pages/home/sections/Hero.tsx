@@ -4,6 +4,13 @@ import { useTranslation } from "react-i18next";
 
 export default function Hero() {
     const { t } = useTranslation();
+    const handleStart = () => {
+        document.getElementById("contacto")?.scrollIntoView({ behavior: "smooth" });
+    };
+
+    const handleServices = () => {
+        document.getElementById("servicios")?.scrollIntoView({ behavior: "smooth" });
+    };
 
     return (
         <section className="relative h-screen overflow-hidden text-white flex flex-col">
@@ -19,10 +26,16 @@ export default function Hero() {
                             {t("hero.subtitle")}
                         </p>
                         <div className="mt-8 xl:mt-10 flex flex-wrap gap-4 xl:gap-5">
-                            <button className="rounded-full bg-primary px-8 xl:px-9 py-3 xl:py-3.5 text-sm font-montserrat text-white transition-all duration-300 hover:brightness-110 hover:shadow-[0_0_20px_rgba(58,224,179,0.45)] hover:-translate-y-0.5 active:scale-95">
+                            <button
+                                onClick={handleStart}
+                                className="rounded-full bg-primary px-8 xl:px-9 py-3 xl:py-3.5 text-sm font-montserrat text-white transition-all duration-300 hover:brightness-110 hover:shadow-[0_0_20px_rgba(58,224,179,0.45)] hover:-translate-y-0.5 active:scale-95"
+                            >
                                 {t("hero.cta_start")}
                             </button>
-                            <button className="rounded-full border border-primary px-8 xl:px-9 py-3 xl:py-3.5 text-sm font-montserrat font-light text-primary transition-all duration-300 hover:bg-primary hover:text-black hover:shadow-[0_0_20px_rgba(58,224,179,0.35)] hover:-translate-y-0.5 active:scale-95">
+                            <button
+                                onClick={handleServices}
+                                className="rounded-full border border-primary px-8 xl:px-9 py-3 xl:py-3.5 text-sm font-montserrat font-light text-primary transition-all duration-300 hover:bg-primary hover:text-black hover:shadow-[0_0_20px_rgba(58,224,179,0.35)] hover:-translate-y-0.5 active:scale-95"
+                            >
                                 {t("hero.cta_services")}
                             </button>
                         </div>

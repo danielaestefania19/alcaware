@@ -1,11 +1,8 @@
-import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import HeroWebMobileBackground from "../../../../components/ui/backgrounds/HeroWebMobileBackground";
 
 export default function Hero() {
   const { t } = useTranslation();
-  const navigate = useNavigate();
-
   return (
     <section className="relative h-screen overflow-hidden text-white flex flex-col">
       <HeroWebMobileBackground />
@@ -23,14 +20,13 @@ export default function Hero() {
             <div className="mt-8 xl:mt-10 flex flex-wrap gap-4 xl:gap-5">
 
               <button
-                onClick={() => navigate("/")}
+                onClick={() => document.getElementById("contacto")?.scrollIntoView({ behavior: "smooth" })}
                 className="rounded-full bg-primary px-8 xl:px-9 py-3 xl:py-3.5 text-sm font-montserrat text-white transition-all duration-300 hover:brightness-110 hover:shadow-[0_0_20px_rgba(58,224,179,0.45)] hover:-translate-y-0.5 active:scale-95">
                 {t("webmobil.cta_start")}
               </button>
               <button
-                onClick={() => document.getElementById("features")?.scrollIntoView({ behavior: "smooth" })}
+                onClick={() => document.getElementById("servicios")?.scrollIntoView({ behavior: "smooth" })}
                 className="rounded-full border border-primary px-8 xl:px-9 py-3 xl:py-3.5 text-sm font-montserrat font-light text-primary transition-all duration-300 hover:bg-primary hover:text-black hover:shadow-[0_0_20px_rgba(58,224,179,0.35)] hover:-translate-y-0.5 active:scale-95">
-
                 {t("webmobil.cta_more")}
               </button>
             </div>

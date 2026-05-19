@@ -65,7 +65,7 @@ export default function Contact() {
     `w-full rounded-lg border ${errors[key] ? "border-red-500" : "border-primary"} bg-secondary/30 px-3 py-2.5 lg:py-3 font-montserrat text-xs lg:text-sm xl:text-base text-white/60 placeholder-white/30 outline-none focus:border-primary/60 transition-colors`;
 
   return (
-    <section className="relative bg-black py-10 md:py-12 lg:py-16 xl:py-20 2xl:py-24 px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-72 text-white">
+    <section id="contacto" className="relative bg-black py-10 md:py-12 lg:py-16 xl:py-20 2xl:py-24 px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-72 text-white">
       <div className="flex flex-col md:flex-row items-start md:items-center gap-6 lg:gap-10 xl:gap-12">
         <div className="w-full md:w-2/5 min-w-0 flex flex-col gap-2 lg:gap-3 text-left md:text-right">
           <h2

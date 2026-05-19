@@ -1,4 +1,4 @@
-import bgCard from "../../../assets/images/BgCard.png";
+import bgCard from "../../../assets/images/home/BgCard.webp";
 import { useTranslation } from "react-i18next";
 
 type Card = {

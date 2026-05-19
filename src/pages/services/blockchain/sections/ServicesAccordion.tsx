@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
-import tokenizacion from "../../../../assets/images/blockchain/automatizacion.jpg";
-import smart from "../../../../assets/images/blockchain/smart.jpg"
-import soluciones from "../../../../assets/images/blockchain/soluciones.jpg"
-import automatizacion from "../../../../assets/images/blockchain/automatizacion.jpg"
+import tokenizacion from "../../../../assets/images/blockchain/automatizacion.webp";
+import smart from "../../../../assets/images/blockchain/smart.webp"
+import soluciones from "../../../../assets/images/blockchain/soluciones.webp"
+import automatizacion from "../../../../assets/images/blockchain/automatizacion.webp"
 
 interface AccordionItem {
   title: string;
@@ -34,7 +34,7 @@ export default function ServicesAccordion() {
   };
 
   return (
-    <section className="bg-black text-white w-full">
+    <section id="servicios" className="bg-black text-white w-full">
       {items.map((item, index) => {
         const isOpen = openIndex === index;
         const image = ITEM_IMAGES[index + 1];

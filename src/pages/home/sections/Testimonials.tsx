@@ -1,5 +1,5 @@
 import TestimonialsBackground from "../../../components/ui/backgrounds/TestimonialsBackground";
-import testimonioImg from "../../../assets/images/Testimonios.jpg";
+import testimonioImg from "../../../assets/images/Testimonios.webp";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 

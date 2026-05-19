@@ -1,6 +1,6 @@
-import customers1 from "../../../assets/images/customers1.png";
-import customers2 from "../../../assets/images/customers2.png";
-import customers3 from "../../../assets/images/customers3.png";
+import customers1 from "../../../assets/images/home/customers1.webp";
+import customers2 from "../../../assets/images/home/customers2.webp";
+import customers3 from "../../../assets/images/home/customers3.webp";
 import SuccessStoriesBackground from "../../../components/ui/backgrounds/SuccessStoriesBackground";
 import { useTranslation } from "react-i18next";
 

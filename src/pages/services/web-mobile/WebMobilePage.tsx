@@ -6,6 +6,7 @@ import ComoTrabajamos from "./sections/ComoTrabajamos";
 import Casos from "./sections/Casos";
 import Technologies from "./sections/Technologies";
 import FAQ from "./sections/FAQ";
+import Contact from "../../home/sections/Contact";
 import Footer from "../../../components/layout/Footer";
 
 export default function WebMobilePage() {
@@ -19,6 +20,7 @@ export default function WebMobilePage() {
       <Casos />
       <Technologies />
       <FAQ />
+      <Contact />
       <Footer />
     </>
   );

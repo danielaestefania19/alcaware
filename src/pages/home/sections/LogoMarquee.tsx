@@ -1,8 +1,8 @@
-import cemex from "../../../assets/images/logomarquee/cemex.png";
-import oxxo from "../../../assets/images/logomarquee/oxxo.png";
-import carrier from "../../../assets/images/logomarquee/carrier.png";
-import pemex from "../../../assets/images/logomarquee/pemex.png";
-import bimbo from "../../../assets/images/logomarquee/bimbo.png";
+import cemex from "../../../assets/images/home/logomarquee/cemex.png";
+import oxxo from "../../../assets/images/home/logomarquee/oxxo.png";
+import carrier from "../../../assets/images/home/logomarquee/carrier.png";
+import pemex from "../../../assets/images/home/logomarquee/pemex.png";
+import bimbo from "../../../assets/images/home/logomarquee/bimbo.png";
 
 const LOGOS = [
   { label: "CEMEX",   src: cemex },

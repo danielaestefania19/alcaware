@@ -1,5 +1,4 @@
 import BlockchainTechnologiesBackground from "../../../../components/ui/backgrounds/BlockchainTechnologiesBackground";
-
 import chainlink from "../../../../assets/images/blockchain/technologies/chainlink.png";
 import ethereum from "../../../../assets/images/blockchain/technologies/ethereum.png";
 import etherjs from "../../../../assets/images/blockchain/technologies/etherjs.png";
@@ -38,13 +37,13 @@ const row3 = [
 
 function TechRow({ items }: { items: { src: string; alt: string }[] }) {
   return (
-    <div className="flex justify-center gap-4 md:gap-8 lg:gap-12 w-full">
+    <div className="flex justify-center gap-6 md:gap-10 lg:gap-16 w-full">
       {items.map(({ src, alt }) => (
-        <div key={alt} className="flex-1 flex items-center justify-center min-w-0">
+        <div key={alt} className="flex items-center justify-center">
           <img
             src={src}
             alt={alt}
-            className="w-full max-w-30 md:max-w-40 lg:max-w-50 xl:max-w-60 h-auto object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
+            className="h-20 md:h-24 lg:h-32 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
           />
         </div>
       ))}
@@ -54,19 +53,18 @@ function TechRow({ items }: { items: { src: string; alt: string }[] }) {
 
 export default function Technologies() {
   return (
-    <section className="relative w-full overflow-hidden">
+    <section className="relative w-full overflow-hidden py-24">
       <BlockchainTechnologiesBackground />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 flex flex-col items-center gap-14">
-        <h2
-          className="font-melete text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl tracking-widest text-center text-white"
-          style={{
-            textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3",
-          }}
-        >
+          <div className="relative z-10 max-w-7xl mx-auto px-6 flex flex-col items-center gap-14">
+          <h2
+            className="font-melete text-center text-2xl md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl tracking-widest mb-4 text-white"
+            style={{
+              textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3",
+            }}
+          >
           Tecnologías y Aplicaciones
         </h2>
-
         <div className="flex flex-col gap-10 md:gap-14 w-full">
           <TechRow items={row1} />
           <TechRow items={row2} />

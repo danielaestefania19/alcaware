@@ -1,11 +1,13 @@
-import frame19 from "../../../assets/images/Frame 19.png";
-import frame20 from "../../../assets/images/Frame 20.png";
-import frame21 from "../../../assets/images/Frame 21.png";
-import bgWaves from "../../../assets/images/FONDO 2.jpg";
+import webmovil from "../../../assets/images/home/webmovil.webp";
+import blockchain from "../../../assets/images/home/blockchain.webp";
+import ai from "../../../assets/images/home/ai.webp";
+import BgServices from "../../../assets/images/home/BgServices.webp";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
-const images = [frame19, frame20, frame21];
+const images = [webmovil, blockchain, ai];
 const reverseFlags = [false, true, false];
+const routes = ["/web-mobil", "/blockchain", "/inteligencia-artificial"];
 
 type ServiceItem = {
     title: string;
@@ -15,12 +17,14 @@ type ServiceItem = {
 
 export default function Services() {
     const { t } = useTranslation();
+    const navigate = useNavigate();
     const services = t("services.items", { returnObjects: true }) as ServiceItem[];
 
     return (
         <section
+            id="servicios"
             className="relative py-16 lg:py-20 xl:py-24 2xl:py-32 text-white overflow-hidden"
-            style={{ backgroundImage: `url(${bgWaves})`, backgroundSize: "cover", backgroundPosition: "center" }}
+            style={{ backgroundImage: `url(${BgServices})`, backgroundSize: "cover", backgroundPosition: "center" }}
         >
             <div className="w-full px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-72 flex flex-col gap-10 lg:gap-14 xl:gap-20">
                 {services.map((service, index) => (
@@ -47,7 +51,10 @@ export default function Services() {
                                     <li key={item}>• {item}</li>
                                 ))}
                             </ul>
-                            <button className="mt-6 lg:mt-8 xl:mt-10 font-montserrat text-xs md:text-xs lg:text-sm xl:text-base 2xl:text-lg tracking-[0.15em] text-primary underline underline-offset-4 transition-all duration-300 hover:text-primary/70 hover:underline-offset-8 active:scale-95">
+                            <button
+                                onClick={() => { navigate(routes[index]); window.scrollTo(0, 0); }}
+                                className="mt-6 lg:mt-8 xl:mt-10 font-montserrat text-xs md:text-xs lg:text-sm xl:text-base 2xl:text-lg tracking-[0.15em] text-primary underline underline-offset-4 transition-all duration-300 hover:text-primary/70 hover:underline-offset-8 active:scale-95"
+                            >
                                 {t("services.see_more")}
                             </button>
                         </div>

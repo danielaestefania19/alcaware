@@ -6,17 +6,21 @@ import Casos from "./sections/Casos";
 import Technologies from "./sections/Technologies";
 import FAQ from "./sections/FAQ";
 import Footer from "../../../components/layout/Footer";
+import ComoTrabajamos from "./sections/ComoTrabajamos";
+import Contact from "./sections/Contact";
 
 export default function AIPage() {
   return (
     <>
       <Hero />
       <ServicesAccordion />
-      <Entregables />
       <Diferenciadores />
+      <Entregables />
+      <ComoTrabajamos />
       <Casos />
       <Technologies />
       <FAQ />
+      <Contact/>
       <Footer/>
     </>
   );

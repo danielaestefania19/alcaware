@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
-import productoIcon from "../../../../assets/images/ia/product.png";
-import calidadIcon from "../../../../assets/images/ia/quality.png";
-import entregaIcon from "../../../../assets/images/ia/service.png";
+import productoIcon from "../../../../assets/images/ia/product.webp";
+import calidadIcon from "../../../../assets/images/ia/quality.webp";
+import entregaIcon from "../../../../assets/images/ia/service.webp";
 
 interface CardProps {
   titleKey: string;

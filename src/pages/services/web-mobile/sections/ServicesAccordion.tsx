@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
-import plataforma from "../../../../assets/images/plataforma.jpg";
-import apis from "../../../../assets/images/apis.jpg";
-import webapp from "../../../../assets/images/webapp.jpg";
-import movil from "../../../../assets/images/movil.jpg";
+import plataforma from "../../../../assets/images/plataforma.webp";
+import apis from "../../../../assets/images/apis.webp";
+import webapp from "../../../../assets/images/webapp.webp";
+import movil from "../../../../assets/images/movil.webp";
 
 interface AccordionItem {
   title: string;
@@ -34,7 +34,7 @@ export default function ServicesAccordion() {
   };
 
   return (
-    <section className="bg-black text-white w-full">
+    <section id="servicios" className="bg-black text-white w-full">
       {items.map((item, index) => {
         const isOpen = openIndex === index;
         const image = ITEM_IMAGES[index + 1];

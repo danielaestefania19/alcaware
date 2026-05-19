@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
-import productoIcon from "../../../../assets/images/blockchain/product.png";
-import calidadIcon from "../../../../assets/images/blockchain/quality.png";
-import entregaIcon from "../../../../assets/images/blockchain/service.png";
+import productoIcon from "../../../../assets/images/blockchain/product.webp";
+import calidadIcon from "../../../../assets/images/blockchain/quality.webp";
+import entregaIcon from "../../../../assets/images/blockchain/service.webp";
 
 const CARD_GRADIENT_LEFT =
   "linear-gradient(90deg, #19a884 0%, #137866 28%, #0d4e53 50%, #000000 70%, #000000 100%)";
