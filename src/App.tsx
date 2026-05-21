@@ -4,6 +4,7 @@ import HomePage from "./pages/home/HomePage";
 import WebMobilePage from "./pages/services/web-mobile/WebMobilePage";
 import BlockchainPage from "./pages/services/blockchain/BlockchainPage";
 import AIPage from "./pages/services/ai/AIPage";
+import NosotrosPage from "./pages/nosotros/NosotrosPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/web-mobil" element={<WebMobilePage />} />
         <Route path="/blockchain" element={<BlockchainPage />} />
         <Route path="/inteligencia-artificial" element={<AIPage />} />
+        <Route path="/nosotros" element={<NosotrosPage />} />
       </Routes>
     </div>
   );

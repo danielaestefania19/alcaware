@@ -95,7 +95,12 @@ export default function Navbar() {
             )}
           </div>
           <a>{t("navbar.process")}</a>
-          <a>{t("navbar.about")}</a>
+          <a
+            className={`cursor-pointer transition-colors hover:text-primary ${location.pathname === "/nosotros" ? "text-primary" : ""}`}
+            onClick={() => goTo("nosotros")}
+          >
+            {t("navbar.about")}
+          </a>
         </nav>
         <div className="flex items-center gap-4">
           <div className="hidden md:block relative text-xs lg:text-xs xl:text-sm 2xl:text-base font-montserrat" ref={langRef}>
@@ -181,7 +186,12 @@ export default function Navbar() {
               )}
             </div>
             <a className="cursor-pointer" onClick={() => setMenuOpen(false)}>{t("navbar.process")}</a>
-            <a className="cursor-pointer" onClick={() => setMenuOpen(false)}>{t("navbar.about")}</a>
+            <a
+              className="cursor-pointer"
+              onClick={() => { goTo("nosotros"); setMenuOpen(false); }}
+            >
+              {t("navbar.about")}
+            </a>
             <div className="flex gap-4 mt-2">
               {options.map((opt) => (
                 <button
