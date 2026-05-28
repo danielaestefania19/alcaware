@@ -1,15 +1,15 @@
-import customers1 from "../../../assets/images/home/customers1.webp";
-import customers2 from "../../../assets/images/home/customers2.webp";
-import customers3 from "../../../assets/images/home/customers3.webp";
+import acmsuite from "../../../assets/images/home/acm-suite.png";
+import isalegal from "../../../assets/images/home/isalegal.png";
+import sjiglobal from "../../../assets/images/home/sjiglobal.png";
 import SuccessStoriesBackground from "../../../components/ui/backgrounds/SuccessStoriesBackground";
 import { useTranslation } from "react-i18next";
 
 type Story = { paragraphs: string[] };
 
 const storyMeta = [
-  { name: "STRIPE",       image: customers1, imageAlt: "Stripe dashboard",     reverse: false, textRight: true },
-  { name: "UNISWAP LABS", image: customers2, imageAlt: "Uniswap app",          reverse: true,  textRight: false },
-  { name: "IBM WATSON",   image: customers3, imageAlt: "IBM Watson platform",  reverse: false, textRight: true },
+  { name: "ACM SUITE",       image: acmsuite, imageAlt: "Acm Suite",     reverse: false, textRight: true },
+  { name: "ISA LEGAL", image: isalegal, imageAlt: "Isa Legal",          reverse: true,  textRight: false },
+  { name: "SJI GLOBAL",   image: sjiglobal, imageAlt: "SJI GLOBAL",  reverse: false, textRight: true },
 ];
 
 export default function SuccessStories() {

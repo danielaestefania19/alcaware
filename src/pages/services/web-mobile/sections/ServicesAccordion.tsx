@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { useNavigate } from "react-router-dom";
 import plataforma from "../../../../assets/images/plataforma.webp";
 import apis from "../../../../assets/images/apis.webp";
 import webapp from "../../../../assets/images/webapp.webp";
@@ -20,7 +19,6 @@ const ITEM_IMAGES: Record<number, string> = {
 
 export default function ServicesAccordion() {
   const { t } = useTranslation();
-  const navigate = useNavigate();
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   const items = t("webmobil.services_accordion.items", {
@@ -77,7 +75,7 @@ export default function ServicesAccordion() {
                         </p>
                       ))}
                       <button
-                        onClick={() => navigate("/")}
+                        onClick={() => document.getElementById("contacto")?.scrollIntoView({ behavior: "smooth" })}
                         className="mt-2 self-start font-montserrat text-[13px] md:text-[14px] tracking-[0.15em] text-primary underline underline-offset-4 hover:text-white transition-colors duration-200"
                       >
                         {ctaLabel}
@@ -95,7 +93,7 @@ export default function ServicesAccordion() {
                       </p>
                     ))}
                     <button
-                      onClick={() => navigate("/")}
+                      onClick={() => document.getElementById("contacto")?.scrollIntoView({ behavior: "smooth" })}
                       className="mt-4 self-start font-montserrat text-[13px] tracking-[0.15em] text-primary underline underline-offset-4 hover:text-white transition-colors duration-200"
                     >
                       {ctaLabel}

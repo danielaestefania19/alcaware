@@ -145,28 +145,28 @@
     "subtitle": "We collaborate with companies looking to develop reliable and scalable technology.",
     "items": [
       {
-        "name": "CARLOS RAMIREZ",
-        "role": "Technology Director",
-        "quote": "\"They helped us integrate new technologies into our existing system without affecting business operations.\"",
+        "name": "CARLOS RAMÍREZ",
+        "role": "Technology Director — Fintech MX",
+        "quote": "\"Alcaware completely transformed our digital infrastructure. They integrated new technologies into our existing system without interrupting a single day of operation. The level of technical rigor and communication was exceptional.\"",
+        "rating": 5
+      },
+      {
+        "name": "ANDREA MONTOYA",
+        "role": "CEO — Logistics Startup",
+        "quote": "\"We needed a functional MVP in record time and Alcaware made it happen. Their stage-by-stage methodology allowed us to launch with confidence and continue scaling the product without rewriting anything.\"",
+        "rating": 5
+      },
+      {
+        "name": "MIGUEL TORRES",
+        "role": "Founder — B2B SaaS Platform",
+        "quote": "\"What surprised us most was their focus on architecture from day one. They didn't just deliver code, they delivered a system built to grow. Today we handle 10x the initial volume without issues.\"",
         "rating": 4
       },
       {
-        "name": "RAMIREZ",
-        "role": "Technology Director",
-        "quote": "\"They helped us integrate new technologies into our existing system without affecting business operations.\"",
-        "rating": 4
-      },
-      {
-        "name": "CARLOS RAMIREZ",
-        "role": "Technology Director",
-        "quote": "\"They helped us integrate new technologies into our existing system without affecting business operations.\"",
-        "rating": 4
-      },
-      {
-        "name": "CARLOS RAMIREZ",
-        "role": "Technology Director",
-        "quote": "\"They helped us integrate new technologies into our existing system without affecting business operations.\"",
-        "rating": 4
+        "name": "VALERIA SÁNCHEZ",
+        "role": "Innovation Director — Industrial Group",
+        "quote": "\"They implemented an AI assistant that automated processes that previously consumed hours of manual work. The Alcaware team understands both business and technology — that makes all the difference.\"",
+        "rating": 5
       }
     ]
   },
@@ -779,6 +779,45 @@
     }
   },
   "nosotros": {
+    "mission": {
+      "title_line1": "BUILDING THE FUTURE",
+      "title_line2": "WITH INTELLIGENT TECHNOLOGY",
+      "paragraphs": [
+        "AT ALCAWARE, WE DEVELOP DIGITAL SOLUTIONS, ARTIFICIAL INTELLIGENCE AND BLOCKCHAIN TO CREATE MORE EFFICIENT SYSTEMS,",
+        "AUTOMATED AND READY FOR THE FUTURE. WE ARE NOT JUST DEVELOPERS.",
+        "WE ARE A TECHNOLOGY PARTNER FOCUSED ON RESULTS."
+      ]
+    },
+    "experience": {
+      "section1": {
+        "title": "EXPERIENCE IN REAL SOLUTIONS",
+        "subtitle": "WE BELIEVE THE BEST TECHNOLOGY IS THE ONE THAT MAKES THINGS SIMPLER. OUR GOAL IS TO TRANSFORM COMPLEX PROCESSES INTO CLEAR, FUNCTIONAL AND EASY-TO-USE SOLUTIONS.",
+        "list_label": "WE HAVE WORKED ON PROJECTS THAT INCLUDE:",
+        "list_items": [
+          "DEVELOPMENT OF DIGITAL PLATFORMS AND ENTERPRISE SYSTEMS",
+          "ARTIFICIAL INTELLIGENCE AND AUTOMATION INTEGRATIONS",
+          "BLOCKCHAIN IMPLEMENTATIONS AND WEB3 SOLUTIONS",
+          "SCALABLE SOFTWARE ARCHITECTURE",
+          "OPERATIONAL PROCESS OPTIMIZATION"
+        ],
+        "closing": "EACH SOLUTION IS DESIGNED TO SOLVE CONCRETE PROBLEMS AND GENERATE MEASURABLE IMPACT."
+      },
+      "section2": {
+        "title": "WE SIMPLIFY THE COMPLEX",
+        "bold_label": "TECHNOLOGY WITH PURPOSE, NOT JUST INNOVATION:",
+        "paragraphs": [
+          "WE UNDERSTAND THAT EVERY COMPANY HAS DIFFERENT NEEDS. THAT'S WHY WE DON'T OFFER GENERIC SOLUTIONS.",
+          "WE DESIGN AND IMPLEMENT TECHNOLOGY ALIGNED TO SPECIFIC BUSINESS OBJECTIVES."
+        ],
+        "focus_label": "OUR APPROACH COMBINES:",
+        "focus_items": [
+          "STRATEGIC ANALYSIS",
+          "ARCHITECTURE DESIGN",
+          "DEVELOPMENT & INTEGRATION",
+          "CONTINUOUS OPTIMIZATION"
+        ]
+      }
+    },
     "about": {
       "cards": [
         {
@@ -812,7 +851,6 @@
     "nav_links": [
       "Home",
       "Services",
-      "Process",
       "About"
     ],
     "visit_title": "Visit us",

@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/layout/Navbar";
+import ScrollToTop from "./components/layout/ScrollToTop";
 import HomePage from "./pages/home/HomePage";
 import WebMobilePage from "./pages/services/web-mobile/WebMobilePage";
 import BlockchainPage from "./pages/services/blockchain/BlockchainPage";
@@ -9,6 +10,7 @@ import NosotrosPage from "./pages/nosotros/NosotrosPage";
 function App() {
   return (
     <div className="bg-black">
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />

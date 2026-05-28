@@ -16,20 +16,24 @@ const ITEMS = [...LOGOS, ...LOGOS];
 
 export default function LogoMarquee() {
   return (
-    <div className="relative overflow-hidden py-6">
-      <div className="pointer-events-none absolute left-0 top-0 h-full w-24 z-10 bg-linear-to-r from-black to-transparent" />
-      <div className="pointer-events-none absolute right-0 top-0 h-full w-24 z-10 bg-linear-to-l from-black to-transparent" />
+    <div className="relative overflow-hidden py-4 md:py-6">
+      <div className="pointer-events-none absolute left-0 top-0 h-full w-10 md:w-24 z-10 bg-linear-to-r from-black to-transparent" />
+      <div className="pointer-events-none absolute right-0 top-0 h-full w-10 md:w-24 z-10 bg-linear-to-l from-black to-transparent" />
 
       <div
         className="flex items-center w-max"
         style={{ animation: "marquee 30s linear infinite" }}
       >
         {ITEMS.map((logo, i) => (
-          <div key={i} className="flex items-center justify-center shrink-0" style={{ width: "20vw" }}>
+          <div
+            key={i}
+            className="flex items-center justify-center shrink-0"
+            style={{ width: "20vw" }}
+          >
             <img
               src={logo.src}
               alt={logo.label}
-              className="h-28 w-auto max-w-52 object-contain opacity-70"
+              className="h-14 md:h-28 w-auto max-w-[18vw] md:max-w-52 object-contain opacity-70"
             />
           </div>
         ))}

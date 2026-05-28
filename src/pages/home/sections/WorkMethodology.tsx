@@ -16,9 +16,8 @@ export default function WorkMethodology() {
 
   return (
     <section
-      className="relative text-white pb-40 md:pb-24 lg:pb-32 xl:pb-40 px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-72 pt-125 md:pt-175"
+      className="relative text-white pb-40 md:pb-24 lg:pb-32 xl:pb-40 px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-72 pt-80 sm:pt-100 md:pt-175 -mt-55 sm:-mt-80 md:-mt-137.5"
       style={{
-        marginTop: "-550px",
         backgroundImage: `url(${bgMethodology})`,
         backgroundSize: "cover",
         backgroundPosition: "center top",
@@ -28,7 +27,7 @@ export default function WorkMethodology() {
       <div className="relative z-10 h-full flex flex-col">
         <div className="flex justify-end mb-10 md:mb-16 lg:mb-20 xl:mb-24">
           <h2
-            className="font-melete text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl tracking-widest text-white text-right leading-tight"
+            className="w-full font-melete text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl tracking-wide sm:tracking-wider md:tracking-widest text-white text-right leading-tight"
             style={{
               textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3",
             }}

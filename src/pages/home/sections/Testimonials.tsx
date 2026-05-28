@@ -1,9 +1,14 @@
 import TestimonialsBackground from "../../../components/ui/backgrounds/TestimonialsBackground";
-import testimonioImg from "../../../assets/images/Testimonios.webp";
+import testimonio1 from "../../../assets/images/home/testimonies/Testimonio1.jpg";
+import testimonio2 from "../../../assets/images/home/testimonies/Testimonio2.png";
+import testimonio3 from "../../../assets/images/home/testimonies/Testimonio3.png";
+import testimonio4 from "../../../assets/images/home/testimonies/Testimonio4.png";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 type TestimonialItem = { name: string; role: string; quote: string; rating: number };
+
+const testimonialsImages = [testimonio1, testimonio2, testimonio3, testimonio4];
 
 function StarRating({ rating }: { rating: number }) {
     return (
@@ -30,6 +35,7 @@ export default function Testimonials() {
     const { t } = useTranslation();
     const testimonials = t("testimonials.items", { returnObjects: true }) as TestimonialItem[];
     const testimonial = testimonials[active];
+    const currentImage = testimonialsImages[active] ?? testimonialsImages[0];
 
     return (
         <section className="relative overflow-hidden text-white py-14 lg:py-18 xl:py-22 2xl:py-28 min-h-150">
@@ -50,9 +56,9 @@ export default function Testimonials() {
                 <div className="mt-8 lg:mt-10 xl:mt-14 flex flex-col md:flex-row items-center gap-6 md:gap-8 lg:gap-10 xl:gap-14">
                     <div className="shrink-0 w-36 h-44 md:w-44 md:h-52 lg:w-56 lg:h-64 xl:w-68 xl:h-76 rounded-2xl overflow-hidden border-2 border-primary shadow-[0_0_24px_rgba(58,224,179,0.35)]">
                         <img
-                            src={testimonioImg}
+                            src={currentImage}
                             alt={testimonial.name}
-                            className="w-full h-full object-cover object-center"
+                            className="w-full h-full object-cover object-center transition-opacity duration-300"
                         />
                     </div>
                     <div className="flex-1 text-center md:text-left">

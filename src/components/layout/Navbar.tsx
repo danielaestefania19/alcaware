@@ -94,7 +94,6 @@ export default function Navbar() {
               </div>
             )}
           </div>
-          <a>{t("navbar.process")}</a>
           <a
             className={`cursor-pointer transition-colors hover:text-primary ${location.pathname === "/nosotros" ? "text-primary" : ""}`}
             onClick={() => goTo("nosotros")}
@@ -155,7 +154,7 @@ export default function Navbar() {
           </div>
           <nav className="flex flex-col items-center justify-center flex-1 gap-10 font-montserrat text-2xl text-white">
             <a
-              className="text-primary cursor-pointer"
+              className={`cursor-pointer transition-colors ${isHome ? "text-primary" : ""}`}
               onClick={() => { goTo("home"); setMenuOpen(false); }}
             >
               {t("navbar.home")}
@@ -185,9 +184,8 @@ export default function Navbar() {
                 </div>
               )}
             </div>
-            <a className="cursor-pointer" onClick={() => setMenuOpen(false)}>{t("navbar.process")}</a>
             <a
-              className="cursor-pointer"
+              className={`cursor-pointer transition-colors ${location.pathname === "/nosotros" ? "text-primary" : ""}`}
               onClick={() => { goTo("nosotros"); setMenuOpen(false); }}
             >
               {t("navbar.about")}

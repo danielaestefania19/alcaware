@@ -145,28 +145,28 @@
     "subtitle": "Colaboramos con empresas que buscan desarrollar tecnología confiable y escalable.",
     "items": [
       {
-        "name": "CARLOS RAMIREZ",
-        "role": "Director de Tecnología",
-        "quote": "\"Nos ayudaron a integrar nuevas tecnologías en nuestro sistema existente sin afectar la operación del negocio.\"",
+        "name": "CARLOS RAMÍREZ",
+        "role": "Director de Tecnología — Fintech MX",
+        "quote": "\"Alcaware transformó por completo nuestra infraestructura digital. Integraron nuevas tecnologías en nuestro sistema existente sin interrumpir ni un solo día de operación. El nivel de rigor técnico y comunicación fue excepcional.\"",
+        "rating": 5
+      },
+      {
+        "name": "ANDREA MONTOYA",
+        "role": "CEO — Startup de Logística",
+        "quote": "\"Necesitábamos un MVP funcional en tiempo récord y Alcaware lo hizo realidad. Su metodología por etapas nos permitió lanzar con confianza y seguir escalando el producto sin reescribir nada.\"",
+        "rating": 5
+      },
+      {
+        "name": "MIGUEL TORRES",
+        "role": "Fundador — Plataforma SaaS B2B",
+        "quote": "\"Lo que más nos sorprendió fue su enfoque en arquitectura desde el primer día. No solo nos entregaron código, nos entregaron un sistema pensado para crecer. Hoy manejamos 10x el volumen inicial sin problemas.\"",
         "rating": 4
       },
       {
-        "name": "RAMIREZ",
-        "role": "Director de Tecnología",
-        "quote": "\"Nos ayudaron a integrar nuevas tecnologías en nuestro sistema existente sin afectar la operación del negocio.\"",
-        "rating": 4
-      },
-      {
-        "name": "CARLOS RAMIREZ",
-        "role": "Director de Tecnología",
-        "quote": "\"Nos ayudaron a integrar nuevas tecnologías en nuestro sistema existente sin afectar la operación del negocio.\"",
-        "rating": 4
-      },
-      {
-        "name": "CARLOS RAMIREZ",
-        "role": "Director de Tecnología",
-        "quote": "\"Nos ayudaron a integrar nuevas tecnologías en nuestro sistema existente sin afectar la operación del negocio.\"",
-        "rating": 4
+        "name": "VALERIA SÁNCHEZ",
+        "role": "Directora de Innovación — Grupo Industrial",
+        "quote": "\"Implementaron un asistente de IA que automatizó procesos que antes consumían horas de trabajo manual. El equipo de Alcaware entiende tanto el negocio como la tecnología, eso marca la diferencia.\"",
+        "rating": 5
       }
     ]
   },
@@ -779,6 +779,45 @@
     }
   },
   "nosotros": {
+    "mission": {
+      "title_line1": "CONSTRUYENDO EL FUTURO",
+      "title_line2": "CON TECNOLOGÍA INTELIGENTE",
+      "paragraphs": [
+        "EN ALCAWARE, DESARROLLAMOS SOLUCIONES DIGITALES, INTELIGENCIA ARTIFICIAL Y BLOCKCHAIN PARA CREAR SISTEMAS MÁS EFICIENTES,",
+        "AUTOMATIZADOS Y PREPARADOS PARA EL FUTURO. NO SOMOS SOLO DESARROLLADORES.",
+        "SOMOS UN PARTNER TECNOLÓGICO ENFOCADO EN RESULTADOS."
+      ]
+    },
+    "experience": {
+      "section1": {
+        "title": "EXPERIENCIA EN SOLUCIONES REALES",
+        "subtitle": "CREEMOS QUE LA MEJOR TECNOLOGÍA ES LA QUE HACE LAS COSAS MÁS SIMPLES. NUESTRO OBJETIVO ES TRANSFORMAR PROCESOS COMPLEJOS EN SOLUCIONES CLARAS, FUNCIONALES Y FÁCILES DE USAR.",
+        "list_label": "HEMOS TRABAJADO EN PROYECTOS QUE INCLUYEN:",
+        "list_items": [
+          "DESARROLLO DE PLATAFORMAS DIGITALES Y SISTEMAS EMPRESARIALES",
+          "INTEGRACIONES DE INTELIGENCIA ARTIFICIAL Y AUTOMATIZACIÓN",
+          "IMPLEMENTACIONES BLOCKCHAIN Y SOLUCIONES WEB3",
+          "ARQUITECTURA DE SOFTWARE ESCALABLE",
+          "OPTIMIZACIÓN DE PROCESOS OPERATIVOS"
+        ],
+        "closing": "CADA SOLUCIÓN ESTÁ DISEÑADA PARA RESOLVER PROBLEMAS CONCRETOS Y GENERAR IMPACTO MEDIBLE."
+      },
+      "section2": {
+        "title": "SIMPLIFICAMOS LO COMPLEJO",
+        "bold_label": "TECNOLOGÍA CON PROPÓSITO, NO SOLO INNOVACIÓN:",
+        "paragraphs": [
+          "ENTENDEMOS QUE CADA EMPRESA TIENE NECESIDADES DISTINTAS. POR ESO, NO OFRECEMOS SOLUCIONES GENÉRICAS.",
+          "DISEÑAMOS E IMPLEMENTAMOS TECNOLOGÍA ALINEADA A OBJETIVOS ESPECÍFICOS DE NEGOCIO."
+        ],
+        "focus_label": "NUESTRO ENFOQUE COMBINA:",
+        "focus_items": [
+          "ANÁLISIS ESTRATÉGICO",
+          "DISEÑO DE ARQUITECTURA",
+          "DESARROLLO E INTEGRACIÓN",
+          "OPTIMIZACIÓN CONTINUA"
+        ]
+      }
+    },
     "about": {
       "cards": [
         {
@@ -812,7 +851,6 @@
     "nav_links": [
       "Inicio",
       "Servicios",
-      "Proceso",
       "Nosotros"
     ],
     "visit_title": "Visítanos",
