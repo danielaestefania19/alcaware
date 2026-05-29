@@ -106,12 +106,12 @@ function TextContent({ titleKey, subtitleKey, items }: TextContentProps) {
       <p
         className="
           font-melete uppercase text-white
-          text-[28px]
+          text-[16px]
           sm:text-[36px]
           md:text-[38px]
           lg:text-[44px]
           xl:text-[52px]
-          tracking-[0.18em]
+          tracking-[0.06em]
           sm:tracking-[0.22em]
           leading-none
         "
@@ -177,11 +177,11 @@ export default function Entregables() {
         <h2
           className="
             font-melete uppercase text-white
-            text-[30px]
+            text-[18px]
             sm:text-[46px]
             md:text-[56px]
             lg:text-[64px]
-            tracking-[0.24em]
+            tracking-[0.08em]
             sm:tracking-[0.3em]
             leading-none
           "

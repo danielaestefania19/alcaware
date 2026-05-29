@@ -1,15 +1,16 @@
-import cemex from "../../../assets/images/home/logomarquee/cemex.png";
-import oxxo from "../../../assets/images/home/logomarquee/oxxo.png";
-import carrier from "../../../assets/images/home/logomarquee/carrier.png";
-import pemex from "../../../assets/images/home/logomarquee/pemex.png";
-import bimbo from "../../../assets/images/home/logomarquee/bimbo.png";
+import acm from "../../../assets/images/home/logomarquee/acm.svg"
+import isa from "../../../assets/images/home/logomarquee/isa.svg"
+import sji from "../../../assets/images/home/logomarquee/sji.svg"
+import ecom from "../../../assets/images/home/logomarquee/ecom.svg"
+import iq from "../../../assets/images/home/logomarquee/iq.svg"
+
 
 const LOGOS = [
-  { label: "CEMEX",   src: cemex },
-  { label: "OXXO",    src: oxxo },
-  { label: "Carrier", src: carrier },
-  { label: "PEMEX",   src: pemex },
-  { label: "BIMBO",   src: bimbo },
+  { label: "ACM Suite", src: acm },
+  { label: "ISA Ambiental", src: isa },
+  { label: "SJI Global", src: sji },
+  { label: "Ecom Logistics", src: ecom },
+  { label: "IQ English", src: iq },
 ];
 
 const ITEMS = [...LOGOS, ...LOGOS];

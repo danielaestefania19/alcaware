@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-import { useNavigate } from "react-router-dom";
 import DiferenciadoresBackground from "../../../../components/ui/backgrounds/DiferenciadoresBackground";
 
 interface DifItem {
@@ -22,8 +21,6 @@ function Card({ title, description }: DifItem) {
 
 export default function Diferenciadores() {
   const { t } = useTranslation();
-  const navigate = useNavigate();
-
   const items = t("webmobil.diferenciadores.items", {
     returnObjects: true,
   }) as DifItem[];
@@ -42,14 +39,14 @@ export default function Diferenciadores() {
         {/* Header */}
         <div className="text-center mb-10 md:mb-16">
           <h2
-            className="font-melete text-[24px] md:text-[32px] lg:text-[42px] tracking-[0.15em] md:tracking-[0.22em] lg:tracking-[0.3em] mb-4"
+            className="font-melete text-[14px] md:text-[32px] lg:text-[42px] tracking-[0.05em] md:tracking-[0.22em] lg:tracking-[0.3em] mb-4"
             style={{
               textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3",
             }}
           >
             {t("webmobil.diferenciadores.title")}
           </h2>
-          <p className="font-montserrat text-[11px] md:text-[12px] tracking-[0.15em] text-white/50">
+          <p className="font-montserrat text-[11px] md:text-[12px] tracking-[0.05em] md:tracking-[0.15em] text-white/50">
             {t("webmobil.diferenciadores.subtitle")}
           </p>
         </div>
@@ -74,7 +71,7 @@ export default function Diferenciadores() {
         {/* CTA */}
         <div className="mt-10 md:mt-12 flex justify-center md:justify-start">
           <button
-            onClick={() => navigate("/")}
+            onClick={() => document.getElementById("contacto")?.scrollIntoView({ behavior: "smooth" })}
             className="rounded-full border border-primary/60 px-7 py-3 font-montserrat text-[12px] tracking-[0.15em] text-primary transition-all duration-300 hover:bg-primary hover:text-black hover:border-primary hover:shadow-[0_0_20px_rgba(58,224,179,0.35)]"
           >
             {t("webmobil.diferenciadores.cta")}

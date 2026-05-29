@@ -217,7 +217,7 @@ function SectionIntro({
         className={
           desktop
             ? "mb-6 wrap-break-word font-melete text-[28px] tracking-[0.14em] text-white 2xl:text-[32px]"
-            : "mb-5 wrap-break-word font-melete text-[24px] tracking-[0.12em] text-white md:text-[28px]"
+            : "mb-5 wrap-break-word font-melete text-[16px] tracking-[0.06em] text-white md:text-[24px] md:tracking-[0.12em]"
         }
       >
         {title}

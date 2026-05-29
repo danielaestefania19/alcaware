@@ -1,4 +1,4 @@
-import acmsuite from "../../../assets/images/home/acm-suite.png";
+import acmsuite from "../../../assets/images/home/acmsuite.png";
 import isalegal from "../../../assets/images/home/isalegal.png";
 import sjiglobal from "../../../assets/images/home/sjiglobal.png";
 import SuccessStoriesBackground from "../../../components/ui/backgrounds/SuccessStoriesBackground";
@@ -23,7 +23,7 @@ export default function SuccessStories() {
 
       <div className="relative z-10 max-w-10/12 mx-auto px-6">
         <div className="text-center mb-12 lg:mb-14 xl:mb-16">
-          <h2 className="font-melete text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl tracking-widest mb-4 lg:mb-6"
+          <h2 className="font-melete text-xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl tracking-wider md:tracking-widest mb-4 lg:mb-6"
             style={{ textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3" }}>
             {t("success.title")}
           </h2>

@@ -14,7 +14,7 @@ export default function FAQ() {
   return (
     <section className="relative bg-black py-16 lg:py-20 xl:py-24 2xl:py-32 px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-72 text-white">
         <h2
-          className="font-melete text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl tracking-widest text-center mb-10 lg:mb-12 xl:mb-16"
+          className="font-melete text-[15px] md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl tracking-[0.06em] md:tracking-widest text-center mb-10 lg:mb-12 xl:mb-16"
           style={{ textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3" }}
         >
           {t("webmobil.faq.title")}

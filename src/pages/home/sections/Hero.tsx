@@ -16,7 +16,7 @@ export default function Hero() {
         <section className="relative h-screen overflow-hidden text-white flex flex-col">
             <HeroBackground />
             <div className="absolute inset-0 bg-black/20" />
-            <div className="relative z-10 flex-1 flex items-start pt-[25vh] md:pt-[30vh]">
+            <div className="relative z-10 flex-1 flex items-start pt-[30vh] md:pt-[35vh]">
                 <div className="w-full px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-72">
                     <div>
                         <h1 className="font-melete text-[16px] md:text-[22px] lg:text-[24px] xl:text-[30px] 2xl:text-[36px] leading-[1.6] tracking-[0.2em] md:tracking-[0.28em] text-left">

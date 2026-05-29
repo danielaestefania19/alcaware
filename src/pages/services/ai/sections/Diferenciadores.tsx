@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-import { useNavigate } from "react-router-dom";
 import DiferenciadoresAIBackground from "../../../../components/ui/backgrounds/DiferenciadoresAIBackground";
 
 interface DifItem {
@@ -22,8 +21,6 @@ function Card({ title, description }: DifItem) {
 
 export default function Diferenciadores() {
   const { t } = useTranslation();
-  const navigate = useNavigate();
-
   const items = t("ai.diferenciadores.items", {
     returnObjects: true,
   }) as DifItem[];
@@ -69,7 +66,7 @@ export default function Diferenciadores() {
 
         <div className="mt-10 md:mt-12 flex justify-center md:justify-start">
           <button
-            onClick={() => navigate("/")}
+            onClick={() => document.getElementById("contacto")?.scrollIntoView({ behavior: "smooth" })}
             className="rounded-full border border-primary/60 px-7 py-3 font-montserrat text-[12px] tracking-[0.15em] text-primary transition-all duration-300 hover:bg-primary hover:text-black hover:border-primary hover:shadow-[0_0_20px_rgba(58,224,179,0.35)]"
           >
             {t("ai.diferenciadores.cta")}
