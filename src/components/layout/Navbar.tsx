@@ -1,4 +1,4 @@
-import Logo from "../../assets/images/Logo.png";
+import Logo from "../../assets/images/logos/Logo.png";
 import { useState, useRef, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { ChevronDown } from "lucide-react";

@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import BlockchainTechnologiesBackground from "../../../../components/ui/backgrounds/BlockchainTechnologiesBackground";
 import chainlink from "../../../../assets/images/blockchain/technologies/chainlink.png";
 import ethereum from "../../../../assets/images/blockchain/technologies/ethereum.png";
@@ -38,21 +39,21 @@ const row3 = [
 const allTech = [...row1, ...row2, ...row3];
 
 export default function Technologies() {
+  const { t } = useTranslation();
   return (
-    <section className="relative w-full overflow-hidden py-16 md:py-24">
+    <section className="relative w-full overflow-hidden py-16 md:py-24 text-white">
       <BlockchainTechnologiesBackground />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 flex flex-col items-center gap-10 md:gap-14">
+      <div className="relative z-10">
         <h2
-          className="font-melete text-center text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl tracking-wider md:tracking-widest text-white"
+          className="font-melete text-xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl tracking-wider md:tracking-widest mb-10 md:mb-14 text-center px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-40"
           style={{
             textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3",
           }}
         >
-          Tecnologías y Aplicaciones
+          {t("blockchain.technologies.title")}
         </h2>
-
-        {/* Mobile: grid */}
+      <div className="max-w-7xl mx-auto px-6 flex flex-col items-center gap-10 md:gap-14">
         <div className="grid grid-cols-3 gap-x-6 gap-y-8 w-full md:hidden">
           {allTech.map(({ src, alt }) => (
             <div key={alt} className="flex items-center justify-center">
@@ -60,8 +61,6 @@ export default function Technologies() {
             </div>
           ))}
         </div>
-
-        {/* Desktop: rows */}
         <div className="hidden md:flex flex-col gap-14 w-full">
           {[row1, row2, row3].map((row, i) => (
             <div key={i} className="flex justify-center gap-10 lg:gap-16 w-full">
@@ -73,6 +72,7 @@ export default function Technologies() {
             </div>
           ))}
         </div>
+      </div>
       </div>
     </section>
   );

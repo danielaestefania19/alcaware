@@ -13,7 +13,6 @@ export default function WorkMethodology() {
   const steps = (t("methodology.steps", { returnObjects: true }) as Step[]).map(
     (step, i) => ({ ...step, number: String(i + 1), side: stepSides[i] })
   );
-
   return (
     <section
       className="relative text-white pb-40 md:pb-24 lg:pb-32 xl:pb-40 px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-72 pt-80 sm:pt-100 md:pt-175 -mt-55 sm:-mt-80 md:-mt-137.5"
@@ -27,7 +26,7 @@ export default function WorkMethodology() {
       <div className="relative z-10 h-full flex flex-col">
         <div className="flex justify-end mb-10 md:mb-16 lg:mb-20 xl:mb-24">
           <h2
-            className="w-full font-melete text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl tracking-wide sm:tracking-wider md:tracking-widest text-white text-right leading-tight"
+            className="w-full font-melete text-xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl tracking-wider md:tracking-widest text-white text-right"
             style={{
               textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3",
             }}
@@ -37,15 +36,11 @@ export default function WorkMethodology() {
             {t("methodology.title_line3")}
           </h2>
         </div>
-
-        {/* Mobile: single column in order */}
         <div className="flex flex-col gap-16 md:hidden">
           {steps.map((step) => (
             <StepBlock key={step.number} step={step} />
           ))}
         </div>
-
-        {/* Desktop: two columns zigzag */}
         <div className="hidden md:grid grid-cols-2 gap-x-16 lg:gap-x-24 xl:gap-x-32">
           <div className="flex flex-col gap-32 lg:gap-40 xl:gap-52 pt-0">
             {steps

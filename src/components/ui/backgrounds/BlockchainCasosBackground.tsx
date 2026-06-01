@@ -65,7 +65,7 @@ export default function CasosBackground() {
       data-us-production="true"
       data-us-lazyload="true"
       className="absolute inset-0 w-full"
-      style={{ height: "100%" }}
+      style={{ height: "80%" }}
       aria-label="Fondo animado casos"
     />
   );

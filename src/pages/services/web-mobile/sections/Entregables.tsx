@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
-import productoIcon from "../../../../assets/images/Producto.png";
-import calidadIcon from "../../../../assets/images/calidadIcon.png";
-import entregaIcon from "../../../../assets/images/entregaIcon.png";
+import productoIcon from "../../../../assets/images/web-mobile/Producto.png";
+import calidadIcon from "../../../../assets/images/web-mobile/calidadIcon.png";
+import entregaIcon from "../../../../assets/images/web-mobile/entregaIcon.png";
 
 const CARD_CLASSES = `
   relative overflow-visible

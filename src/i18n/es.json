@@ -8,7 +8,7 @@
   "hero": {
     "title_line1": "SOFTWARE A MEDIDA PARA",
     "title_line2": "POTENCIAR TU NEGOCIO",
-    "subtitle": "DESARROLLAMOS PRODUCTOS WEB, MÓVILES Y SOLUCIONES BLOCKCHAIN CON ENFOQUE EN ESTRUCTURA, SEGURIDAD Y ESCALABILIDAD",
+    "subtitle": "DESARROLLAMOS PRODUCTOS WEB, MOVILES Y SOLUCIONES BLOCKCHAIN CON ENFOQUE EN ESTRUCTURA, SEGURIDAD Y ESCALABILIDAD",
     "cta_start": "COMENZAR",
     "cta_services": "VER SERVICIOS →"
   },
@@ -21,22 +21,22 @@
     ],
     "alcaware_title": "CON ALCAVARE:",
     "alcaware_items": [
-      "ESTRUCTURA TECNOLÓGICA CLARA",
+      "ESTRUCTURA TECNOLOGICA CLARA",
       "ROADMAP POR ETAPAS (MVP → ESCALA)",
       "SEGURIDAD DESDE EL INICIO"
     ]
   },
   "services": {
-    "see_more": "VER MÁS",
+    "see_more": "VER MAS",
     "items": [
       {
-        "title": "DESARROLLO WEB & MÓVIL",
+        "title": "DESARROLLO WEB & MOVIL",
         "imageAlt": "Desarrollo Web & Móvil",
         "items": [
           "WEB APPS Y PLATAFORMAS",
-          "APPS MÓVILES IOS/ANDROID",
+          "APPS MOVILES IOS/ANDROID",
           "APIS E INTEGRACIONES",
-          "UI/UX ORIENTADO A CONVERSIÓN"
+          "UI/UX ORIENTADO A CONVERSION"
         ]
       },
       {
@@ -44,9 +44,9 @@
         "imageAlt": "Soluciones Blockchain",
         "items": [
           "SMART CONTRACTS",
-          "TOKENIZACIÓN / TRAZABILIDAD",
-          "INTEGRACIÓN WEB2 ↔ WEB3",
-          "SEGURIDAD Y BUENAS PRÁCTICAS"
+          "TOKENIZACION / TRAZABILIDAD",
+          "INTEGRACION WEB2 ↔ WEB3",
+          "SEGURIDAD Y BUENAS PRACTICAS"
         ]
       },
       {
@@ -54,9 +54,9 @@
         "imageAlt": "Inteligencia Artificial",
         "items": [
           "CHATBOTS Y ASISTENTES IA",
-          "AUTOMATIZACIÓN DE PROCESOS",
-          "ANÁLISIS INTELIGENTE DE DATOS",
-          "INTEGRACIÓN DE MODELOS IA"
+          "AUTOMATIZACION DE PROCESOS",
+          "ANALISIS INTELIGENTE DE DATOS",
+          "INTEGRACION DE MODELOS IA"
         ]
       }
     ]
@@ -66,27 +66,27 @@
     "cards": [
       {
         "title": "ARQUITECTURA",
-        "description": "DISEÑAMOS LA ARQUITECTURA DEL SISTEMA ANTES DE ESCRIBIR UNA SOLA LÍNEA DE CÓDIGO. ESTO GARANTIZA PRODUCTOS ESTABLES, MANTENIBLES Y PREPARADOS PARA CRECER."
+        "description": "DISEÑAMOS LA ARQUITECTURA DEL SISTEMA ANTES DE ESCRIBIR UNA SOLA LINEA DE CODIGO. ESTO GARANTIZA PRODUCTOS ESTABLES, MANTENIBLES Y PREPARADOS PARA CRECER."
       },
       {
         "title": "CALIDAD Y DISCIPLINA",
-        "description": "TRABAJAMOS CON ESTÁNDARES ESTRICTOS DE DESARROLLO Y PROCESOS BIEN DEFINIDOS. CADA PROYECTO SE CONSTRUYE CON RIGOR TÉCNICO Y ATENCIÓN AL DETALLE."
+        "description": "TRABAJAMOS CON ESTANDARES ESTRICTOS DE DESARROLLO Y PROCESOS BIEN DEFINIDOS. CADA PROYECTO SE CONSTRUYE CON RIGOR TECNICO Y ATENCION AL DETALLE."
       },
       {
         "title": "ESCALABILIDAD REAL",
-        "description": "DISEÑAMOS LA ARQUITECTURA DEL SISTEMA ANTES DE ESCRIBIR UNA SOLA LÍNEA DE CÓDIGO. ESTO GARANTIZA PRODUCTOS ESTABLES, MANTENIBLES Y PREPARADOS PARA CRECER."
+        "description": "DISEÑAMOS LA ARQUITECTURA DEL SISTEMA ANTES DE ESCRIBIR UNA SOLA LINEA DE CODIGO. ESTO GARANTIZA PRODUCTOS ESTABLES, MANTENIBLES Y PREPARADOS PARA CRECER."
       },
       {
         "title": "SEGURIDAD ESTRUCTURAL",
-        "description": "LA SEGURIDAD SE INTEGRA DESDE EL DISEÑO DEL SISTEMA. PROTEGEMOS DATOS, PROCESOS Y OPERACIONES PARA GARANTIZAR CONFIANZA TECNOLÓGICA."
+        "description": "LA SEGURIDAD SE INTEGRA DESDE EL DISEÑO DEL SISTEMA. PROTEGEMOS DATOS, PROCESOS Y OPERACIONES PARA GARANTIZAR CONFIANZA TECNOLOGICA."
       },
       {
         "title": "MEJORA CONTINUA",
-        "description": "APLICAMOS METODOLOGÍAS DE MEJORA CONTINUA PARA OPTIMIZAR CADA FASE DEL DESARROLLO Y ENTREGAR PRODUCTOS CADA VEZ MÁS EFICIENTES."
+        "description": "APLICAMOS METODOLOGIAS DE MEJORA CONTINUA PARA OPTIMIZAR CADA FASE DEL DESARROLLO Y ENTREGAR PRODUCTOS CADA VEZ MAS EFICIENTES."
       },
       {
         "title": "TRANSPARENCIA TOTAL",
-        "description": "TRABAJAMOS CON SPRINTS CLAROS Y ENTREGABLES VISIBLES. NUESTROS CLIENTES SIEMPRE SABEN EN QUÉ ETAPA ESTÁ SU PROYECTO."
+        "description": "TRABAJAMOS CON SPRINTS CLAROS Y ENTREGABLES VISIBLES. NUESTROS CLIENTES SIEMPRE SABEN EN QUE ETAPA ESTA SU PROYECTO."
       }
     ]
   },
@@ -114,7 +114,7 @@
     ]
   },
   "success": {
-    "title": "HISTORIAS DE ÉXITO",
+    "title": "HISTORIAS DE EXITO",
     "subtitle": "Proyectos que demuestran cómo la tecnología bien aplicada puede generar valor real para las empresas.",
     "stories": [
       {
@@ -145,7 +145,7 @@
     "subtitle": "Colaboramos con empresas que buscan desarrollar tecnología confiable y escalable.",
     "items": [
       {
-        "name": "CARLOS RAMÍREZ",
+        "name": "CARLOS RAMIREZ",
         "role": "Director de Tecnología — ACM Suite",
         "quote": "\"Alcaware transformó por completo nuestra infraestructura digital. Integraron nuevas tecnologías en nuestro sistema existente sin interrumpir ni un solo día de operación. El nivel de rigor técnico y comunicación fue excepcional.\"",
         "rating": 5
@@ -163,7 +163,7 @@
         "rating": 4
       },
       {
-        "name": "VALERIA SÁNCHEZ",
+        "name": "VALERIA SANCHEZ",
         "role": "Directora de Innovación — Grupo Industrial",
         "quote": "\"Implementaron un asistente de IA que automatizó procesos que antes consumían horas de trabajo manual. El equipo de Alcaware entiende tanto el negocio como la tecnología, eso marca la diferencia.\"",
         "rating": 5
@@ -204,11 +204,11 @@
     "company_placeholder": "NOMBRE DE TU EMPRESA",
     "email_label": "CORREO",
     "email_placeholder": "hola@unsitiogenial.es",
-    "phone_label": "TELÉFONO",
+    "phone_label": "TELEFONO",
     "phone_placeholder": "000-000-0000",
     "service_label": "TIPO DE SERVICIO",
     "service_placeholder": "SERVICIO",
-    "project_label": "CUÉNTANOS SOBRE TU PROYECTO",
+    "project_label": "CUENTANOS SOBRE TU PROYECTO",
     "project_placeholder": "ESCRIBE SOBRE TU PROYECTO",
     "submit": "ENVIAR",
     "sending": "ENVIANDO...",
@@ -218,8 +218,8 @@
   },
   "webmobil": {
     "hero_line1": "DESARROLLO WEB Y",
-    "hero_line2": "MÓVIL A MEDIDA",
-    "hero_subtitle": "CREAMOS WEB APPS, PLATAFORMAS Y APPS MÓVILES LISTAS PARA ESCALAR, CON ARQUITECTURA SÓLIDA Y SEGURIDAD DESDE EL INICIO",
+    "hero_line2": "MOVIL A MEDIDA",
+    "hero_subtitle": "CREAMOS WEB APPS, PLATAFORMAS Y APPS MOVILES LISTAS PARA ESCALAR, CON ARQUITECTURA SOLIDA Y SEGURIDAD DESDE EL INICIO",
     "cta_start": "COMENZAR",
     "cta_more": "VER CAPACIDADES",
     "services_accordion": {
@@ -242,7 +242,7 @@
           ]
         },
         {
-          "title": "APPS MÓVILES",
+          "title": "APPS MOVILES",
           "paragraphs": [
             "Desarrollamos aplicaciones móviles intuitivas y de alto rendimiento que conectan a las empresas con sus usuarios desde cualquier lugar.",
             "Creamos experiencias digitales modernas para iOS y Android, integrando funcionalidades como cuentas de usuario, notificaciones, pagos, geolocalización y conexión con sistemas empresariales.",
@@ -300,38 +300,38 @@
     },
     "entregables": {
       "title": "ENTREGABLES",
-      "subtitle": "CADA PROYECTO SE ENTREGA CON UNA BASE TÉCNICA SÓLIDA, DOCUMENTACIÓN CLARA Y TODO LO NECESARIO PARA QUE TU PRODUCTO FUNCIONE DESDE EL PRIMER DÍA.",
+      "subtitle": "CADA PROYECTO SE ENTREGA CON UNA BASE TECNICA SOLIDA, DOCUMENTACION CLARA Y TODO LO NECESARIO PARA QUE TU PRODUCTO FUNCIONE DESDE EL PRIMER DIA.",
       "producto": {
         "title": "PRODUCTO",
-        "subtitle": "LA BASE TECNOLÓGICA COMPLETA DE TU SOLUCIÓN",
+        "subtitle": "LA BASE TECNOLOGICA COMPLETA DE TU SOLUCION",
         "items": [
           "DISEÑO UI/UX: INTERFACES PENSADAS PARA UNA EXPERIENCIA CLARA Y FUNCIONAL",
-          "FRONTEND: DESARROLLO DE LA INTERFAZ CON TECNOLOGÍAS MODERNAS Y OPTIMIZADAS",
-          "BACKEND / API: LÓGICA DEL SISTEMA Y SERVICIOS QUE CONECTAN TU PRODUCTO",
-          "BASE DE DATOS: ESTRUCTURA SEGURA Y ESCALABLE PARA ALMACENAR Y GESTIONAR INFORMACIÓN"
+          "FRONTEND: DESARROLLO DE LA INTERFAZ CON TECNOLOGIAS MODERNAS Y OPTIMIZADAS",
+          "BACKEND / API: LOGICA DEL SISTEMA Y SERVICIOS QUE CONECTAN TU PRODUCTO",
+          "BASE DE DATOS: ESTRUCTURA SEGURA Y ESCALABLE PARA ALMACENAR Y GESTIONAR INFORMACION"
         ]
       },
       "calidad": {
         "title": "CALIDAD",
         "subtitle": "NOS ASEGURAMOS DE QUE TODO FUNCIONE CORRECTAMENTE:",
         "items": [
-          "QA Y PRUEBAS BÁSICAS VALIDACIÓN DE FUNCIONALIDADES ANTES DEL LANZAMIENTO",
-          "REVISIÓN DE SEGURIDAD (BASELINE) BUENAS PRÁCTICAS PARA PROTEGER DATOS Y ESTABILIDAD DEL SISTEMA"
+          "QA Y PRUEBAS BASICAS VALIDACION DE FUNCIONALIDADES ANTES DEL LANZAMIENTO",
+          "REVISION DE SEGURIDAD (BASELINE) BUENAS PRACTICAS PARA PROTEGER DATOS Y ESTABILIDAD DEL SISTEMA"
         ]
       },
       "entrega": {
         "title": "ENTREGA",
         "subtitle": "TU PRODUCTO LISTO PARA OPERAR",
         "items": [
-          "DEPLOY EN STAGING Y PRODUCCIÓN PUBLICACIÓN DEL SISTEMA EN UN ENTORNO DE PRUEBAS Y EN PRODUCCIÓN",
-          "DOCUMENTACIÓN MÍNIMA INFORMACIÓN CLAVE PARA ENTENDER Y UTILIZAR EL SISTEMA",
+          "DEPLOY EN STAGING Y PRODUCCION PUBLICACION DEL SISTEMA EN UN ENTORNO DE PRUEBAS Y EN PRODUCCION",
+          "DOCUMENTACION MINIMA INFORMACION CLAVE PARA ENTENDER Y UTILIZAR EL SISTEMA",
           "SOPORTE DE ARRANQUE ACOMPAÑAMIENTO INICIAL DURANTE LAS PRIMERAS SEMANAS TRAS EL LANZAMIENTO"
         ]
       }
     },
     "diferenciadores": {
       "title": "DIFERENCIADORES",
-      "subtitle": "TECNOLOGÍA ESTRATÉGICA PARA EMPRESAS QUE BUSCAN CRECER, AUTOMATIZAR Y ESCALAR.",
+      "subtitle": "TECNOLOGIA ESTRATEGICA PARA EMPRESAS QUE BUSCAN CRECER, AUTOMATIZAR Y ESCALAR.",
       "cta": "AGENDA UNA CONSULTA →",
       "items": [
         {
@@ -339,11 +339,11 @@
           "description": "Estás construyendo una plataforma, sistema o app que debe crecer con tu negocio."
         },
         {
-          "title": "TU OPERACIÓN DEPENDE DE EXCEL O PROCESOS MANUALES",
+          "title": "TU OPERACION DEPENDE DE EXCEL O PROCESOS MANUALES",
           "description": "Buscas automatizar procesos, centralizar información y mejorar la eficiencia."
         },
         {
-          "title": "QUIERES INDEPENDENCIA TECNOLÓGICA",
+          "title": "QUIERES INDEPENDENCIA TECNOLOGICA",
           "description": "Prefieres tener control sobre tu producto y no depender de herramientas limitadas o plataformas cerradas."
         },
         {
@@ -355,11 +355,11 @@
           "description": "Estás construyendo una plataforma, sistema o app que debe crecer con tu negocio."
         },
         {
-          "title": "TU OPERACIÓN DEPENDE DE EXCEL O PROCESOS MANUALES",
+          "title": "TU OPERACION DEPENDE DE EXCEL O PROCESOS MANUALES",
           "description": "Buscas automatizar procesos, centralizar información y mejorar la eficiencia."
         },
         {
-          "title": "QUIERES INDEPENDENCIA TECNOLÓGICA",
+          "title": "QUIERES INDEPENDENCIA TECNOLOGICA",
           "description": "Prefieres tener control sobre tu producto y no depender de herramientas limitadas o plataformas cerradas."
         },
         {
@@ -392,13 +392,16 @@
           "answer": "Sí. Integramos pasarelas de pago (Stripe, PayPal, Mercado Pago), sistemas ERP, CRM y cualquier API o servicio externo que necesite tu operación."
         }
       ]
+    },
+    "technologies": {
+      "title": "TECNOLOGIAS Y APLICACIONES"
     }
   },
   "blockchain": {
     "label": "SERVICIOS / SOLUCIONES BLOCKCHAIN",
     "hero_line1": "BLOCKCHAIN",
     "hero_line2": "A MEDIDA",
-    "hero_subtitle": "SMART CONTRACTS, TOKENIZACIÓN E INTEGRACIÓN WEB3 CON SEGURIDAD Y BUENAS PRÁCTICAS DESDE EL INICIO",
+    "hero_subtitle": "SMART CONTRACTS, TOKENIZACION E INTEGRACION WEB3 CON SEGURIDAD Y BUENAS PRACTICAS DESDE EL INICIO",
     "cta_start": "COMENZAR",
     "cta_more": "VER CAPACIDADES",
     "tech": [
@@ -410,29 +413,29 @@
       "POLYGON"
     ],
     "overview": {
-      "tag": "¿QUÉ CONSTRUIMOS?",
+      "tag": "¿QUE CONSTRUIMOS?",
       "title": "SOLUCIONES BLOCKCHAIN QUE GENERAN CONFIANZA",
       "description": "Diseñamos e implementamos contratos inteligentes, sistemas de tokenización y aplicaciones descentralizadas que integran lo mejor de Web2 y Web3. Seguridad y trazabilidad desde el diseño.",
       "image_alt": "Soluciones Blockchain"
     },
     "features": {
       "tag": "CAPACIDADES",
-      "title": "TECNOLOGÍA DESCENTRALIZADA",
+      "title": "TECNOLOGIA DESCENTRALIZADA",
       "items": [
         {
           "title": "SMART CONTRACTS",
           "description": "Contratos auditados en Solidity para Ethereum, Polygon y otras redes EVM compatibles."
         },
         {
-          "title": "TOKENIZACIÓN",
+          "title": "TOKENIZACION",
           "description": "NFTs, tokens de utilidad y trazabilidad de activos en blockchain con estándares ERC."
         },
         {
-          "title": "INTEGRACIÓN WEB2 ↔ WEB3",
+          "title": "INTEGRACION WEB2 ↔ WEB3",
           "description": "Conectamos tu sistema actual con la blockchain sin interrumpir la operación del negocio."
         },
         {
-          "title": "SEGURIDAD Y AUDITORÍA",
+          "title": "SEGURIDAD Y AUDITORIA",
           "description": "Revisión de código, análisis de vulnerabilidades y buenas prácticas en cada contrato."
         }
       ]
@@ -454,7 +457,7 @@
           ]
         },
         {
-          "title": "TOKENIZACIÓN",
+          "title": "TOKENIZACION",
           "paragraphs": [
             "Creamos soluciones de tokenización que permiten representar activos, accesos o utilidades dentro de ecosistemas digitales.",
             "Diseñamos modelos que aprovechan blockchain para habilitar nuevas dinámicas de valor, propiedad e interacción.",
@@ -470,7 +473,7 @@
           ]
         },
         {
-          "title": "AUTOMATIZACIÓN CON BLOCKCHAIN",
+          "title": "AUTOMATIZACION CON BLOCKCHAIN",
           "paragraphs": [
             "Automatizamos procesos de negocio mediante smart contracts que ejecutan reglas de forma autónoma y transparente.",
             "Eliminamos intermediarios y reducimos costos operativos con lógica on-chain confiable y auditable.",
@@ -481,34 +484,34 @@
     },
     "entregables": {
       "title": "ENTREGABLES",
-      "subtitle": "CADA PROYECTO SE ENTREGA CON UNA BASE TÉCNICA SÓLIDA, DOCUMENTACIÓN CLARA Y TODO LO NECESARIO PARA QUE TU SOLUCIÓN FUNCIONE DESDE EL PRIMER DÍA.",
+      "subtitle": "CADA PROYECTO SE ENTREGA CON UNA BASE TECNICA SOLIDA, DOCUMENTACION CLARA Y TODO LO NECESARIO PARA QUE TU SOLUCION FUNCIONE DESDE EL PRIMER DIA.",
       "producto": {
         "title": "PRODUCTO",
-        "subtitle": "LA BASE TECNOLÓGICA COMPLETA DE TU IMPLEMENTACIÓN BLOCKCHAIN",
+        "subtitle": "LA BASE TECNOLOGICA COMPLETA DE TU IMPLEMENTACION BLOCKCHAIN",
         "items": [
-          "DISEÑO DE ARQUITECTURA BLOCKCHAIN Y DEFINICIÓN FUNCIONAL DE LA SOLUCIÓN",
-          "DESARROLLO DE SMART CONTRACTS SEGÚN LA LÓGICA DE TU NEGOCIO",
-          "INTEGRACIÓN CON WALLETS, PAGOS Y COMPONENTES WEB3",
-          "CONEXIÓN CON PLATAFORMAS, APIS Y SISTEMAS EMPRESARIALES"
+          "DISEÑO DE ARQUITECTURA BLOCKCHAIN Y DEFINICION FUNCIONAL DE LA SOLUCION",
+          "DESARROLLO DE SMART CONTRACTS SEGUN LA LOGICA DE TU NEGOCIO",
+          "INTEGRACION CON WALLETS, PAGOS Y COMPONENTES WEB3",
+          "CONEXION CON PLATAFORMAS, APIS Y SISTEMAS EMPRESARIALES"
         ]
       },
       "calidad": {
         "title": "CALIDAD",
-        "subtitle": "NOS ASEGURAMOS DE QUE LA SOLUCIÓN FUNCIONE CORRECTAMENTE Y PUEDA OPERAR CON ESTABILIDAD",
+        "subtitle": "NOS ASEGURAMOS DE QUE LA SOLUCION FUNCIONE CORRECTAMENTE Y PUEDA OPERAR CON ESTABILIDAD",
         "items": [
           "QA Y PRUEBAS FUNCIONALES EN FLUJOS CLAVE ANTES DEL LANZAMIENTO",
-          "VALIDACIÓN DE INTEGRACIONES ENTRE SISTEMAS TRADICIONALES Y BLOCKCHAIN",
-          "REVISIÓN TÉCNICA DE SEGURIDAD Y BUENAS PRÁCTICAS BASE",
-          "VERIFICACIÓN DE CONSISTENCIA ENTRE DATOS ON-CHAIN Y OFF-CHAIN"
+          "VALIDACION DE INTEGRACIONES ENTRE SISTEMAS TRADICIONALES Y BLOCKCHAIN",
+          "REVISION TECNICA DE SEGURIDAD Y BUENAS PRACTICAS BASE",
+          "VERIFICACION DE CONSISTENCIA ENTRE DATOS ON-CHAIN Y OFF-CHAIN"
         ]
       },
       "entrega": {
         "title": "ENTREGA",
-        "subtitle": "TU SOLUCIÓN LISTA PARA IMPLEMENTARSE Y COMENZAR A OPERAR",
+        "subtitle": "TU SOLUCION LISTA PARA IMPLEMENTARSE Y COMENZAR A OPERAR",
         "items": [
-          "DEPLOY EN TESTNET Y PRODUCCIÓN SEGÚN EL ALCANCE DEL PROYECTO",
-          "CONFIGURACIÓN INICIAL DE ENTORNOS E INFRAESTRUCTURA NECESARIA",
-          "DOCUMENTACIÓN TÉCNICA MÍNIMA PARA COMPRENDER LA SOLUCIÓN",
+          "DEPLOY EN TESTNET Y PRODUCCION SEGUN EL ALCANCE DEL PROYECTO",
+          "CONFIGURACION INICIAL DE ENTORNOS E INFRAESTRUCTURA NECESARIA",
+          "DOCUMENTACION TECNICA MINIMA PARA COMPRENDER LA SOLUCION",
           "SOPORTE DE ARRANQUE DURANTE LAS PRIMERAS SEMANAS TRAS LA ENTREGA"
         ]
       }
@@ -544,11 +547,11 @@
     },
     "diferenciadores": {
       "title": "DIFERENCIADORES",
-      "subtitle": "TECNOLOGÍA ESTRATÉGICA PARA EMPRESAS QUE BUSCAN INTEGRAR BLOCKCHAIN SIN FRICCIÓN.",
+      "subtitle": "TECNOLOGIA ESTRATEGICA PARA EMPRESAS QUE BUSCAN INTEGRAR BLOCKCHAIN SIN FRICCION.",
       "cta": "AGENDA UNA CONSULTA →",
       "items": [
         {
-          "title": "NECESITAS MODERNIZAR TU OPERACIÓN CON TECNOLOGÍA MÁS SEGURA",
+          "title": "NECESITAS MODERNIZAR TU OPERACION CON TECNOLOGIA MAS SEGURA",
           "description": "Buscas una infraestructura digital más confiable, con procesos verificables y menor dependencia de sistemas tradicionales limitados."
         },
         {
@@ -564,7 +567,7 @@
           "description": "Te interesa implementar tokenización, pagos Web3 o experiencias descentralizadas que impulsen nuevas oportunidades de valor."
         },
         {
-          "title": "TU OPERACIÓN DEPENDE DE PROCESOS MANUALES O INTERMEDIARIOS",
+          "title": "TU OPERACION DEPENDE DE PROCESOS MANUALES O INTERMEDIARIOS",
           "description": "Quieres automatizar tareas, validaciones y flujos de trabajo para reducir errores y mejorar eficiencia."
         },
         {
@@ -572,7 +575,7 @@
           "description": "Prefieres conectar nuevas capacidades Web3 con tu infraestructura actual de forma práctica y escalable."
         },
         {
-          "title": "QUIERES INDEPENDENCIA TECNOLÓGICA",
+          "title": "QUIERES INDEPENDENCIA TECNOLOGICA",
           "description": "Prefieres tener control sobre tu producto y no depender de herramientas limitadas o plataformas cerradas."
         },
         {
@@ -581,13 +584,16 @@
         }
       ]
     },
-    "contact_title": "HABLEMOS DE TU PROYECTO"
+    "contact_title": "HABLEMOS DE TU PROYECTO",
+    "technologies": {
+      "title": "TECNOLOGIAS Y APLICACIONES"
+    }
   },
   "ai": {
     "label": "SERVICIOS / INTELIGENCIA ARTIFICIAL",
     "hero_line1": "INTELIGENCIA",
     "hero_line2": "ARTIFICIAL A MEDIDA",
-    "hero_subtitle": "CHATBOTS, AUTOMATIZACIÓN Y ANÁLISIS INTELIGENTE DE DATOS PARA TRANSFORMAR LOS PROCESOS DE TU EMPRESA",
+    "hero_subtitle": "CHATBOTS, AUTOMATIZACION Y ANALISIS INTELIGENTE DE DATOS PARA TRANSFORMAR LOS PROCESOS DE TU EMPRESA",
     "cta_start": "COMENZAR",
     "cta_more": "VER CAPACIDADES",
     "tech": [
@@ -599,7 +605,7 @@
       "POSTGRESQL"
     ],
     "overview": {
-      "tag": "¿QUÉ CONSTRUIMOS?",
+      "tag": "¿QUE CONSTRUIMOS?",
       "title": "IA QUE TRABAJA PARA TU NEGOCIO",
       "description": "Integramos inteligencia artificial en los procesos de tu empresa: asistentes conversacionales, automatización de tareas repetitivas y análisis predictivo de datos para tomar mejores decisiones.",
       "image_alt": "Inteligencia Artificial"
@@ -613,15 +619,15 @@
           "description": "Asistentes entrenados en tus datos que atienden a clientes y equipo las 24 horas."
         },
         {
-          "title": "AUTOMATIZACIÓN DE PROCESOS",
+          "title": "AUTOMATIZACION DE PROCESOS",
           "description": "Eliminamos tareas repetitivas con flujos de trabajo inteligentes y eficientes."
         },
         {
-          "title": "ANÁLISIS DE DATOS",
+          "title": "ANALISIS DE DATOS",
           "description": "Extraemos patrones y métricas clave para que tomes decisiones con información real."
         },
         {
-          "title": "INTEGRACIÓN DE MODELOS IA",
+          "title": "INTEGRACION DE MODELOS IA",
           "description": "Conectamos modelos como GPT, Claude o propios directamente a tu sistema actual."
         }
       ]
@@ -632,7 +638,7 @@
       "button": "INICIAR PROYECTO"
     },
     "technologies": {
-      "title": "TECNOLOGÍAS Y APLICACIONES"
+      "title": "TECNOLOGIAS Y APLICACIONES"
     },
     "faq": {
       "title": "PREGUNTAS FRECUENTES",
@@ -679,7 +685,7 @@
           ]
         },
         {
-          "title": "AUTOMATIZACIÓN INTELIGENTE",
+          "title": "AUTOMATIZACION INTELIGENTE",
           "paragraphs": [
             "Combinamos automatización de procesos con inteligencia artificial para optimizar tareas complejas.",
             "Creamos flujos que ejecutan acciones automáticamente basadas en datos, reglas y aprendizaje.",
@@ -698,41 +704,41 @@
     },
     "entregables": {
       "title": "ENTREGABLES",
-      "subtitle": "CADA PROYECTO SE ENTREGA CON UNA BASE TÉCNICA SÓLIDA, DOCUMENTACIÓN CLARA Y TODO LO NECESARIO PARA QUE TU PRODUCTO FUNCIONE DESDE EL PRIMER DÍA.",
+      "subtitle": "CADA PROYECTO SE ENTREGA CON UNA BASE TECNICA SOLIDA, DOCUMENTACION CLARA Y TODO LO NECESARIO PARA QUE TU PRODUCTO FUNCIONE DESDE EL PRIMER DIA.",
       "producto": {
         "title": "PRODUCTO",
-        "subtitle": "LA BASE TECNOLÓGICA COMPLETA DE TU IMPLEMENTACIÓN CON IA",
+        "subtitle": "LA BASE TECNOLOGICA COMPLETA DE TU IMPLEMENTACION CON IA",
         "items": [
-          "INTEGRACIÓN DE MODELOS DE IA SEGÚN EL CASO DE USO",
+          "INTEGRACION DE MODELOS DE IA SEGUN EL CASO DE USO",
           "DESARROLLO DE FLUJOS AUTOMATIZADOS INTELIGENTES",
-          "CONEXIÓN CON APIS Y SISTEMAS EMPRESARIALES",
-          "IMPLEMENTACIÓN DE ASISTENTES, ANÁLISIS O PROCESAMIENTO DE DATOS"
+          "CONEXION CON APIS Y SISTEMAS EMPRESARIALES",
+          "IMPLEMENTACION DE ASISTENTES, ANALISIS O PROCESAMIENTO DE DATOS"
         ]
       },
       "calidad": {
         "title": "CALIDAD",
-        "subtitle": "NOS ASEGURAMOS DE QUE LA SOLUCIÓN FUNCIONE CORRECTAMENTE Y GENERE RESULTADOS REALES.",
+        "subtitle": "NOS ASEGURAMOS DE QUE LA SOLUCION FUNCIONE CORRECTAMENTE Y GENERE RESULTADOS REALES.",
         "items": [
           "PRUEBAS DE FUNCIONAMIENTO EN ESCENARIOS REALES",
-          "VALIDACIÓN DE RESPUESTAS Y PRECISIÓN DE MODELOS",
-          "REVISIÓN DE INTEGRACIONES Y FLUJOS AUTOMATIZADOS",
+          "VALIDACION DE RESPUESTAS Y PRECISION DE MODELOS",
+          "REVISION DE INTEGRACIONES Y FLUJOS AUTOMATIZADOS",
           "AJUSTES INICIALES PARA OPTIMIZAR RENDIMIENTO"
         ]
       },
       "entrega": {
         "title": "ENTREGA",
-        "subtitle": "TU SOLUCIÓN LISTA PARA OPERAR DESDE EL PRIMER DÍA",
+        "subtitle": "TU SOLUCION LISTA PARA OPERAR DESDE EL PRIMER DIA",
         "items": [
-          "IMPLEMENTACIÓN EN ENTORNO PRODUCTIVO",
-          "CONFIGURACIÓN INICIAL DE HERRAMIENTAS Y APIS",
-          "DOCUMENTACIÓN BÁSICA DE USO",
+          "IMPLEMENTACION EN ENTORNO PRODUCTIVO",
+          "CONFIGURACION INICIAL DE HERRAMIENTAS Y APIS",
+          "DOCUMENTACION BASICA DE USO",
           "SOPORTE INICIAL POST-LANZAMIENTO"
         ]
       }
     },
     "diferenciadores": {
       "title": "DIFERENCIADORES",
-      "subtitle": "TECNOLOGÍA ESTRATÉGICA PARA EMPRESAS QUE BUSCAN IMPLEMENTAR IA DE FORMA PRÁCTICA Y FUNCIONAL.",
+      "subtitle": "TECNOLOGIA ESTRATEGICA PARA EMPRESAS QUE BUSCAN IMPLEMENTAR IA DE FORMA PRACTICA Y FUNCIONAL.",
       "cta": "AGENDA UNA CONSULTA →",
       "items": [
         {
@@ -756,7 +762,7 @@
           "description": "Prefieres conectar inteligencia artificial con tu infraestructura sin reemplazarla."
         },
         {
-          "title": "NECESITAS ESCALAR TU OPERACIÓN SIN AUMENTAR COSTOS",
+          "title": "NECESITAS ESCALAR TU OPERACION SIN AUMENTAR COSTOS",
           "description": "Quieres que la IA te ayude a crecer sin depender completamente de recursos humanos."
         },
         {
@@ -764,7 +770,7 @@
           "description": "Quieres automatizar tareas operativas mediante flujos inteligentes."
         },
         {
-          "title": "BUSCAS IMPLEMENTAR IA SIN COMPLEJIDAD TÉCNICA",
+          "title": "BUSCAS IMPLEMENTAR IA SIN COMPLEJIDAD TECNICA",
           "description": "Necesitas una solución clara, funcional y lista para integrarse rápidamente."
         }
       ]
@@ -781,63 +787,63 @@
   "nosotros": {
     "mission": {
       "title_line1": "CONSTRUYENDO EL FUTURO",
-      "title_line2": "CON TECNOLOGÍA INTELIGENTE",
+      "title_line2": "CON TECNOLOGIA INTELIGENTE",
       "paragraphs": [
-        "EN ALCAWARE, DESARROLLAMOS SOLUCIONES DIGITALES, INTELIGENCIA ARTIFICIAL Y BLOCKCHAIN PARA CREAR SISTEMAS MÁS EFICIENTES,",
+        "EN ALCAWARE, DESARROLLAMOS SOLUCIONES DIGITALES, INTELIGENCIA ARTIFICIAL Y BLOCKCHAIN PARA CREAR SISTEMAS MAS EFICIENTES,",
         "AUTOMATIZADOS Y PREPARADOS PARA EL FUTURO. NO SOMOS SOLO DESARROLLADORES.",
-        "SOMOS UN PARTNER TECNOLÓGICO ENFOCADO EN RESULTADOS."
+        "SOMOS UN PARTNER TECNOLOGICO ENFOCADO EN RESULTADOS."
       ]
     },
     "experience": {
       "section1": {
         "title": "EXPERIENCIA EN SOLUCIONES REALES",
-        "subtitle": "CREEMOS QUE LA MEJOR TECNOLOGÍA ES LA QUE HACE LAS COSAS MÁS SIMPLES. NUESTRO OBJETIVO ES TRANSFORMAR PROCESOS COMPLEJOS EN SOLUCIONES CLARAS, FUNCIONALES Y FÁCILES DE USAR.",
+        "subtitle": "CREEMOS QUE LA MEJOR TECNOLOGIA ES LA QUE HACE LAS COSAS MAS SIMPLES. NUESTRO OBJETIVO ES TRANSFORMAR PROCESOS COMPLEJOS EN SOLUCIONES CLARAS, FUNCIONALES Y FACILES DE USAR.",
         "list_label": "HEMOS TRABAJADO EN PROYECTOS QUE INCLUYEN:",
         "list_items": [
           "DESARROLLO DE PLATAFORMAS DIGITALES Y SISTEMAS EMPRESARIALES",
-          "INTEGRACIONES DE INTELIGENCIA ARTIFICIAL Y AUTOMATIZACIÓN",
+          "INTEGRACIONES DE INTELIGENCIA ARTIFICIAL Y AUTOMATIZACION",
           "IMPLEMENTACIONES BLOCKCHAIN Y SOLUCIONES WEB3",
           "ARQUITECTURA DE SOFTWARE ESCALABLE",
-          "OPTIMIZACIÓN DE PROCESOS OPERATIVOS"
+          "OPTIMIZACION DE PROCESOS OPERATIVOS"
         ],
-        "closing": "CADA SOLUCIÓN ESTÁ DISEÑADA PARA RESOLVER PROBLEMAS CONCRETOS Y GENERAR IMPACTO MEDIBLE."
+        "closing": "CADA SOLUCION ESTA DISEÑADA PARA RESOLVER PROBLEMAS CONCRETOS Y GENERAR IMPACTO MEDIBLE."
       },
       "section2": {
         "title": "SIMPLIFICAMOS LO COMPLEJO",
-        "bold_label": "TECNOLOGÍA CON PROPÓSITO, NO SOLO INNOVACIÓN:",
+        "bold_label": "TECNOLOGIA CON PROPOSITO, NO SOLO INNOVACION:",
         "paragraphs": [
-          "ENTENDEMOS QUE CADA EMPRESA TIENE NECESIDADES DISTINTAS. POR ESO, NO OFRECEMOS SOLUCIONES GENÉRICAS.",
-          "DISEÑAMOS E IMPLEMENTAMOS TECNOLOGÍA ALINEADA A OBJETIVOS ESPECÍFICOS DE NEGOCIO."
+          "ENTENDEMOS QUE CADA EMPRESA TIENE NECESIDADES DISTINTAS. POR ESO, NO OFRECEMOS SOLUCIONES GENERICAS.",
+          "DISEÑAMOS E IMPLEMENTAMOS TECNOLOGIA ALINEADA A OBJETIVOS ESPECIFICOS DE NEGOCIO."
         ],
         "focus_label": "NUESTRO ENFOQUE COMBINA:",
         "focus_items": [
-          "ANÁLISIS ESTRATÉGICO",
+          "ANALISIS ESTRATEGICO",
           "DISEÑO DE ARQUITECTURA",
-          "DESARROLLO E INTEGRACIÓN",
-          "OPTIMIZACIÓN CONTINUA"
+          "DESARROLLO E INTEGRACION",
+          "OPTIMIZACION CONTINUA"
         ]
       }
     },
     "about": {
       "cards": [
         {
-          "title": "ESTRATEGIA Y EJECUCIÓN\nEN UN SOLO EQUIPO",
+          "title": "ESTRATEGIA Y EJECUCION\nEN UN SOLO EQUIPO",
           "paragraphs": [
-            "SOMOS UN EQUIPO MULTIDISCIPLINARIO DE DESARROLLADORES, ESTRATEGAS Y ESPECIALISTAS EN TECNOLOGÍA QUE CONSTRUYEN SOLUCIONES DIGITALES DE ALTO IMPACTO.",
-            "TRABAJAMOS EN LA INTERSECCIÓN ENTRE NEGOCIO Y TECNOLOGÍA, ENTENDIENDO PROBLEMAS REALES Y DESARROLLANDO SOLUCIONES QUE GENERAN VALOR DESDE EL PRIMER DÍA.",
+            "SOMOS UN EQUIPO MULTIDISCIPLINARIO DE DESARROLLADORES, ESTRATEGAS Y ESPECIALISTAS EN TECNOLOGIA QUE CONSTRUYEN SOLUCIONES DIGITALES DE ALTO IMPACTO.",
+            "TRABAJAMOS EN LA INTERSECCION ENTRE NEGOCIO Y TECNOLOGIA, ENTENDIENDO PROBLEMAS REALES Y DESARROLLANDO SOLUCIONES QUE GENERAN VALOR DESDE EL PRIMER DIA.",
             "NUESTRA EXPERIENCIA ABARCA DESDE SISTEMAS EMPRESARIALES HASTA INTELIGENCIA ARTIFICIAL Y ARQUITECTURAS BLOCKCHAIN."
           ],
-          "cta": "VER MÁS",
+          "cta": "VER MAS",
           "align": "left"
         },
         {
-          "title": "MÁS QUE DESARROLLADORES:\nESPECIALISTAS EN TECNOLOGÍA APLICADA",
+          "title": "MAS QUE DESARROLLADORES:\nESPECIALISTAS EN TECNOLOGIA APLICADA",
           "paragraphs": [
-            "SOMOS UN EQUIPO MULTIDISCIPLINARIO DE DESARROLLADORES, ESTRATEGAS Y ESPECIALISTAS EN TECNOLOGÍA QUE CONSTRUYEN SOLUCIONES DIGITALES DE ALTO IMPACTO.",
-            "TRABAJAMOS EN LA INTERSECCIÓN ENTRE NEGOCIO Y TECNOLOGÍA, ENTENDIENDO PROBLEMAS REALES Y DESARROLLANDO SOLUCIONES QUE GENERAN VALOR DESDE EL PRIMER DÍA.",
+            "SOMOS UN EQUIPO MULTIDISCIPLINARIO DE DESARROLLADORES, ESTRATEGAS Y ESPECIALISTAS EN TECNOLOGIA QUE CONSTRUYEN SOLUCIONES DIGITALES DE ALTO IMPACTO.",
+            "TRABAJAMOS EN LA INTERSECCION ENTRE NEGOCIO Y TECNOLOGIA, ENTENDIENDO PROBLEMAS REALES Y DESARROLLANDO SOLUCIONES QUE GENERAN VALOR DESDE EL PRIMER DIA.",
             "NUESTRA EXPERIENCIA ABARCA DESDE SISTEMAS EMPRESARIALES HASTA INTELIGENCIA ARTIFICIAL Y ARQUITECTURAS BLOCKCHAIN."
           ],
-          "cta": "VER MÁS",
+          "cta": "VER MAS",
           "align": "center"
         }
       ]

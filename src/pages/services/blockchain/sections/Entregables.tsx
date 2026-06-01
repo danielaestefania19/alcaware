@@ -38,7 +38,6 @@ function EntregableCard({
         background: isIconLeft ? CARD_GRADIENT_LEFT : CARD_GRADIENT_RIGHT,
       }}
     >
-      {/* Mobile: ícono centrado arriba */}
       <div className="flex justify-center pt-10 pb-2 md:hidden">
         <img
           src={icon}
@@ -46,8 +45,6 @@ function EntregableCard({
           className="w-44 h-44 object-contain opacity-90"
         />
       </div>
-
-      {/* Desktop: ícono bleed lateral */}
       <img
         src={icon}
         alt={iconAlt}
@@ -60,8 +57,6 @@ function EntregableCard({
           ${isIconLeft ? "left-0 -translate-x-[33%]" : "right-0 translate-x-[33%]"}
         `}
       />
-
-      {/* Content */}
       <div
         className={`
           relative z-10 mx-auto max-w-400
@@ -172,42 +167,20 @@ export default function Entregables() {
 
   return (
     <section className="relative overflow-hidden bg-black text-white">
-      {/* Encabezado */}
-      <div className="relative px-4 pt-14 pb-10 text-center sm:pt-20 sm:pb-14 md:pt-20 md:pb-14">
+      <div className="px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-40 pt-14 pb-10 sm:pt-20 sm:pb-14 md:pt-20 md:pb-14">
         <h2
-          className="
-            font-melete uppercase text-white
-            text-[18px]
-            sm:text-[46px]
-            md:text-[56px]
-            lg:text-[64px]
-            tracking-[0.08em]
-            sm:tracking-[0.3em]
-            leading-none
-          "
+          className="font-melete text-xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl tracking-wider md:tracking-widest mb-4 lg:mb-6 text-center"
           style={{
-            textShadow:
-              "0 0 2px #ffffff, 0 0 10px #38e0c2, 0 0 24px #38e0c2, 0 0 40px #38e0c2",
+            textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3",
           }}
         >
           {t("blockchain.entregables.title")}
         </h2>
 
-        <p
-          className="
-            mx-auto mt-4 max-w-215
-            font-montserrat text-white/60
-            text-[9px]
-            sm:text-[10px]
-            md:text-[13px]
-            uppercase tracking-[0.12em] leading-relaxed
-          "
-        >
+        <p className="font-montserrat text-sm lg:text-base xl:text-lg 2xl:text-xl text-white/70 max-w-5xl mx-auto leading-relaxed text-center">
           {t("blockchain.entregables.subtitle")}
         </p>
       </div>
-
-      {/* Cards */}
       <div className="flex flex-col">
         <EntregableCard
           titleKey="blockchain.entregables.producto.title"

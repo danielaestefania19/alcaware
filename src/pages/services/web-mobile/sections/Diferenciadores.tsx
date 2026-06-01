@@ -34,9 +34,7 @@ export default function Diferenciadores() {
         <DiferenciadoresBackground />
       </div>
       <div className="absolute inset-0 bg-black/50" />
-
       <div className="relative z-10 mx-auto max-w-5xl">
-        {/* Header */}
         <div className="text-center mb-10 md:mb-16">
           <h2
             className="font-melete text-[14px] md:text-[32px] lg:text-[42px] tracking-[0.05em] md:tracking-[0.22em] lg:tracking-[0.3em] mb-4"
@@ -50,25 +48,18 @@ export default function Diferenciadores() {
             {t("webmobil.diferenciadores.subtitle")}
           </p>
         </div>
-
-        {/* Mobile: single column / Desktop: staggered 2-column grid */}
         <div className="flex flex-col gap-4 md:flex-row md:gap-5 md:items-start">
-          {/* Left column */}
           <div className="flex flex-col gap-4 md:gap-5 md:flex-1">
             {leftCol.map((item, i) => (
               <Card key={i} title={item.title} description={item.description} />
             ))}
           </div>
-
-          {/* Right column — offset down on desktop */}
           <div className="flex flex-col gap-4 md:gap-5 md:flex-1 md:mt-14">
             {rightCol.map((item, i) => (
               <Card key={i} title={item.title} description={item.description} />
             ))}
           </div>
         </div>
-
-        {/* CTA */}
         <div className="mt-10 md:mt-12 flex justify-center md:justify-start">
           <button
             onClick={() => document.getElementById("contacto")?.scrollIntoView({ behavior: "smooth" })}

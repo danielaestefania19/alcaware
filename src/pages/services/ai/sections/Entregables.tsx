@@ -17,26 +17,23 @@ function EntregableCard({ titleKey, subtitleKey, itemsKey, icon, iconAlt }: Card
 
   return (
     <div className="mx-auto w-full max-w-5xl px-6 md:px-16 lg:px-24">
-      {/* Mobile: apilado */}
-      <div className="flex flex-col items-center gap-6 py-10 md:hidden">
+      <div className="flex flex-col gap-6 py-10 md:hidden">
         <img
           src={icon}
           alt={iconAlt}
-          className="w-36 h-36 object-contain drop-shadow-[0_0_24px_rgba(56,224,194,0.4)]"
+          className="w-44 h-44 object-contain drop-shadow-[0_0_24px_rgba(56,224,194,0.4)] mx-auto"
         />
-        <TextContent titleKey={titleKey} subtitleKey={subtitleKey} items={items} centered />
+        <TextContent titleKey={titleKey} subtitleKey={subtitleKey} items={items} />
       </div>
-
-      {/* Desktop: lado a lado */}
-      <div className="hidden md:flex items-center gap-12 lg:gap-16 py-14 lg:py-16 xl:py-18">
-        <div className="shrink-0 w-52 lg:w-64 xl:w-72 flex items-center justify-center">
+      <div className="hidden md:flex items-center justify-center gap-12 lg:gap-16 py-14 lg:py-16 xl:py-18">
+        <div className="shrink-0 w-56 lg:w-64 xl:w-72 flex items-center justify-center">
           <img
             src={icon}
             alt={iconAlt}
-            className="w-full h-auto object-contain drop-shadow-[0_0_24px_rgba(56,224,194,0.4)]"
+            className="w-full h-auto object-contain drop-shadow-[0_0_24px_rgba(56,224,194,0.4)] scale-125 lg:scale-150"
           />
         </div>
-        <div className="flex-1">
+        <div className="w-96 lg:w-md xl:w-lg shrink-0">
           <TextContent titleKey={titleKey} subtitleKey={subtitleKey} items={items} />
         </div>
       </div>
@@ -121,28 +118,17 @@ export default function Entregables() {
         background: "linear-gradient(180deg, #000000 0%, #0a3d30 20%, #072b22 50%, #0a3d30 80%, #000000 100%)",
       }}
     >
-      {/* Header */}
-      <div className="pt-14 pb-6 text-center sm:pt-20 md:pt-20 px-4">
+      <div className="px-4 md:px-12 lg:px-20 xl:px-32 2xl:px-40 pt-14 pb-6 sm:pt-20 md:pt-20">
         <h2
-          className="
-            font-melete uppercase text-white leading-none
-            text-[30px]
-            sm:text-[46px]
-            md:text-[52px]
-            lg:text-[60px]
-            tracking-[0.24em] sm:tracking-[0.3em]
-          "
-          style={{
-            textShadow: "0 0 2px #ffffff, 0 0 10px #38e0c2, 0 0 24px #38e0c2, 0 0 40px #38e0c2",
-          }}
+          className="font-melete text-lg md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl tracking-normal md:tracking-wider lg:tracking-widest mb-4 lg:mb-6 text-center"
+          style={{ textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3" }}
         >
           {t("ai.entregables.title")}
         </h2>
-        <p className="mx-auto mt-4 max-w-2xl font-montserrat text-white/60 text-[9px] sm:text-[10px] md:text-[12px] uppercase tracking-[0.12em] leading-relaxed px-6">
+        <p className="font-montserrat text-sm lg:text-base xl:text-lg 2xl:text-xl text-white/70 max-w-5xl mx-auto leading-relaxed text-center">
           {t("ai.entregables.subtitle")}
         </p>
       </div>
-      {/* Cards */}
       <div className="flex flex-col">
         <EntregableCard
           titleKey="ai.entregables.producto.title"

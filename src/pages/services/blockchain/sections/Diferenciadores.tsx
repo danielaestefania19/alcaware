@@ -29,30 +29,30 @@ export default function Diferenciadores() {
   const rightCol = items.slice(4, 8);
 
   return (
-    <section className="relative overflow-hidden py-16 md:py-24 px-4 md:px-6 text-white">
+    <section className="relative overflow-hidden py-16 md:py-24 text-white">
       <div className="absolute top-32 left-0 right-0 bottom-0 overflow-hidden">
         <DiferenciadoresBlockchainBackground />
       </div>
       <div className="absolute inset-0 bg-black/50" />
 
-      <div className="relative z-10 mx-auto max-w-5xl">
-        {/* Header */}
-        <div className="text-center mb-10 md:mb-16">
+      <div className="relative z-10">
+        {/* Header — full width para centrado correcto */}
+        <div className="mb-10 md:mb-16 px-4 md:px-12 lg:px-20 xl:px-32 2xl:px-40">
           <h2
-            className="font-melete text-[14px] md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl tracking-[0.05em] md:tracking-widest mb-4"
+            className="font-melete text-sm md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl tracking-normal md:tracking-wider lg:tracking-widest mb-4 lg:mb-6 text-center"
             style={{
               textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3",
             }}
           >
             {t("blockchain.diferenciadores.title")}
           </h2>
-          <p className="font-montserrat text-[11px] md:text-[12px] tracking-[0.05em] md:tracking-[0.15em] text-white/50">
+          <p className="font-montserrat text-sm lg:text-base xl:text-lg 2xl:text-xl text-white/70 max-w-5xl mx-auto leading-relaxed text-center">
             {t("blockchain.diferenciadores.subtitle")}
           </p>
         </div>
 
         {/* Mobile: single column / Desktop: staggered 2-column grid */}
-        <div className="flex flex-col gap-4 md:flex-row md:gap-5 md:items-start">
+        <div className="mx-auto max-w-5xl px-4 md:px-6 flex flex-col gap-4 md:flex-row md:gap-5 md:items-start">
           {/* Left column */}
           <div className="flex flex-col gap-4 md:gap-5 md:flex-1">
             {leftCol.map((item, i) => (
@@ -69,7 +69,7 @@ export default function Diferenciadores() {
         </div>
 
         {/* CTA */}
-        <div className="mt-10 md:mt-12 flex justify-center md:justify-start">
+        <div className="mx-auto max-w-5xl px-4 md:px-6 mt-10 md:mt-12 flex justify-center md:justify-start">
           <button
             onClick={() => document.getElementById("contacto")?.scrollIntoView({ behavior: "smooth" })}
             className="rounded-full border border-primary/60 px-7 py-3 font-montserrat text-[12px] tracking-[0.15em] text-primary transition-all duration-300 hover:bg-primary hover:text-black hover:border-primary hover:shadow-[0_0_20px_rgba(58,224,179,0.35)]"

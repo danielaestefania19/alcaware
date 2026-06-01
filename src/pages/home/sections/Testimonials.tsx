@@ -44,10 +44,8 @@ export default function Testimonials() {
             </div>
             <div className="absolute inset-0 bg-black/30" />
             <div className="relative z-10 w-full px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-72">
-                <h2
-                    className="font-melete text-xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl tracking-wider md:tracking-widest mb-3"
-                    style={{ textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3" }}
-                >
+                <h2 className="font-melete text-xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl tracking-wider md:tracking-widest mb-4 lg:mb-6"
+                    style={{ textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3" }}>
                     {t("testimonials.title")}
                 </h2>
                 <p className="mt-2 font-montserrat text-xs md:text-sm lg:text-base xl:text-lg 2xl:text-xl tracking-normal md:tracking-widest text-white/60">

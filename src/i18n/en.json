@@ -392,6 +392,9 @@
           "answer": "Yes. We integrate payment gateways (Stripe, PayPal, Mercado Pago), ERP, CRM systems and any API or external service your operation needs."
         }
       ]
+    },
+    "technologies": {
+      "title": "TECHNOLOGIES & APPLICATIONS"
     }
   },
   "blockchain": {
@@ -581,7 +584,10 @@
         }
       ]
     },
-    "contact_title": "LET'S TALK ABOUT YOUR PROJECT"
+    "contact_title": "LET'S TALK ABOUT YOUR PROJECT",
+    "technologies": {
+      "title": "TECHNOLOGIES & APPLICATIONS"
+    }
   },
   "ai": {
     "label": "SERVICES / ARTIFICIAL INTELLIGENCE",

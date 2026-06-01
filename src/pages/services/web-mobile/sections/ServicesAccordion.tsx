@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import plataforma from "../../../../assets/images/plataforma.webp";
-import apis from "../../../../assets/images/apis.webp";
-import webapp from "../../../../assets/images/webapp.webp";
-import movil from "../../../../assets/images/movil.webp";
+import plataforma from "../../../../assets/images/web-mobile/plataforma.webp";
+import apis from "../../../../assets/images/web-mobile/apis.webp";
+import webapp from "../../../../assets/images/web-mobile/webapp.webp";
+import movil from "../../../../assets/images/web-mobile/movil.webp";
 
 interface AccordionItem {
   title: string;
@@ -55,23 +55,25 @@ export default function ServicesAccordion() {
               <div className="pb-12 md:pb-16">
                 {image ? (
                   <div className={`flex flex-col md:items-stretch ${index % 2 === 0 ? "md:flex-row-reverse" : "md:flex-row"}`}>
-                    <img
-                      src={image}
-                      alt={item.title}
-                      className={`w-full md:w-5/12 lg:w-4/12 shrink-0 object-cover border-2 border-primary rounded-t-4xl ${index % 2 === 0 ? "md:rounded-t-none md:rounded-l-4xl md:border-r-0" : "md:rounded-t-none md:rounded-r-4xl md:border-l-0"}`}
-                    />
-                    <div className="flex flex-col justify-center gap-4 md:gap-5 lg:gap-6 px-6 md:px-8 lg:px-12 md:pr-10 lg:pr-16 py-8 md:py-6 lg:py-0">
+                    <div className={`w-full md:w-5/12 lg:w-4/12 shrink-0 h-64 md:h-80 lg:h-96 overflow-hidden border-2 border-primary rounded-t-4xl ${index % 2 === 0 ? "md:rounded-t-none md:rounded-l-4xl md:border-r-0" : "md:rounded-t-none md:rounded-r-4xl md:border-l-0"}`}>
+                      <img
+                        src={image}
+                        alt={item.title}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                    <div className="flex flex-col justify-center gap-4 md:gap-5 lg:gap-6 px-6 md:px-16 lg:px-20 py-8 md:py-6 lg:py-0">
                       {item.paragraphs.map((paragraph, pIndex) => (
                         <p
                           key={pIndex}
-                          className="font-montserrat text-[13px] md:text-[14px] lg:text-[15px] text-white/70 leading-relaxed tracking-[0.05em]"
+                          className="font-montserrat text-[14px] md:text-[15px] lg:text-[17px] xl:text-[18px] text-white/70 leading-relaxed tracking-[0.05em]"
                         >
                           {paragraph}
                         </p>
                       ))}
                       <button
                         onClick={() => document.getElementById("contacto")?.scrollIntoView({ behavior: "smooth" })}
-                        className="mt-2 self-start font-montserrat text-[13px] md:text-[14px] tracking-[0.15em] text-primary underline underline-offset-4 hover:text-white transition-colors duration-200"
+                        className="mt-2 self-start font-montserrat text-[13px] md:text-[14px] lg:text-[15px] tracking-[0.15em] text-primary underline underline-offset-4 hover:text-white transition-colors duration-200"
                       >
                         {ctaLabel}
                       </button>
@@ -82,14 +84,14 @@ export default function ServicesAccordion() {
                     {item.paragraphs.map((paragraph, pIndex) => (
                       <p
                         key={pIndex}
-                        className="font-montserrat text-[13px] md:text-[14px] text-white/70 leading-relaxed tracking-[0.05em]"
+                        className="font-montserrat text-[14px] md:text-[15px] lg:text-[17px] xl:text-[18px] text-white/70 leading-relaxed tracking-[0.05em]"
                       >
                         {paragraph}
                       </p>
                     ))}
                     <button
                       onClick={() => document.getElementById("contacto")?.scrollIntoView({ behavior: "smooth" })}
-                      className="mt-4 self-start font-montserrat text-[13px] tracking-[0.15em] text-primary underline underline-offset-4 hover:text-white transition-colors duration-200"
+                      className="mt-4 self-start font-montserrat text-[13px] md:text-[14px] lg:text-[15px] tracking-[0.15em] text-primary underline underline-offset-4 hover:text-white transition-colors duration-200"
                     >
                       {ctaLabel}
                     </button>

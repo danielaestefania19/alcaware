@@ -13,15 +13,13 @@ export default function WhyAlcaware() {
   const cards = t("why.cards", { returnObjects: true }) as Card[];
 
   return (
-    <section className="relative py-10 lg:py-14 xl:py-16 2xl:py-20 px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-72 z-10">
-      <div className="absolute inset-0 pointer-events-none" style={{background: "linear-gradient(to bottom, black 70%, transparent 100%)"}} />
+    <section className="relative py-10 lg:py-14 xl:py-16 2xl:py-20 px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-72 z-10 text-white">
+      <div className="absolute inset-0 pointer-events-none" style={{ background: "linear-gradient(to bottom, black 70%, transparent 100%)" }} />
       <div className="relative z-10">
 
-        <h2 className="font-melete text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl tracking-widest text-white text-center mb-8 lg:mb-10 xl:mb-14"
-        style={{
-              textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3",
-            }}
-          >
+        <h2 className="font-melete text-xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl tracking-wider md:tracking-widest mb-8 md:mb-12 lg:mb-16 xl:mb-20 2xl:mb-24 text-center"
+          style={{ textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3" }}>
+
           {t("why.title")}
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 lg:gap-7 xl:gap-10 items-start">

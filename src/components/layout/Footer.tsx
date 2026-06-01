@@ -1,4 +1,4 @@
-import Logo from "../../assets/images/Logo.png";
+import Logo from "../../assets/images/logos/Logo.png";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 

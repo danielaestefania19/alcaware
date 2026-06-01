@@ -59,14 +59,14 @@ export default function Contact() {
 
   return (
     <section id="contacto" className="relative bg-black py-16 lg:py-20 xl:py-24 2xl:py-32 px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-72 text-white flex flex-col items-center gap-10 lg:gap-14">
-      <div className="flex flex-col items-center gap-4 text-center">
-      <h2
-        className="font-melete text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl tracking-widest text-center mb-10 lg:mb-12 xl:mb-12"
-        style={{ textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3" }}
-      >
+      <div className="w-full">
+        <h2
+          className="font-melete text-xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl tracking-wider md:tracking-widest text-center mb-4 lg:mb-6"
+          style={{ textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3" }}
+        >
           {t("blockchain.contact_title")}
         </h2>
-        <p className="font-montserrat text-xs md:text-sm lg:text-base text-white/60 max-w-3xl leading-relaxed">
+        <p className="font-montserrat text-sm lg:text-base xl:text-lg 2xl:text-xl text-white/70 max-w-5xl mx-auto leading-relaxed text-center">
           {t("contact.description")}
         </p>
       </div>

@@ -93,7 +93,6 @@ export default function ComoTrabajamos() {
   return (
     <section className="overflow-hidden bg-black px-6 py-20 text-white md:px-10 xl:px-14 2xl:px-16">
       <div className="mx-auto max-w-400">
-        {/* Mobile / Tablet */}
         <div className="flex flex-col gap-4 lg:hidden">
           <div className="mb-4 md:mb-8">
             <SectionIntro
@@ -102,15 +101,12 @@ export default function ComoTrabajamos() {
               text2={t("webmobil.como_trabajamos.text2")}
             />
           </div>
-
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {items.map((item, i) => (
               <StepCard key={i} item={item} icon={steps[i]} />
             ))}
           </div>
         </div>
-
-        {/* Desktop grande: layout con líneas */}
         <div
           ref={gridRef}
           className="relative hidden lg:grid lg:grid-cols-[minmax(0,1fr)_72px_minmax(0,1fr)] lg:gap-x-0 lg:gap-y-6"
@@ -118,7 +114,6 @@ export default function ComoTrabajamos() {
             gridTemplateRows: `${ROW_HEIGHT}px ${ROW_HEIGHT}px ${ROW_HEIGHT}px ${ROW_HEIGHT}px ${ROW_HEIGHT}px`,
           }}
         >
-          {/* LEFT */}
           <div
             ref={(element) => {
               leftRefs.current[0] = element;
@@ -150,8 +145,6 @@ export default function ComoTrabajamos() {
           >
             <StepCard item={items[5]} icon={steps[5]} fixedHeight />
           </div>
-
-          {/* RIGHT */}
           <div className="col-start-3 row-start-1 row-span-5 flex h-full min-w-0 flex-col justify-between">
             <div
               ref={(element) => {

@@ -51,7 +51,7 @@ function TechRow({ items }: { items: { src: string; alt: string }[] }) {
           <img
             src={src}
             alt={alt}
-            className="h-24 md:h-28 lg:h-36 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
+            className="h-24 md:h-28 lg:h-36 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity duration-300 scale-150 md:scale-125 lg:scale-150"
           />
         </div>
       ))}
@@ -63,20 +63,20 @@ export default function Technologies() {
   const { t } = useTranslation();
 
   return (
-    <section className="relative w-full overflow-hidden py-16 md:py-20 lg:py-24">
+    <section className="relative w-full overflow-hidden py-16 md:py-20 lg:py-24 text-white">
       <AITechnologiesBackground />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 flex flex-col items-center gap-14">
-          <h2
-            className="font-melete text-center text-2xl md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl tracking-widest mb-4 text-white"
-            style={{
-              textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3",
-            }}
-          >
+      <div className="relative z-10">
+        <h2
+          className="font-melete text-sm md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl tracking-normal md:tracking-wider lg:tracking-widest mb-10 md:mb-14 text-center px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-40"
+          style={{
+            textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3",
+          }}
+        >
           {t("ai.technologies.title")}
         </h2>
 
-        <div className="flex flex-col gap-8 md:gap-8 w-full">
+        <div className="max-w-7xl mx-auto px-6 flex flex-col gap-8 w-full">
           <TechRow items={row1} />
           <TechRow items={row2} />
           <TechRow items={row3} />
