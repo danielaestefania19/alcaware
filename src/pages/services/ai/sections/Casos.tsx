@@ -22,7 +22,7 @@ export default function Casos() {
           >
             {t("ai.casos.title")}
           </h2>
-          <p className="font-montserrat max-w-5xl text-sm leading-relaxed text-white/60 md:text-2xl">
+          <p className="font-montserrat max-w-7xl text-sm leading-relaxed text-white/60 md:text-2xl">
              {t("ai.casos.subtitle")}
           </p>
         </div>

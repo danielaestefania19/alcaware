@@ -22,7 +22,7 @@ export default function Casos() {
           >
             {t("webmobil.casos.title")}
           </h2>
-          <p className="font-montserrat max-w-5xl text-sm leading-relaxed text-white/60 md:text-2xl">
+          <p className="font-montserrat max-w-7xl text-sm leading-relaxed text-white/60 md:text-2xl">
             {t("webmobil.casos.subtitle")}
           </p>
         </div>
