@@ -10,7 +10,7 @@ export default function Hero() {
         <img
           src={AlcawareLogo}
           alt="Alcaware"
-          className="w-48 md:w-64 lg:w-80 xl:w-96 2xl:w-[28rem] object-contain"
+          className="w-48 md:w-64 lg:w-80 xl:w-96 2xl:w-md object-contain"
         />
       </div>
     </section>
