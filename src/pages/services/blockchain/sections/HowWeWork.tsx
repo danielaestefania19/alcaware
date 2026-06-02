@@ -20,7 +20,7 @@ interface StepItem {
 export default function ComoTrabajamos() {
   const { t } = useTranslation();
 
-  const items = t("webmobil.como_trabajamos.steps", {
+  const items = t("blockchain.como_trabajamos.steps", {
     returnObjects: true,
   }) as StepItem[];
 
@@ -96,9 +96,9 @@ export default function ComoTrabajamos() {
         <div className="flex flex-col gap-4 lg:hidden">
           <div className="mb-4 md:mb-8">
             <SectionIntro
-              title={t("webmobil.como_trabajamos.title")}
-              text1={t("webmobil.como_trabajamos.text1")}
-              text2={t("webmobil.como_trabajamos.text2")}
+              title={t("blockchain.como_trabajamos.title")}
+              text1={t("blockchain.como_trabajamos.text1")}
+              text2={t("blockchain.como_trabajamos.text2")}
             />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -130,9 +130,9 @@ export default function ComoTrabajamos() {
             className="col-start-1 row-start-2 row-span-3 flex min-w-0 flex-col justify-center px-2"
           >
             <SectionIntro
-              title={t("webmobil.como_trabajamos.title")}
-              text1={t("webmobil.como_trabajamos.text1")}
-              text2={t("webmobil.como_trabajamos.text2")}
+              title={t("blockchain.como_trabajamos.title")}
+              text1={t("blockchain.como_trabajamos.text1")}
+              text2={t("blockchain.como_trabajamos.text2")}
               desktop
             />
           </div>

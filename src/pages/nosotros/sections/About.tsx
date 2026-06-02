@@ -115,8 +115,8 @@ function AboutCard({ title, paragraphs, cta, align, index }: AboutCardProps) {
           ))}
         </div>
 
-        <button
-          type="button"
+        <a
+          href="/#servicios"
           className={`
             mt-auto pt-6
             xl:pt-10
@@ -133,7 +133,7 @@ function AboutCard({ title, paragraphs, cta, align, index }: AboutCardProps) {
           `}
         >
           {cta}
-        </button>
+        </a>
       </div>
     </div>
   );

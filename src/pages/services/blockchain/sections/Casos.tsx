@@ -4,7 +4,7 @@ import acm from "../../../../assets/images/blockchain/acm_logo.png";
 
 export default function Casos() {
   const { t } = useTranslation();
-  const paragraphs = t("webmobil.casos.paragraphs", {
+  const paragraphs = t("blockchain.casos.paragraphs", {
     returnObjects: true,
   }) as string[];
 
@@ -20,10 +20,10 @@ export default function Casos() {
               textShadow: "0 0 1px #fff, 0 0 10px #3AE0B3, 0 0 40px #3AE0B3",
             }}
           >
-            {t("webmobil.casos.title")}
+            {t("blockchain.casos.title")}
           </h2>
           <p className="font-montserrat max-w-7xl text-sm leading-relaxed text-white/60 md:text-2xl">
-            {t("webmobil.casos.subtitle")}
+            {t("blockchain.casos.subtitle")}
           </p>
         </div>
         <div className="mx-auto max-w-5xl lg:max-w-6xl xl:max-w-7xl overflow-hidden rounded-2xl border border-white/10 bg-black/10 backdrop-blur-sm">

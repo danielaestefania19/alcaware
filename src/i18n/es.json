@@ -119,23 +119,20 @@
     "stories": [
       {
         "paragraphs": [
-          "Desarrollamos una plataforma web empresarial que permite a las compañías centralizar la gestión de sus operaciones en un solo sistema digital.",
-          "El proyecto consistió en diseñar e implementar un dashboard intuitivo donde los usuarios pueden administrar procesos clave como facturación, seguimiento de operaciones y generación de reportes en tiempo real. Para lograrlo, utilizamos tecnologías modernas de desarrollo web que permiten una arquitectura escalable y segura.",
-          "Esta solución ayudó a optimizar los procesos internos del cliente, reduciendo errores operativos y mejorando la visibilidad de la información dentro de la organización."
+          "Desarrollamos una plataforma empresarial para la gestión integral del cumplimiento legal EHS (Medio Ambiente, Seguridad y Salud), centralizando procesos críticos como auditorías, evidencias, permisos y evaluaciones de riesgo en dashboards interactivos con indicadores en tiempo real.",
+          "Incorporamos trazabilidad documental basada en blockchain para garantizar la integridad de los registros, mejorando el control operativo, reduciendo riesgos de incumplimiento y permitiendo una toma de decisiones más rápida y confiable."
         ]
       },
       {
         "paragraphs": [
-          "Diseñamos y desarrollamos una aplicación descentralizada basada en tecnología blockchain que permite a los usuarios intercambiar activos digitales de manera segura y transparente.",
-          "La solución integra contratos inteligentes que automatizan la ejecución de transacciones sin la necesidad de intermediarios, garantizando mayor eficiencia y confiabilidad en cada operación.",
-          "Además, implementamos una interfaz web intuitiva que facilita la interacción con la red blockchain, permitiendo a los usuarios gestionar sus activos y realizar operaciones de forma sencilla dentro de un entorno completamente descentralizado."
+          "Diseñamos una plataforma de inteligencia artificial para el análisis y gestión de cumplimiento legal en entornos altamente regulados, capaz de procesar automáticamente leyes, reglamentos, normas y documentos regulatorios para extraer requerimientos legales de forma precisa.",
+          "La plataforma se adapta a las necesidades de cada organización mediante instrucciones de usuario, reduciendo los tiempos de revisión documental y permitiendo tomar decisiones respaldadas por información jurídica consistente, escalable y auditable."
         ]
       },
       {
         "paragraphs": [
-          "Desarrollamos una solución de inteligencia artificial inspirada en tecnologías como IBM y su plataforma IBM Watson, utilizadas por empresas para automatizar procesos, analizar datos y mejorar la experiencia digital.",
-          "La implementación consistió en integrar un asistente inteligente dentro de la plataforma del cliente capaz de procesar consultas, analizar información empresarial y generar respuestas o recomendaciones en tiempo real mediante procesamiento de lenguaje natural.",
-          "Este tipo de tecnología ha sido utilizada por empresas como Banco Bradesco, que implementó IBM Watson para asistir a su equipo de atención al cliente y responder miles de consultas de forma automática. Nuestra solución permitió automatizar procesos internos, mejorar la gestión de información y ofrecer una experiencia digital más eficiente para los usuarios finales."
+          "Desarrollamos una plataforma para la gestión integral de procesos jurídicos, permitiendo centralizar expedientes, demandas, juicios y documentación legal con mecanismos automatizados de consulta a plataformas judiciales y fuentes oficiales.",
+          "La solución incluye control de plazos, seguimiento de actuaciones y monitoreo de procesos legales, optimizando la gestión operativa de equipos legales y fortaleciendo la toma de decisiones con información centralizada en tiempo real."
         ]
       }
     ]
@@ -145,28 +142,22 @@
     "subtitle": "Colaboramos con empresas que buscan desarrollar tecnología confiable y escalable.",
     "items": [
       {
-        "name": "CARLOS RAMIREZ",
-        "role": "Director de Tecnología — ACM Suite",
-        "quote": "\"Alcaware transformó por completo nuestra infraestructura digital. Integraron nuevas tecnologías en nuestro sistema existente sin interrumpir ni un solo día de operación. El nivel de rigor técnico y comunicación fue excepcional.\"",
+        "name": "DAVID ANTUNEZ",
+        "role": "CEO — ACM Suite",
+        "quote": "\"Alcaware desarrolló nuestra plataforma de cumplimiento legal EHS desde cero. La integración con blockchain nos dio la trazabilidad documental que necesitábamos. Hoy gestionamos auditorías, permisos y evidencias en un solo sistema con indicadores en tiempo real.\"",
         "rating": 5
       },
       {
-        "name": "ANDREA MONTOYA",
+        "name": "MARTHA HERCE",
         "role": "CEO — SJI Global",
-        "quote": "\"Necesitábamos un MVP funcional en tiempo récord y Alcaware lo hizo realidad. Su metodología por etapas nos permitió lanzar con confianza y seguir escalando el producto sin reescribir nada.\"",
+        "quote": "\"Necesitábamos centralizar todos nuestros expedientes y procesos jurídicos en un solo lugar. Alcaware entendió perfectamente el flujo de trabajo de un despacho legal y nos entregó una solución que mejoró la eficiencia de todo el equipo.\"",
         "rating": 5
       },
       {
-        "name": "MIGUEL TORRES",
-        "role": "Fundador — Isa Legal",
-        "quote": "\"Lo que más nos sorprendió fue su enfoque en arquitectura desde el primer día. No solo nos entregaron código, nos entregaron un sistema pensado para crecer. Hoy manejamos 10x el volumen inicial sin problemas.\"",
+        "name": "YUNIOR CORONADO",
+        "role": "LEADER — IQ English",
+        "quote": "\"Alcaware digitalizó por completo la experiencia de nuestra escuela de inglés. Desde la gestión de alumnos hasta el seguimiento de progreso, todo funciona en una plataforma que estudiantes y maestros usan con facilidad desde el primer día.\"",
         "rating": 4
-      },
-      {
-        "name": "VALERIA SANCHEZ",
-        "role": "Directora de Innovación — Grupo Industrial",
-        "quote": "\"Implementaron un asistente de IA que automatizó procesos que antes consumían horas de trabajo manual. El equipo de Alcaware entiende tanto el negocio como la tecnología, eso marca la diferencia.\"",
-        "rating": 5
       }
     ]
   },
@@ -294,8 +285,8 @@
       "title": "CASOS",
       "subtitle": "Ejemplos reales de cómo ayudamos a empresas a construir soluciones digitales eficientes y escalables.",
       "paragraphs": [
-        "Se construyó un dashboard interactivo para una empresa de servicios financieros que permite visualizar el rendimiento de portafolios de inversión, tendencias del mercado y recomendaciones automatizadas.",
-        "El sistema redujo el tiempo de análisis manual en más de 60% y mejoró la retención de clientes en 42%, ya que los usuarios podían acceder a información financiera en tiempo real desde una sola plataforma."
+        "La digitalización de los procesos jurídicos permitió a la organización optimizar la administración de expedientes y el seguimiento de procedimientos legales, reduciendo tareas operativas repetitivas y mejorando la disponibilidad de información para abogados y personal administrativo.",
+        "Como resultado, la empresa logró aumentar la eficiencia operativa de sus equipos, reducir tiempos de consulta y seguimiento de casos, fortalecer la trazabilidad documental y mejorar la capacidad de respuesta ante clientes y autoridades mediante información centralizada y actualizada en tiempo real."
       ]
     },
     "entregables": {
@@ -372,24 +363,24 @@
       "title": "PREGUNTAS FRECUENTES",
       "items": [
         {
-          "question": "¿Cuánto tarda un MVP?",
-          "answer": "Un MVP suele desarrollarse entre 4 y 8 semanas, dependiendo de la complejidad del producto y las funcionalidades necesarias para validar la idea."
+          "question": "¿Cuánto tarda un MVP web o móvil?",
+          "answer": "Un MVP suele desarrollarse entre 4 y 8 semanas. El tiempo depende de la complejidad del producto y las funcionalidades necesarias. Trabajamos por fases para que puedas lanzar rápido y seguir iterando con base en datos reales."
         },
         {
-          "question": "¿Trabajan por sprints?",
-          "answer": "Sí, trabajamos con metodología ágil en ciclos de 1 a 2 semanas. Esto nos permite entregar avances continuos, incorporar feedback rápido y adaptarnos a cambios sin perder velocidad."
+          "question": "¿Desarrollan para iOS y Android?",
+          "answer": "Sí. Desarrollamos apps móviles para iOS y Android, tanto con tecnologías multiplataforma (React Native, Flutter) como con desarrollo nativo, según los requerimientos de rendimiento y experiencia de usuario de tu producto."
         },
         {
-          "question": "¿Incluye diseño UI/UX?",
-          "answer": "Sí. Cada proyecto incluye diseño de interfaz y experiencia de usuario. Creamos wireframes, prototipos interactivos y diseño visual alineado con tu marca antes de comenzar el desarrollo."
+          "question": "¿El proyecto incluye diseño UI/UX?",
+          "answer": "Sí. Cada proyecto incluye diseño de interfaz y experiencia de usuario: wireframes, prototipos interactivos y diseño visual alineado con tu marca, antes de comenzar cualquier línea de código."
         },
         {
-          "question": "¿Qué pasa después del lanzamiento?",
-          "answer": "Ofrecemos planes de soporte y mantenimiento post-lanzamiento que incluyen corrección de errores, actualizaciones de seguridad, optimizaciones de rendimiento y evolución continua del producto."
+          "question": "¿Trabajan con metodología ágil y sprints?",
+          "answer": "Sí, trabajamos en sprints de 1 a 2 semanas. Esto nos permite entregar avances continuos, incorporar feedback rápido y adaptarnos a cambios sin perder velocidad ni reescribir lo que ya funciona."
         },
         {
-          "question": "¿Pueden integrar pagos/ERP/CRM?",
-          "answer": "Sí. Integramos pasarelas de pago (Stripe, PayPal, Mercado Pago), sistemas ERP, CRM y cualquier API o servicio externo que necesite tu operación."
+          "question": "¿Pueden integrar pasarelas de pago, ERP o CRM?",
+          "answer": "Sí. Integramos Stripe, PayPal, Mercado Pago, sistemas ERP, CRMs como HubSpot o Salesforce, y cualquier API o servicio externo que tu operación necesite."
         }
       ]
     },
@@ -587,6 +578,45 @@
     "contact_title": "HABLEMOS DE TU PROYECTO",
     "technologies": {
       "title": "TECNOLOGIAS Y APLICACIONES"
+    },
+    "como_trabajamos": {
+      "title": "COMO TRABAJAMOS?",
+      "text1": "Nuestro proceso blockchain convierte tu idea en una solución descentralizada segura y funcional.",
+      "text2": "Desde el análisis del caso de uso hasta el deploy en mainnet, cada paso está diseñado para garantizar contratos robustos, auditados y listos para producción.",
+      "steps": [
+        {
+          "title": "",
+          "description": "Analizamos tu modelo de negocio para identificar qué procesos se benefician de la descentralización, trazabilidad o automatización con smart contracts."
+        },
+        {
+          "title": "",
+          "description": "Definimos la arquitectura on-chain: red blockchain, estándar de contratos (ERC-20, ERC-721, etc.), lógica de negocio y puntos de integración con sistemas existentes."
+        },
+        {
+          "title": "",
+          "description": "Desarrollamos los smart contracts en Solidity con pruebas unitarias exhaustivas, cobertura de edge cases y validación de la lógica antes del deploy."
+        },
+        {
+          "title": "",
+          "description": "Revisamos el código en busca de vulnerabilidades, reentrancy y otras amenazas comunes. Garantizamos contratos seguros y gas-eficientes antes de cualquier deploy."
+        },
+        {
+          "title": "",
+          "description": "Desplegamos en testnet para validación real y luego en mainnet con configuración completa de wallets, roles y permisos según el diseño del sistema."
+        },
+        {
+          "title": "",
+          "description": "Conectamos la solución blockchain con tu infraestructura actual (APIs, bases de datos, frontend) y brindamos soporte técnico continuo post-lanzamiento."
+        }
+      ]
+    },
+    "casos": {
+      "title": "CASOS",
+      "subtitle": "Ejemplos reales de cómo ayudamos a empresas a implementar blockchain de forma estratégica y funcional.",
+      "paragraphs": [
+        "La implementación de ACM Suite permitió a la organización digitalizar y centralizar sus procesos de cumplimiento legal, auditoría y gestión de riesgos, eliminando la dispersión de información entre múltiples herramientas y documentos.",
+        "Como resultado, la empresa logró mejorar el control operativo, incrementar la trazabilidad de las evidencias de cumplimiento y obtener indicadores en tiempo real para la toma de decisiones, fortaleciendo su capacidad de respuesta ante auditorías internas, clientes y autoridades regulatorias."
+      ]
     }
   },
   "ai": {
@@ -644,24 +674,24 @@
       "title": "PREGUNTAS FRECUENTES",
       "items": [
         {
-          "question": "¿Cuánto tiempo tarda desarrollar un proyecto?",
-          "answer": "Depende del alcance, pero una implementación inicial puede tomar entre 2 y 6 semanas."
+          "question": "¿Cuánto tarda implementar una solución de IA?",
+          "answer": "Una implementación inicial puede tomar entre 2 y 6 semanas. Proyectos más complejos con entrenamiento de modelos o múltiples integraciones pueden extenderse a 2 o 3 meses. Trabajamos por fases para que veas resultados desde las primeras semanas."
         },
         {
-          "question": "¿Se puede integrar con mis sistemas actuales?",
-          "answer": "Sí. Diseñamos la solución para conectarse con tu infraestructura existente, ya sean APIs, bases de datos o plataformas empresariales, sin necesidad de reemplazar lo que ya tienes."
+          "question": "¿Qué modelos de IA o APIs utilizan?",
+          "answer": "Trabajamos con los modelos más avanzados del mercado: GPT (OpenAI), Claude (Anthropic), Llama y otros modelos open-source. La elección del modelo depende del caso de uso, el presupuesto y los requerimientos de privacidad de tu empresa."
         },
         {
-          "question": "¿Necesito conocimiento técnico para usarla?",
-          "answer": "No. Nos encargamos de toda la implementación técnica y te entregamos una solución lista para usar. Además te acompañamos durante el proceso para que tu equipo pueda operarla con confianza."
+          "question": "¿Necesito tener mis propios datos para que funcione?",
+          "answer": "No siempre. Muchas soluciones funcionan con los modelos base sin entrenamiento adicional. Cuando se requiere personalización, trabajamos con los datos que ya tienes —documentos, bases de datos, registros históricos— para adaptar el modelo a tu negocio."
         },
         {
-          "question": "¿Se puede personalizar según mi negocio?",
-          "answer": "Completamente. Cada solución se diseña a medida: el modelo, los flujos, los datos de entrenamiento y la lógica de integración se adaptan a las necesidades específicas de tu empresa."
+          "question": "¿Cómo garantizan la calidad y precisión de las respuestas?",
+          "answer": "A través de pruebas con datos reales, ingeniería de prompts, validación humana de outputs y ajuste iterativo del modelo. Definimos métricas de calidad desde el inicio y las verificamos antes de cada lanzamiento."
         },
         {
-          "question": "¿Pueden integrar pagos/ERP/CRM?",
-          "answer": "Sí. Podemos integrar la solución de IA con herramientas como Stripe, HubSpot, Salesforce, SAP y otras plataformas, según lo que requiera tu operación."
+          "question": "¿La solución de IA puede conectarse con mis herramientas actuales?",
+          "answer": "Sí. Diseñamos integraciones con CRMs, ERPs, bases de datos y sistemas empresariales. La IA se adapta a tu infraestructura existente sin necesidad de reemplazar lo que ya tienes funcionando."
         }
       ]
     },
@@ -775,12 +805,43 @@
         }
       ]
     },
+    "como_trabajamos": {
+      "title": "COMO TRABAJAMOS?",
+      "text1": "Nuestro proceso de implementación de IA está diseñado para generar resultados reales desde las primeras fases del proyecto.",
+      "text2": "Desde el análisis de tus datos y objetivos hasta el monitoreo continuo en producción, cada etapa está orientada a maximizar el impacto de la inteligencia artificial en tu operación.",
+      "steps": [
+        {
+          "title": "",
+          "description": "Analizamos el problema, los datos disponibles y los objetivos del negocio. Identificamos qué tipo de solución de IA genera más valor en tu contexto específico."
+        },
+        {
+          "title": "",
+          "description": "Seleccionamos el modelo o API más adecuada (GPT, Claude, Llama u otros) y definimos la arquitectura de integración según el caso de uso y los recursos disponibles."
+        },
+        {
+          "title": "",
+          "description": "Construimos la solución: flujos de procesamiento, prompts optimizados, conexión con tus datos y sistemas, y la interfaz o API que expone la funcionalidad al usuario final."
+        },
+        {
+          "title": "",
+          "description": "Evaluamos el rendimiento con datos reales. Ajustamos parámetros, mejoramos prompts y validamos la precisión de las respuestas antes del lanzamiento."
+        },
+        {
+          "title": "",
+          "description": "Implementamos la solución en producción con monitoreo de uso, control de costos de API y la escalabilidad necesaria para el volumen de tu operación."
+        },
+        {
+          "title": "",
+          "description": "Monitoreamos el comportamiento en producción, incorporamos nuevos datos y mejoramos continuamente la precisión y utilidad de la solución a lo largo del tiempo."
+        }
+      ]
+    },
     "casos": {
       "title": "CASOS",
       "subtitle": "Ejemplos reales de cómo ayudamos a empresas a implementar inteligencia artificial de forma estratégica y funcional.",
       "paragraphs": [
-        "Desarrollamos un asistente conversacional con IA para una empresa de servicios financieros que automatiza la atención al cliente, responde consultas en tiempo real y escala sin necesidad de ampliar el equipo humano.",
-        "El sistema redujo el tiempo de respuesta promedio en más de 70% y liberó al equipo de tareas repetitivas, permitiéndoles enfocarse en casos de mayor valor para el negocio."
+        "Desarrollamos una solución tecnológica que permitió digitalizar procesos críticos relacionados con cumplimiento legal, gestión documental y seguimiento de proyectos, reduciendo la dependencia de hojas de cálculo, correos electrónicos y controles manuales.",
+        "Como resultado, la organización logró mejorar el control de sus operaciones, incrementar la productividad de sus equipos y disponer de información centralizada para la toma de decisiones, fortaleciendo la calidad y consistencia de sus procesos internos."
       ]
     }
   },

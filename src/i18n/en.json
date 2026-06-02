@@ -119,23 +119,20 @@
     "stories": [
       {
         "paragraphs": [
-          "We developed an enterprise web platform that allows companies to centralize the management of their operations in a single digital system.",
-          "The project consisted of designing and implementing an intuitive dashboard where users can manage key processes such as billing, operations tracking and real-time report generation. To achieve this, we used modern web development technologies that allow a scalable and secure architecture.",
-          "This solution helped optimize the client's internal processes, reducing operational errors and improving information visibility within the organization."
+          "We developed an enterprise platform for comprehensive EHS (Environment, Health & Safety) legal compliance management, centralizing critical processes such as audits, compliance evidence, permits, and risk assessments in interactive dashboards with real-time indicators.",
+          "We incorporated blockchain-based document traceability to guarantee record integrity, improving operational control, reducing non-compliance risks, and enabling faster, data-driven decision-making."
         ]
       },
       {
         "paragraphs": [
-          "We designed and developed a decentralized application based on blockchain technology that allows users to exchange digital assets securely and transparently.",
-          "The solution integrates smart contracts that automate transaction execution without the need for intermediaries, ensuring greater efficiency and reliability in each operation.",
-          "Additionally, we implemented an intuitive web interface that facilitates interaction with the blockchain network, allowing users to manage their assets and perform operations easily within a fully decentralized environment."
+          "We designed an AI-powered platform for legal compliance analysis and management in highly regulated environments, capable of automatically processing laws, regulations, standards, and regulatory documents to extract legal requirements with precision.",
+          "The platform adapts to each organization's needs through user instructions, reducing document review time and enabling decisions backed by consistent, scalable, and auditable legal information."
         ]
       },
       {
         "paragraphs": [
-          "We developed an artificial intelligence solution inspired by technologies like IBM and its IBM Watson platform, used by companies to automate processes, analyze data and improve the digital experience.",
-          "The implementation consisted of integrating an intelligent assistant within the client's platform capable of processing queries, analyzing business information and generating responses or recommendations in real time through natural language processing.",
-          "This type of technology has been used by companies like Banco Bradesco, which implemented IBM Watson to assist its customer service team and automatically respond to thousands of queries. Our solution allowed automating internal processes, improving information management and offering a more efficient digital experience for end users."
+          "We developed a platform for comprehensive legal process management, centralizing case files, lawsuits, and legal documentation with automated query mechanisms from judicial platforms and official sources.",
+          "The solution includes deadline control, procedural action tracking, and legal process monitoring — optimizing legal team operations and strengthening decision-making with centralized, real-time information."
         ]
       }
     ]
@@ -145,28 +142,22 @@
     "subtitle": "We collaborate with companies looking to develop reliable and scalable technology.",
     "items": [
       {
-        "name": "CARLOS RAMÍREZ",
-        "role": "Technology Director — ACM Suite",
-        "quote": "\"Alcaware completely transformed our digital infrastructure. They integrated new technologies into our existing system without interrupting a single day of operation. The level of technical rigor and communication was exceptional.\"",
+        "name": "DAVID ANTUNEZ",
+        "role": "CEO — ACM Suite",
+        "quote": "\"Alcaware built our EHS legal compliance platform from scratch. The blockchain integration gave us the document traceability we needed. Today we manage audits, permits and compliance evidence in one single system with real-time indicators.\"",
         "rating": 5
       },
       {
-        "name": "ANDREA MONTOYA",
-        "role": "CEO — SJI Global",
-        "quote": "\"We needed a functional MVP in record time and Alcaware made it happen. Their stage-by-stage methodology allowed us to launch with confidence and continue scaling the product without rewriting anything.\"",
+        "name": "MARTHA HARCE",
+        "role": "CEO — ISA Legal",
+        "quote": "\"We needed to centralize all our case files and legal processes in one place. Alcaware perfectly understood the workflow of a law firm and delivered a solution that improved the efficiency of the entire team.\"",
         "rating": 5
       },
       {
-        "name": "MIGUEL TORRES",
-        "role": "Founder — ISA Legal",
-        "quote": "\"What surprised us most was their focus on architecture from day one. They didn't just deliver code, they delivered a system built to grow. Today we handle 10x the initial volume without issues.\"",
+        "name": "YUNIOR CORONADO",
+        "role": "LEADER — IQ English",
+        "quote": "\"Alcaware completely digitalized the experience of our English school. From student management to progress tracking, everything runs on a platform that students and teachers use with ease from day one.\"",
         "rating": 4
-      },
-      {
-        "name": "VALERIA SÁNCHEZ",
-        "role": "Innovation Director — Industrial Group",
-        "quote": "\"They implemented an AI assistant that automated processes that previously consumed hours of manual work. The Alcaware team understands both business and technology — that makes all the difference.\"",
-        "rating": 5
       }
     ]
   },
@@ -294,8 +285,8 @@
       "title": "CASES",
       "subtitle": "Real examples of how we help companies build efficient and scalable digital solutions.",
       "paragraphs": [
-        "We built an interactive dashboard for a financial services company that allows visualizing investment portfolio performance, market trends, and automated recommendations.",
-        "The system reduced manual analysis time by over 60% and improved client retention by 42%, as users could access real-time financial information from a single platform."
+        "The digitalization of legal processes allowed the organization to optimize case file management and the tracking of legal proceedings, reducing repetitive operational tasks and improving information availability for lawyers and administrative staff.",
+        "As a result, the company increased its teams' operational efficiency, reduced case consultation and follow-up times, strengthened document traceability, and improved response capacity to clients and authorities through centralized, real-time updated information."
       ]
     },
     "entregables": {
@@ -372,24 +363,24 @@
       "title": "FREQUENTLY ASKED QUESTIONS",
       "items": [
         {
-          "question": "How long does an MVP take?",
-          "answer": "An MVP is typically developed in 4 to 8 weeks, depending on the product's complexity and the features needed to validate the idea."
+          "question": "How long does a web or mobile MVP take?",
+          "answer": "An MVP is typically developed in 4 to 8 weeks. The time depends on the product's complexity and required features. We work in phases so you can launch quickly and keep iterating based on real data."
         },
         {
-          "question": "Do you work in sprints?",
-          "answer": "Yes, we work with agile methodology in 1 to 2 week cycles. This allows us to deliver continuous progress, incorporate quick feedback and adapt to changes without losing speed."
+          "question": "Do you develop for both iOS and Android?",
+          "answer": "Yes. We develop mobile apps for iOS and Android, using both cross-platform technologies (React Native, Flutter) and native development, depending on the performance and user experience requirements of your product."
         },
         {
-          "question": "Does it include UI/UX design?",
-          "answer": "Yes. Every project includes interface and user experience design. We create wireframes, interactive prototypes and visual design aligned with your brand before development begins."
+          "question": "Does the project include UI/UX design?",
+          "answer": "Yes. Every project includes interface and user experience design: wireframes, interactive prototypes, and visual design aligned with your brand — all before writing a single line of code."
         },
         {
-          "question": "What happens after launch?",
-          "answer": "We offer post-launch support and maintenance plans that include bug fixes, security updates, performance optimizations and continuous product evolution."
+          "question": "Do you work with agile methodology and sprints?",
+          "answer": "Yes, we work in 1 to 2 week sprints. This lets us deliver continuous progress, incorporate feedback quickly, and adapt to changes without losing speed or rewriting what already works."
         },
         {
-          "question": "Can you integrate payments/ERP/CRM?",
-          "answer": "Yes. We integrate payment gateways (Stripe, PayPal, Mercado Pago), ERP, CRM systems and any API or external service your operation needs."
+          "question": "Can you integrate payment gateways, ERP, or CRM?",
+          "answer": "Yes. We integrate Stripe, PayPal, Mercado Pago, ERP systems, CRMs like HubSpot or Salesforce, and any API or external service your operation needs."
         }
       ]
     },
@@ -587,6 +578,45 @@
     "contact_title": "LET'S TALK ABOUT YOUR PROJECT",
     "technologies": {
       "title": "TECHNOLOGIES & APPLICATIONS"
+    },
+    "como_trabajamos": {
+      "title": "HOW WE WORK?",
+      "text1": "Our blockchain process turns your idea into a secure, functional decentralized solution.",
+      "text2": "From use case analysis to mainnet deployment, every step is designed to ensure robust, audited contracts ready for production.",
+      "steps": [
+        {
+          "title": "",
+          "description": "We analyze your business model to identify which processes benefit from decentralization, traceability, or automation through smart contracts."
+        },
+        {
+          "title": "",
+          "description": "We define the on-chain architecture: blockchain network, contract standards (ERC-20, ERC-721, etc.), business logic, and integration points with existing systems."
+        },
+        {
+          "title": "",
+          "description": "We develop smart contracts in Solidity with exhaustive unit tests, edge case coverage, and logic validation before any deployment."
+        },
+        {
+          "title": "",
+          "description": "We review the code for vulnerabilities, reentrancy, and other common threats. We guarantee secure, gas-efficient contracts before any deploy."
+        },
+        {
+          "title": "",
+          "description": "We deploy to testnet for real-environment validation, then to mainnet with full configuration of wallets, roles, and permissions as designed."
+        },
+        {
+          "title": "",
+          "description": "We connect the blockchain solution with your current infrastructure (APIs, databases, frontend) and provide continuous technical support after launch."
+        }
+      ]
+    },
+    "casos": {
+      "title": "CASES",
+      "subtitle": "Real examples of how we help companies implement blockchain in a strategic and functional way.",
+      "paragraphs": [
+        "The implementation of ACM Suite allowed the organization to digitalize and centralize its legal compliance, audit, and risk management processes, eliminating information dispersion across multiple tools and documents.",
+        "As a result, the company improved operational control, increased the traceability of compliance evidence, and obtained real-time indicators for decision-making — strengthening its capacity to respond to internal audits, clients, and regulatory authorities."
+      ]
     }
   },
   "ai": {
@@ -644,24 +674,24 @@
       "title": "FREQUENTLY ASKED QUESTIONS",
       "items": [
         {
-          "question": "How long does it take to develop a project?",
-          "answer": "It depends on the scope, but an initial implementation can take between 2 and 6 weeks."
+          "question": "How long does it take to implement an AI solution?",
+          "answer": "An initial implementation can take between 2 and 6 weeks. More complex projects with model training or multiple integrations may extend to 2 or 3 months. We work in phases so you see results from the first weeks."
         },
         {
-          "question": "Can it be integrated with my current systems?",
-          "answer": "Yes. We design the solution to connect with your existing infrastructure, whether APIs, databases or enterprise platforms, without needing to replace what you already have."
+          "question": "Which AI models or APIs do you use?",
+          "answer": "We work with the most advanced models on the market: GPT (OpenAI), Claude (Anthropic), Llama, and other open-source models. The choice depends on the use case, budget, and your company's privacy requirements."
         },
         {
-          "question": "Do I need technical knowledge to use it?",
-          "answer": "No. We handle all the technical implementation and deliver a ready-to-use solution. We also accompany you throughout the process so your team can operate it with confidence."
+          "question": "Do I need my own data for it to work?",
+          "answer": "Not always. Many solutions work with base models without additional training. When customization is needed, we work with the data you already have — documents, databases, historical records — to tailor the model to your business."
         },
         {
-          "question": "Can it be customized for my business?",
-          "answer": "Completely. Each solution is designed from scratch: the model, flows, training data and integration logic are adapted to the specific needs of your company."
+          "question": "How do you guarantee the quality and accuracy of responses?",
+          "answer": "Through testing with real data, prompt engineering, human validation of outputs, and iterative model adjustment. We define quality metrics from the start and verify them before every launch."
         },
         {
-          "question": "Can you integrate payments/ERP/CRM?",
-          "answer": "Yes. We can integrate the AI solution with tools like Stripe, HubSpot, Salesforce, SAP and other platforms, depending on what your operation requires."
+          "question": "Can the AI solution connect with my current tools?",
+          "answer": "Yes. We design integrations with CRMs, ERPs, databases, and enterprise systems. The AI adapts to your existing infrastructure without needing to replace what you already have running."
         }
       ]
     },
@@ -775,12 +805,43 @@
         }
       ]
     },
+    "como_trabajamos": {
+      "title": "HOW WE WORK?",
+      "text1": "Our AI implementation process is designed to generate real results from the earliest project phases.",
+      "text2": "From analyzing your data and objectives to continuous monitoring in production, every stage is focused on maximizing the impact of artificial intelligence on your operation.",
+      "steps": [
+        {
+          "title": "",
+          "description": "We analyze the problem, available data, and business objectives. We identify which type of AI solution generates the most value in your specific context."
+        },
+        {
+          "title": "",
+          "description": "We select the most suitable model or API (GPT, Claude, Llama, or others) and define the integration architecture based on the use case and available resources."
+        },
+        {
+          "title": "",
+          "description": "We build the solution: processing flows, optimized prompts, connection with your data and systems, and the interface or API that exposes the functionality to the end user."
+        },
+        {
+          "title": "",
+          "description": "We evaluate performance with real data. We tune parameters, improve prompts, and validate response accuracy before launch."
+        },
+        {
+          "title": "",
+          "description": "We deploy the solution to production with usage monitoring, API cost control, and the scalability needed for your operation's volume."
+        },
+        {
+          "title": "",
+          "description": "We monitor behavior in production, incorporate new data, and continuously improve the accuracy and usefulness of the solution over time."
+        }
+      ]
+    },
     "casos": {
       "title": "CASE STUDIES",
       "subtitle": "Real examples of how we help companies implement artificial intelligence in a strategic and functional way.",
       "paragraphs": [
-        "We developed a conversational AI assistant for a financial services company that automates customer support, responds to queries in real time, and scales without expanding the human team.",
-        "The system reduced average response time by over 70% and freed the team from repetitive tasks, allowing them to focus on higher-value business cases."
+        "We developed a technological solution that enabled the digitalization of critical processes related to legal compliance, document management, and project tracking — reducing reliance on spreadsheets, emails, and manual controls.",
+        "As a result, the organization improved operational control, increased team productivity, and gained centralized information for decision-making, strengthening the quality and consistency of its internal processes."
       ]
     }
   },

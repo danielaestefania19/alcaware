@@ -2,13 +2,12 @@ import TestimonialsBackground from "../../../components/ui/backgrounds/Testimoni
 import testimonio1 from "../../../assets/images/home/testimonies/Testimonio1.jpg";
 import testimonio2 from "../../../assets/images/home/testimonies/Testimonio2.png";
 import testimonio3 from "../../../assets/images/home/testimonies/Testimonio3.png";
-import testimonio4 from "../../../assets/images/home/testimonies/Testimonio4.png";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 type TestimonialItem = { name: string; role: string; quote: string; rating: number };
 
-const testimonialsImages = [testimonio1, testimonio2, testimonio3, testimonio4];
+const testimonialsImages = [testimonio1, testimonio2, testimonio3];
 
 function StarRating({ rating }: { rating: number }) {
     return (
