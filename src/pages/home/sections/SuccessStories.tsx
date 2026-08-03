@@ -1,15 +1,18 @@
-import acmsuite from "../../../assets/images/home/acmsuite.png";
-import isalegal from "../../../assets/images/home/isalegal.png";
-import sjiglobal from "../../../assets/images/home/sjiglobal.png";
+import acmsuiteAvif from "../../../assets/images/home/acmsuite.avif";
+import acmsuiteWebp from "../../../assets/images/home/acmsuite.webp";
+import isalegalAvif from "../../../assets/images/home/isalegal.avif";
+import isalegalWebp from "../../../assets/images/home/isalegal.webp";
+import sjiglobalAvif from "../../../assets/images/home/sjiglobal.avif";
+import sjiglobalWebp from "../../../assets/images/home/sjiglobal.webp";
 import SuccessStoriesBackground from "../../../components/ui/backgrounds/SuccessStoriesBackground";
 import { useTranslation } from "react-i18next";
 
 type Story = { paragraphs: string[] };
 
 const storyMeta = [
-  { name: "ACM SUITE",       image: acmsuite, imageAlt: "Acm Suite",     reverse: false, textRight: true },
-  { name: "ISA LEGAL", image: isalegal, imageAlt: "Isa Legal",          reverse: true,  textRight: false },
-  { name: "SJI GLOBAL",   image: sjiglobal, imageAlt: "SJI GLOBAL",  reverse: false, textRight: true },
+  { name: "ACM SUITE", image: { avif: acmsuiteAvif, webp: acmsuiteWebp }, imageAlt: "Acm Suite", reverse: false, textRight: true },
+  { name: "ISA LEGAL", image: { avif: isalegalAvif, webp: isalegalWebp }, imageAlt: "Isa Legal", reverse: true, textRight: false },
+  { name: "SJI GLOBAL", image: { avif: sjiglobalAvif, webp: sjiglobalWebp }, imageAlt: "SJI GLOBAL", reverse: false, textRight: true },
 ];
 
 export default function SuccessStories() {
@@ -41,11 +44,15 @@ export default function SuccessStories() {
                 className={`flex flex-col md:flex-row items-center gap-8 lg:gap-10 xl:gap-12 ${meta.reverse ? "md:flex-row-reverse" : ""}`}
               >
                 <div className="w-full md:w-1/2 shrink-0 overflow-hidden rounded-2xl transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
-                  <img
-                    src={meta.image}
-                    alt={meta.imageAlt}
-                    className="w-full h-auto object-cover"
-                  />
+                  <picture>
+                    <source srcSet={meta.image.avif} type="image/avif" />
+                    <source srcSet={meta.image.webp} type="image/webp" />
+                    <img
+                      src={meta.image.webp}
+                      alt={meta.imageAlt}
+                      className="w-full h-auto object-cover"
+                    />
+                  </picture>
                 </div>
 
                 <div className={`w-full md:w-1/2 flex flex-col gap-3 lg:gap-4 ${meta.textRight ? "text-right" : ""}`}>

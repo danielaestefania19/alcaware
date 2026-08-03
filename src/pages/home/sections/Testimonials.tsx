@@ -1,13 +1,20 @@
 import TestimonialsBackground from "../../../components/ui/backgrounds/TestimonialsBackground";
-import testimonio1 from "../../../assets/images/home/testimonies/Testimonio1.jpg";
-import testimonio2 from "../../../assets/images/home/testimonies/Testimonio2.png";
-import testimonio3 from "../../../assets/images/home/testimonies/Testimonio3.png";
+import testimonio1Avif from "../../../assets/images/home/testimonies/Testimonio1.avif";
+import testimonio1Webp from "../../../assets/images/home/testimonies/Testimonio1.webp";
+import testimonio2Avif from "../../../assets/images/home/testimonies/Testimonio2.avif";
+import testimonio2Webp from "../../../assets/images/home/testimonies/Testimonio2.webp";
+import testimonio3Avif from "../../../assets/images/home/testimonies/Testimonio3.avif";
+import testimonio3Webp from "../../../assets/images/home/testimonies/Testimonio3.webp";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 type TestimonialItem = { name: string; role: string; quote: string; rating: number };
 
-const testimonialsImages = [testimonio1, testimonio2, testimonio3];
+const testimonialsImages = [
+    { avif: testimonio1Avif, webp: testimonio1Webp },
+    { avif: testimonio2Avif, webp: testimonio2Webp },
+    { avif: testimonio3Avif, webp: testimonio3Webp },
+];
 
 function StarRating({ rating }: { rating: number }) {
     return (
@@ -52,11 +59,15 @@ export default function Testimonials() {
                 </p>
                 <div className="mt-8 lg:mt-10 xl:mt-14 flex flex-col md:flex-row items-center gap-6 md:gap-8 lg:gap-10 xl:gap-14">
                     <div className="shrink-0 w-36 h-44 md:w-44 md:h-52 lg:w-56 lg:h-64 xl:w-68 xl:h-76 rounded-2xl overflow-hidden border-2 border-primary shadow-[0_0_24px_rgba(58,224,179,0.35)]">
-                        <img
-                            src={currentImage}
-                            alt={testimonial.name}
-                            className="w-full h-full object-cover object-center transition-opacity duration-300"
-                        />
+                        <picture>
+                            <source srcSet={currentImage.avif} type="image/avif" />
+                            <source srcSet={currentImage.webp} type="image/webp" />
+                            <img
+                                src={currentImage.webp}
+                                alt={testimonial.name}
+                                className="w-full h-full object-cover object-center transition-opacity duration-300"
+                            />
+                        </picture>
                     </div>
                     <div className="flex-1 text-center md:text-left">
                         <div className="flex items-center gap-3 flex-wrap justify-center md:justify-start">

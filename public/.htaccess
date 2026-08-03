@@ -1,0 +1,7 @@
+ErrorDocument 404 /404.html
+
+<IfModule mod_headers.c>
+  <FilesMatch "404\.html$">
+    Header set Content-Type "text/html; charset=UTF-8"
+  </FilesMatch>
+</IfModule>

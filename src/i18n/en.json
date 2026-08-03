@@ -923,5 +923,11 @@
     "visit_title": "Visit us",
     "address": "Francisco Villa 650, Jardín Español, 64820 M Monterrey, N.L.",
     "copyright": "©2025 CAMPS. ALL RIGHTS RESERVED"
+  },
+  "not_found": {
+    "code": "404",
+    "title": "PAGE NOT FOUND",
+    "subtitle": "THE PAGE YOU ARE LOOKING FOR DOES NOT EXIST OR WAS MOVED",
+    "cta_home": "BACK TO HOME"
   }
 }

@@ -1,11 +1,19 @@
-import webmovil from "../../../assets/images/home/webmovil.webp";
-import blockchain from "../../../assets/images/home/blockchain.webp";
-import ai from "../../../assets/images/home/ai.webp";
-import BgServices from "../../../assets/images/home/BgServices.webp";
+import webmovilAvif from "../../../assets/images/home/webmovil.avif";
+import webmovilWebp from "../../../assets/images/home/webmovil.webp";
+import blockchainAvif from "../../../assets/images/home/blockchain.avif";
+import blockchainWebp from "../../../assets/images/home/blockchain.webp";
+import aiAvif from "../../../assets/images/home/ai.avif";
+import aiWebp from "../../../assets/images/home/ai.webp";
+import BgServicesAvif from "../../../assets/images/home/BgServices.avif";
+import BgServicesWebp from "../../../assets/images/home/BgServices.webp";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
 
-const images = [webmovil, blockchain, ai];
+const images = [
+    { avif: webmovilAvif, webp: webmovilWebp },
+    { avif: blockchainAvif, webp: blockchainWebp },
+    { avif: aiAvif, webp: aiWebp },
+];
 const reverseFlags = [false, true, false];
 const routes = ["/web-mobil", "/blockchain", "/inteligencia-artificial"];
 
@@ -24,7 +32,11 @@ export default function Services() {
         <section
             id="servicios"
             className="relative py-16 lg:py-20 xl:py-24 2xl:py-32 text-white overflow-hidden"
-            style={{ backgroundImage: `url(${BgServices})`, backgroundSize: "cover", backgroundPosition: "center" }}
+            style={{
+                backgroundImage: `image-set(url(${BgServicesAvif}) type("image/avif"), url(${BgServicesWebp}) type("image/webp"))`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+            }}
         >
             <div className="w-full px-6 md:px-12 lg:px-20 xl:px-32 2xl:px-72 flex flex-col gap-10 lg:gap-14 xl:gap-20">
                 {services.map((service, index) => (
@@ -35,11 +47,15 @@ export default function Services() {
                         }`}
                     >
                         <div className="w-full md:w-1/2 shrink-0 overflow-hidden rounded-2xl transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
-                            <img
-                                src={images[index]}
-                                alt={service.imageAlt}
-                                className="w-full h-auto object-cover"
-                            />
+                            <picture>
+                                <source srcSet={images[index].avif} type="image/avif" />
+                                <source srcSet={images[index].webp} type="image/webp" />
+                                <img
+                                    src={images[index].webp}
+                                    alt={service.imageAlt}
+                                    className="w-full h-auto object-cover"
+                                />
+                            </picture>
                         </div>
 
                         <div className="w-full md:w-1/2">
