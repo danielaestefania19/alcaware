@@ -2,7 +2,7 @@ import Logo from "../../assets/images/logos/Logo.png";
 import { useState, useRef, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { ChevronDown } from "lucide-react";
-import { useNavigate, useLocation } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 
 const servicePageMap: Record<number, string> = {
   0: "web-mobil",
@@ -63,12 +63,13 @@ export default function Navbar() {
       <div className="flex items-center justify-between px-6 md:px-10 lg:px-20 xl:px-32 2xl:px-72 py-4 lg:py-5 xl:py-6 text-white">
         <img src={Logo} alt="Alcaware" className="h-5 lg:h-6 xl:h-7 cursor-pointer" onClick={() => goTo("home")} />
         <nav className="hidden md:flex gap-6 lg:gap-8 xl:gap-9 font-montserrat text-xs lg:text-xs xl:text-sm 2xl:text-base">
-          <a
+          <Link
+            to="/"
             className={`cursor-pointer transition-colors hover:text-primary ${isHome ? "text-primary" : ""}`}
-            onClick={() => goTo("home")}
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
             {t("navbar.home")}
-          </a>
+          </Link>
           <div className="relative" ref={servicesRef}>
             <button
               onClick={() => setServicesOpen(!servicesOpen)}
@@ -94,12 +95,13 @@ export default function Navbar() {
               </div>
             )}
           </div>
-          <a
+          <Link
+            to="/nosotros"
             className={`cursor-pointer transition-colors hover:text-primary ${location.pathname === "/nosotros" ? "text-primary" : ""}`}
-            onClick={() => goTo("nosotros")}
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
             {t("navbar.about")}
-          </a>
+          </Link>
         </nav>
         <div className="flex items-center gap-4">
           <div className="hidden md:block relative text-xs lg:text-xs xl:text-sm 2xl:text-base font-montserrat" ref={langRef}>
@@ -153,12 +155,13 @@ export default function Navbar() {
             </button>
           </div>
           <nav className="flex flex-col items-center justify-center flex-1 gap-10 font-montserrat text-2xl text-white">
-            <a
+            <Link
+              to="/"
               className={`cursor-pointer transition-colors ${isHome ? "text-primary" : ""}`}
-              onClick={() => { goTo("home"); setMenuOpen(false); }}
+              onClick={() => { window.scrollTo({ top: 0, behavior: "smooth" }); setMenuOpen(false); }}
             >
               {t("navbar.home")}
-            </a>
+            </Link>
             <div className="flex flex-col items-center gap-3">
               <button
                 onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
@@ -184,12 +187,13 @@ export default function Navbar() {
                 </div>
               )}
             </div>
-            <a
+            <Link
+              to="/nosotros"
               className={`cursor-pointer transition-colors ${location.pathname === "/nosotros" ? "text-primary" : ""}`}
-              onClick={() => { goTo("nosotros"); setMenuOpen(false); }}
+              onClick={() => { window.scrollTo({ top: 0, behavior: "smooth" }); setMenuOpen(false); }}
             >
               {t("navbar.about")}
-            </a>
+            </Link>
             <div className="flex gap-4 mt-2">
               {options.map((opt) => (
                 <button
