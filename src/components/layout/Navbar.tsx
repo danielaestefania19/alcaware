@@ -3,11 +3,12 @@ import { useState, useRef, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { ChevronDown } from "lucide-react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
+import { pathFor, switchLangPath, useLocalePath, type Lang, type PageKey } from "../../i18n/routes";
 
-const servicePageMap: Record<number, string> = {
-  0: "web-mobil",
+const servicePageMap: Record<number, PageKey> = {
+  0: "webmobil",
   1: "blockchain",
-  2: "inteligencia-artificial",
+  2: "ai",
 };
 
 export default function Navbar() {
@@ -16,7 +17,8 @@ export default function Navbar() {
   const [servicesOpen, setServicesOpen] = useState(false);
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
 
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
+  const { lang, to } = useLocalePath();
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -44,17 +46,18 @@ export default function Navbar() {
     { code: "en", label: "English", flag: "🇺🇸" },
   ];
 
-  const currentLang = i18n.language;
+  const currentLang = lang;
   const current = options.find((o) => o.code === currentLang) ?? options[0];
-  const isHome = location.pathname === "/";
+  const isHome = location.pathname === to("home");
+  const isNosotros = location.pathname === to("nosotros");
 
   const handleLangChange = (code: string) => {
-    i18n.changeLanguage(code);
+    navigate(switchLangPath(location.pathname, code as Lang) + location.hash);
     setOpen(false);
   };
 
-  const goTo = (path: string) => {
-    navigate(path === "home" ? "/" : `/${path}`);
+  const goTo = (page: PageKey) => {
+    navigate(pathFor(page, lang));
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
@@ -64,7 +67,7 @@ export default function Navbar() {
         <img src={Logo} alt="Alcaware" className="h-5 lg:h-6 xl:h-7 cursor-pointer" onClick={() => goTo("home")} />
         <nav className="hidden md:flex gap-6 lg:gap-8 xl:gap-9 font-montserrat text-xs lg:text-xs xl:text-sm 2xl:text-base">
           <Link
-            to="/"
+            to={to("home")}
             className={`cursor-pointer transition-colors hover:text-primary ${isHome ? "text-primary" : ""}`}
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
@@ -96,8 +99,8 @@ export default function Navbar() {
             )}
           </div>
           <Link
-            to="/nosotros"
-            className={`cursor-pointer transition-colors hover:text-primary ${location.pathname === "/nosotros" ? "text-primary" : ""}`}
+            to={to("nosotros")}
+            className={`cursor-pointer transition-colors hover:text-primary ${isNosotros ? "text-primary" : ""}`}
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
             {t("navbar.about")}
@@ -156,7 +159,7 @@ export default function Navbar() {
           </div>
           <nav className="flex flex-col items-center justify-center flex-1 gap-10 font-montserrat text-2xl text-white">
             <Link
-              to="/"
+              to={to("home")}
               className={`cursor-pointer transition-colors ${isHome ? "text-primary" : ""}`}
               onClick={() => { window.scrollTo({ top: 0, behavior: "smooth" }); setMenuOpen(false); }}
             >
@@ -188,8 +191,8 @@ export default function Navbar() {
               )}
             </div>
             <Link
-              to="/nosotros"
-              className={`cursor-pointer transition-colors ${location.pathname === "/nosotros" ? "text-primary" : ""}`}
+              to={to("nosotros")}
+              className={`cursor-pointer transition-colors ${isNosotros ? "text-primary" : ""}`}
               onClick={() => { window.scrollTo({ top: 0, behavior: "smooth" }); setMenuOpen(false); }}
             >
               {t("navbar.about")}

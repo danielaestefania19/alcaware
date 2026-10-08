@@ -2,8 +2,12 @@ import { StrictMode } from 'react'
 import { hydrateRoot, createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import './index.css'
-import './i18n'
+import i18n from './i18n'
+import { langFromPath } from './i18n/routes'
 import App from './App.tsx'
+
+// El idioma lo decide la URL (/en/... es inglés), igual que en el pre-render.
+i18n.changeLanguage(langFromPath(window.location.pathname))
 
 const rootElement = document.getElementById('root')!
 

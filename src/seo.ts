@@ -1,4 +1,6 @@
 import es from "./i18n/es.json";
+import en from "./i18n/en.json";
+import { langFromPath, LANGS, pageFromPath, PAGE_PATHS, type Lang, type PageKey } from "./i18n/routes";
 
 export const SITE_URL = "https://www.alcaware.com";
 const OG_IMAGE = `${SITE_URL}/og-image.png`;
@@ -12,50 +14,95 @@ type RouteSeo = {
   serviceName?: string;
 };
 
-export const routeSeo: Record<string, RouteSeo> = {
-  "/": {
-    title: "Alcaware | Desarrollo de software a medida: web, móvil, blockchain e IA",
-    description:
-      "Desarrollamos software a medida para empresas: web apps, apps móviles iOS/Android, soluciones blockchain e inteligencia artificial. De MVP a escala, con seguridad desde el inicio.",
-    faq: es.faq.items,
+const SEO: Record<PageKey, Record<Lang, RouteSeo>> = {
+  home: {
+    es: {
+      title: "Alcaware | Desarrollo de software a medida: web, móvil, blockchain e IA",
+      description:
+        "Desarrollamos software a medida para empresas: web apps, apps móviles iOS/Android, soluciones blockchain e inteligencia artificial. De MVP a escala, con seguridad desde el inicio.",
+      faq: es.faq.items,
+    },
+    en: {
+      title: "Alcaware | Custom software development: web, mobile, blockchain and AI",
+      description:
+        "We build custom software for businesses: web apps, iOS/Android mobile apps, blockchain solutions and artificial intelligence. From MVP to scale, secure from day one.",
+      faq: en.faq.items,
+    },
   },
-  "/web-mobil": {
-    title: "Desarrollo de apps web y móviles a medida | Alcaware",
-    description:
-      "Creamos web apps, plataformas SaaS y apps móviles iOS/Android a medida, con arquitectura sólida, APIs e integraciones y UI/UX orientado a conversión.",
-    faq: es.webmobil.faq.items,
-    serviceName: "Desarrollo web y móvil a medida",
+  webmobil: {
+    es: {
+      title: "Desarrollo de apps web y móviles a medida | Alcaware",
+      description:
+        "Creamos web apps, plataformas SaaS y apps móviles iOS/Android a medida, con arquitectura sólida, APIs e integraciones y UI/UX orientado a conversión.",
+      faq: es.webmobil.faq.items,
+      serviceName: "Desarrollo web y móvil a medida",
+    },
+    en: {
+      title: "Custom web and mobile app development | Alcaware",
+      description:
+        "We build custom web apps, SaaS platforms and iOS/Android mobile apps with solid architecture, APIs and integrations, and conversion-focused UI/UX.",
+      faq: en.webmobil.faq.items,
+      serviceName: "Custom web and mobile development",
+    },
   },
-  "/blockchain": {
-    title: "Desarrollo blockchain a medida: smart contracts y tokenización | Alcaware",
-    description:
-      "Smart contracts, tokenización, trazabilidad e integración Web2 ↔ Web3 con seguridad y buenas prácticas desde el inicio. Desarrollo blockchain a medida para empresas.",
-    faq: es.blockchain.faq.items,
-    serviceName: "Desarrollo blockchain a medida",
+  blockchain: {
+    es: {
+      title: "Desarrollo blockchain a medida: smart contracts y tokenización | Alcaware",
+      description:
+        "Smart contracts, tokenización, trazabilidad e integración Web2 ↔ Web3 con seguridad y buenas prácticas desde el inicio. Desarrollo blockchain a medida para empresas.",
+      faq: es.blockchain.faq.items,
+      serviceName: "Desarrollo blockchain a medida",
+    },
+    en: {
+      title: "Custom blockchain development: smart contracts and tokenization | Alcaware",
+      description:
+        "Smart contracts, tokenization, traceability and Web2 ↔ Web3 integration with security and best practices from day one. Custom blockchain development for businesses.",
+      faq: en.blockchain.faq.items,
+      serviceName: "Custom blockchain development",
+    },
   },
-  "/inteligencia-artificial": {
-    title: "Soluciones de inteligencia artificial para empresas | Alcaware",
-    description:
-      "Chatbots, automatización de procesos y análisis inteligente de datos con IA. Integramos inteligencia artificial a la medida de tu empresa.",
-    faq: es.ai.faq.items,
-    serviceName: "Soluciones de inteligencia artificial a medida",
+  ai: {
+    es: {
+      title: "Soluciones de inteligencia artificial para empresas | Alcaware",
+      description:
+        "Chatbots, automatización de procesos y análisis inteligente de datos con IA. Integramos inteligencia artificial a la medida de tu empresa.",
+      faq: es.ai.faq.items,
+      serviceName: "Soluciones de inteligencia artificial a medida",
+    },
+    en: {
+      title: "Artificial intelligence solutions for businesses | Alcaware",
+      description:
+        "Chatbots, process automation and intelligent data analysis with AI. We integrate artificial intelligence tailored to your business.",
+      faq: en.ai.faq.items,
+      serviceName: "Custom artificial intelligence solutions",
+    },
   },
-  "/nosotros": {
-    title: "Nosotros | Alcaware, software a medida desde Monterrey",
-    description:
-      "Conoce a Alcaware: equipo de desarrollo de software a medida en Monterrey, México. Nuestra misión, experiencia y forma de trabajar.",
+  nosotros: {
+    es: {
+      title: "Nosotros | Alcaware, software a medida desde Monterrey",
+      description:
+        "Conoce a Alcaware: equipo de desarrollo de software a medida en Monterrey, México. Nuestra misión, experiencia y forma de trabajar.",
+    },
+    en: {
+      title: "About us | Alcaware, custom software from Monterrey",
+      description:
+        "Meet Alcaware: a custom software development team in Monterrey, Mexico. Our mission, experience and way of working.",
+    },
   },
 };
 
-const notFoundSeo: RouteSeo = {
-  title: "Página no encontrada | Alcaware",
-  description: "La página que buscas no existe.",
+const notFoundSeo: Record<Lang, RouteSeo> = {
+  es: { title: "Página no encontrada | Alcaware", description: "La página que buscas no existe." },
+  en: { title: "Page not found | Alcaware", description: "The page you are looking for does not exist." },
 };
 
 export function getRouteSeo(path: string) {
-  const seo = routeSeo[path];
-  return { seo: seo ?? notFoundSeo, indexable: Boolean(seo) };
+  const lang = langFromPath(path);
+  const page = pageFromPath(path);
+  return { seo: page ? SEO[page][lang] : notFoundSeo[lang], indexable: Boolean(page), page, lang };
 }
+
+export const absoluteUrl = (path: string) => `${SITE_URL}${path}`;
 
 const organization = {
   "@type": "ProfessionalService",
@@ -86,8 +133,8 @@ const jsonLd = (data: unknown) =>
 
 // Tags del <head> para el HTML pre-renderizado de cada ruta.
 export function renderHeadTags(path: string) {
-  const { seo, indexable } = getRouteSeo(path);
-  const url = `${SITE_URL}${path === "/" ? "/" : path}`;
+  const { seo, indexable, page, lang } = getRouteSeo(path);
+  const url = absoluteUrl(path);
   const title = escapeAttr(seo.title);
   const description = escapeAttr(seo.description);
 
@@ -101,11 +148,18 @@ export function renderHeadTags(path: string) {
     return tags.join("\n    ");
   }
 
+  const alternates = LANGS.map(
+    (alt) => `<link rel="alternate" hreflang="${alt}" href="${absoluteUrl(PAGE_PATHS[page!][alt])}" />`,
+  );
+  alternates.push(`<link rel="alternate" hreflang="x-default" href="${absoluteUrl(PAGE_PATHS[page!].es)}" />`);
+
   tags.push(
     `<link rel="canonical" href="${url}" />`,
+    ...alternates,
     `<meta property="og:type" content="website" />`,
     `<meta property="og:site_name" content="Alcaware" />`,
-    `<meta property="og:locale" content="es_MX" />`,
+    `<meta property="og:locale" content="${lang === "en" ? "en_US" : "es_MX"}" />`,
+    `<meta property="og:locale:alternate" content="${lang === "en" ? "es_MX" : "en_US"}" />`,
     `<meta property="og:url" content="${url}" />`,
     `<meta property="og:title" content="${title}" />`,
     `<meta property="og:description" content="${description}" />`,
@@ -127,6 +181,7 @@ export function renderHeadTags(path: string) {
       url,
       provider: { "@id": organization["@id"] },
       areaServed: "MX",
+      inLanguage: lang,
     });
   }
   if (seo.faq?.length) {
@@ -142,4 +197,22 @@ export function renderHeadTags(path: string) {
   tags.push(jsonLd({ "@context": "https://schema.org", "@graph": graph }));
 
   return tags.join("\n    ");
+}
+
+// sitemap.xml con las dos versiones de cada página enlazadas por hreflang.
+export function renderSitemap(lastmod = new Date().toISOString().slice(0, 10)) {
+  const urls = (Object.keys(PAGE_PATHS) as PageKey[]).flatMap((page) =>
+    LANGS.map((lang) => {
+      const links = LANGS.map(
+        (alt) =>
+          `    <xhtml:link rel="alternate" hreflang="${alt}" href="${absoluteUrl(PAGE_PATHS[page][alt])}" />`,
+      ).join("\n");
+      return `  <url>\n    <loc>${absoluteUrl(PAGE_PATHS[page][lang])}</loc>\n    <lastmod>${lastmod}</lastmod>\n${links}\n  </url>`;
+    }),
+  );
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+${urls.join("\n")}
+</urlset>
+`;
 }
