@@ -14,11 +14,16 @@ const routes = [
 
 async function prerender() {
   const template = fs.readFileSync(path.resolve(__dirname, 'dist/index.html'), 'utf-8')
-  const { render } = await import('./dist/server/entry-server.js')
+  const { render, renderHeadTags } = await import('./dist/server/entry-server.js')
+  const seoHead = /<!--seo-head-start-->[\s\S]*<!--seo-head-end-->/
+  const withHead = (route, appHtml) =>
+    template
+      .replace(seoHead, () => renderHeadTags(route))
+      .replace('<!--app-html-->', () => appHtml)
 
   for (const route of routes) {
     const appHtml = await render(route)
-    const html = template.replace('<!--app-html-->', appHtml)
+    const html = withHead(route, appHtml)
 
     const filePath =
       route === '/'
@@ -35,7 +40,7 @@ async function prerender() {
   }
 
   const notFoundHtml = await render('/ruta-inexistente')
-  const notFoundPage = template.replace('<!--app-html-->', notFoundHtml)
+  const notFoundPage = withHead('/ruta-inexistente', notFoundHtml)
   fs.writeFileSync(path.join(__dirname, 'dist/404.html'), notFoundPage)
   console.log('✓ Pre-rendered: /404.html')
 

@@ -5,6 +5,8 @@ import { PassThrough } from 'node:stream'
 import './i18n'
 import App from './App'
 
+export { renderHeadTags } from './seo'
+
 export function render(url: string): Promise<string> {
   return new Promise((resolve, reject) => {
     let html = ''
