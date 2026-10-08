@@ -2,6 +2,7 @@ import { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/layout/Navbar";
 import ScrollToTop from "./components/layout/ScrollToTop";
+import RouteSeo from "./components/layout/RouteSeo";
 
 const HomePage = lazy(() => import("./pages/home/HomePage"));
 const WebMobilePage = lazy(() => import("./pages/services/web-mobile/WebMobilePage"));
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className="bg-black">
       <ScrollToTop />
+      <RouteSeo />
       <Navbar />
       <Suspense fallback={<div className="min-h-screen bg-black" />}>
         <Routes>
