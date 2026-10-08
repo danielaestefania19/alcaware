@@ -19,7 +19,7 @@
       "DEPENDENCIA DE TERCEROS",
       "SOFTWARE QUE NO ESCALA"
     ],
-    "alcaware_title": "CON ALCAVARE:",
+    "alcaware_title": "CON ALCAWARE:",
     "alcaware_items": [
       "ESTRUCTURA TECNOLOGICA CLARA",
       "ROADMAP POR ETAPAS (MVP → ESCALA)",
@@ -194,7 +194,7 @@
     "company_label": "EMPRESA",
     "company_placeholder": "NOMBRE DE TU EMPRESA",
     "email_label": "CORREO",
-    "email_placeholder": "hola@unsitiogenial.es",
+    "email_placeholder": "it@alcaware.com",
     "phone_label": "TELEFONO",
     "phone_placeholder": "000-000-0000",
     "service_label": "TIPO DE SERVICIO",
@@ -922,7 +922,7 @@
     ],
     "visit_title": "Visítanos",
     "address": "Francisco Villa 650, Jardín Español, 64820 M Monterrey, N.L.",
-    "copyright": "©2025 CAMPS. TODOS LOS DERECHOS RESERVADOS"
+    "copyright": "©2025 ALCAWARE. TODOS LOS DERECHOS RESERVADOS"
   },
   "not_found": {
     "code": "404",
