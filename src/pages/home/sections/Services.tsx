@@ -8,6 +8,7 @@ import BgServicesAvif from "../../../assets/images/home/BgServices.avif";
 import BgServicesWebp from "../../../assets/images/home/BgServices.webp";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
+import { useLocalePath, type PageKey } from "../../../i18n/routes";
 
 const images = [
     { avif: webmovilAvif, webp: webmovilWebp },
@@ -15,7 +16,7 @@ const images = [
     { avif: aiAvif, webp: aiWebp },
 ];
 const reverseFlags = [false, true, false];
-const routes = ["/web-mobil", "/blockchain", "/inteligencia-artificial"];
+const routePages: PageKey[] = ["webmobil", "blockchain", "ai"];
 
 type ServiceItem = {
     title: string;
@@ -26,6 +27,7 @@ type ServiceItem = {
 export default function Services() {
     const { t } = useTranslation();
     const navigate = useNavigate();
+    const { to } = useLocalePath();
     const services = t("services.items", { returnObjects: true }) as ServiceItem[];
 
     return (
@@ -68,7 +70,7 @@ export default function Services() {
                                 ))}
                             </ul>
                             <button
-                                onClick={() => { navigate(routes[index]); window.scrollTo(0, 0); }}
+                                onClick={() => { navigate(to(routePages[index])); window.scrollTo(0, 0); }}
                                 className="mt-6 lg:mt-8 xl:mt-10 font-montserrat text-xs md:text-xs lg:text-sm xl:text-base 2xl:text-lg tracking-[0.15em] text-primary underline underline-offset-4 transition-all duration-300 hover:text-primary/70 hover:underline-offset-8 active:scale-95"
                             >
                                 {t("services.see_more")}

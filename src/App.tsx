@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/layout/Navbar";
 import ScrollToTop from "./components/layout/ScrollToTop";
 import RouteSeo from "./components/layout/RouteSeo";
+import { LANGS, PAGE_PATHS } from "./i18n/routes";
 
 const HomePage = lazy(() => import("./pages/home/HomePage"));
 const WebMobilePage = lazy(() => import("./pages/services/web-mobile/WebMobilePage"));
@@ -19,11 +20,13 @@ function App() {
       <Navbar />
       <Suspense fallback={<div className="min-h-screen bg-black" />}>
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/web-mobil" element={<WebMobilePage />} />
-          <Route path="/blockchain" element={<BlockchainPage />} />
-          <Route path="/inteligencia-artificial" element={<AIPage />} />
-          <Route path="/nosotros" element={<NosotrosPage />} />
+          {LANGS.map((lang) => [
+            <Route key={`home-${lang}`} path={PAGE_PATHS.home[lang]} element={<HomePage />} />,
+            <Route key={`webmobil-${lang}`} path={PAGE_PATHS.webmobil[lang]} element={<WebMobilePage />} />,
+            <Route key={`blockchain-${lang}`} path={PAGE_PATHS.blockchain[lang]} element={<BlockchainPage />} />,
+            <Route key={`ai-${lang}`} path={PAGE_PATHS.ai[lang]} element={<AIPage />} />,
+            <Route key={`nosotros-${lang}`} path={PAGE_PATHS.nosotros[lang]} element={<NosotrosPage />} />,
+          ])}
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </Suspense>

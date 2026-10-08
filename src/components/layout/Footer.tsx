@@ -1,11 +1,12 @@
 import Logo from "../../assets/images/logos/Logo.png";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-
-const NAV_HREFS = ["/", "/#servicios", "/nosotros"];
+import { useLocalePath } from "../../i18n/routes";
 
 export default function Footer() {
   const { t } = useTranslation();
+  const { to } = useLocalePath();
+  const NAV_HREFS = [to("home"), to("home", "#servicios"), to("nosotros")];
   const navLinks = t("footer.nav_links", { returnObjects: true }) as string[];
 
   return (
@@ -30,7 +31,7 @@ export default function Footer() {
             </a>
           </div>
           <Link
-            to="/#servicios"
+            to={to("home", "#servicios")}
             className="w-fit border border-primary rounded-full px-6 lg:px-8 py-2 lg:py-3 font-montserrat text-xs lg:text-sm xl:text-base tracking-widest text-white hover:bg-primary/10 transition-colors"
           >
             {t("footer.see_services")}

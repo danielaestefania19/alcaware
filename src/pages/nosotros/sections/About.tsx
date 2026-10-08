@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { useLocalePath } from "../../../i18n/routes";
 
 type AboutCardProps = {
   title: string;
@@ -9,6 +10,7 @@ type AboutCardProps = {
 };
 
 function AboutCard({ title, paragraphs, cta, align, index }: AboutCardProps) {
+  const { to } = useLocalePath();
   const isCenter = align === "center";
   const isSecond = index === 1;
 
@@ -116,7 +118,7 @@ function AboutCard({ title, paragraphs, cta, align, index }: AboutCardProps) {
         </div>
 
         <a
-          href="/#servicios"
+          href={to("home", "#servicios")}
           className={`
             mt-auto pt-6
             xl:pt-10

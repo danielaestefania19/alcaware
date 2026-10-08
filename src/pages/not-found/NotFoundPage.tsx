@@ -1,8 +1,10 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import { useLocalePath } from "../../i18n/routes";
 
 export default function NotFoundPage() {
   const { t } = useTranslation();
+  const { to } = useLocalePath();
 
   return (
     <main className="min-h-screen flex flex-col items-center justify-center text-center text-white px-6 py-32">
@@ -16,7 +18,7 @@ export default function NotFoundPage() {
         {t("not_found.subtitle")}
       </p>
       <Link
-        to="/"
+        to={to("home")}
         className="mt-8 inline-block border border-white/30 rounded-full px-8 py-3 text-xs md:text-sm font-montserrat tracking-wide transition-colors hover:bg-white hover:text-black"
       >
         {t("not_found.cta_home")}

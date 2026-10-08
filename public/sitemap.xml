@@ -1,33 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.alcaware.com/</loc>
-    <lastmod>2026-06-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en" />
+  </url>
+  <url>
+    <loc>https://www.alcaware.com/en</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en" />
   </url>
   <url>
     <loc>https://www.alcaware.com/web-mobil</loc>
-    <lastmod>2026-06-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/web-mobil" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/web-mobile" />
+  </url>
+  <url>
+    <loc>https://www.alcaware.com/en/web-mobile</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/web-mobil" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/web-mobile" />
   </url>
   <url>
     <loc>https://www.alcaware.com/blockchain</loc>
-    <lastmod>2026-06-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/blockchain" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/blockchain" />
+  </url>
+  <url>
+    <loc>https://www.alcaware.com/en/blockchain</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/blockchain" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/blockchain" />
   </url>
   <url>
     <loc>https://www.alcaware.com/inteligencia-artificial</loc>
-    <lastmod>2026-06-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/inteligencia-artificial" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/artificial-intelligence" />
+  </url>
+  <url>
+    <loc>https://www.alcaware.com/en/artificial-intelligence</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/inteligencia-artificial" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/artificial-intelligence" />
   </url>
   <url>
     <loc>https://www.alcaware.com/nosotros</loc>
-    <lastmod>2026-06-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/nosotros" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/about-us" />
+  </url>
+  <url>
+    <loc>https://www.alcaware.com/en/about-us</loc>
+    <lastmod>2026-10-08</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/nosotros" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/about-us" />
   </url>
 </urlset>
