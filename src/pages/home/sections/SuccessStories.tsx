@@ -6,17 +6,20 @@ import sjiglobalAvif from "../../../assets/images/home/sjiglobal.avif";
 import sjiglobalWebp from "../../../assets/images/home/sjiglobal.webp";
 import SuccessStoriesBackground from "../../../components/ui/backgrounds/SuccessStoriesBackground";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+import { useLocalePath } from "../../../i18n/routes";
 
 type Story = { paragraphs: string[] };
 
 const storyMeta = [
-  { name: "ACM SUITE", image: { avif: acmsuiteAvif, webp: acmsuiteWebp }, imageAlt: "Acm Suite", reverse: false, textRight: true },
-  { name: "ISA LEGAL", image: { avif: isalegalAvif, webp: isalegalWebp }, imageAlt: "Isa Legal", reverse: true, textRight: false },
-  { name: "SJI GLOBAL", image: { avif: sjiglobalAvif, webp: sjiglobalWebp }, imageAlt: "SJI GLOBAL", reverse: false, textRight: true },
+  { id: "acm-suite", name: "ACM SUITE", image: { avif: acmsuiteAvif, webp: acmsuiteWebp }, imageAlt: "Acm Suite", reverse: false, textRight: true },
+  { id: "isa-legal", name: "ISA LEGAL", image: { avif: isalegalAvif, webp: isalegalWebp }, imageAlt: "Isa Legal", reverse: true, textRight: false },
+  { id: "sji-global", name: "SJI GLOBAL", image: { avif: sjiglobalAvif, webp: sjiglobalWebp }, imageAlt: "SJI GLOBAL", reverse: false, textRight: true },
 ];
 
 export default function SuccessStories() {
   const { t } = useTranslation();
+  const { to } = useLocalePath();
   const stories = t("success.stories", { returnObjects: true }) as Story[];
 
   return (
@@ -64,6 +67,12 @@ export default function SuccessStories() {
                       {p}
                     </p>
                   ))}
+                  <Link
+                    to={to(`case:${meta.id}`)}
+                    className="font-montserrat font-bold text-xs lg:text-sm tracking-widest text-primary hover:brightness-125 transition"
+                  >
+                    {t("success.read_case")}
+                  </Link>
                 </div>
               </div>
             );

@@ -3,7 +3,8 @@
     "home": "HOME",
     "services": "SERVICES",
     "process": "PROCESS",
-    "about": "ABOUT US"
+    "about": "ABOUT US",
+    "blog": "BLOG"
   },
   "hero": {
     "title_line1": "CUSTOM SOFTWARE TO",
@@ -135,7 +136,8 @@
           "The solution includes deadline control, procedural action tracking, and legal process monitoring — optimizing legal team operations and strengthening decision-making with centralized, real-time information."
         ]
       }
-    ]
+    ],
+    "read_case": "READ FULL CASE STUDY →"
   },
   "testimonials": {
     "title": "TESTIMONIALS",
@@ -919,7 +921,8 @@
     "nav_links": [
       "Home",
       "Services",
-      "About"
+      "About",
+      "Blog"
     ],
     "visit_title": "Visit us",
     "address": "Francisco Villa 650, Jardín Español, 64820 M Monterrey, N.L.",
@@ -930,5 +933,21 @@
     "title": "PAGE NOT FOUND",
     "subtitle": "THE PAGE YOU ARE LOOKING FOR DOES NOT EXIST OR WAS MOVED",
     "cta_home": "BACK TO HOME"
+  },
+  "content": {
+    "blog_label": "BLOG",
+    "blog_title": "INSIGHTS AND CASE STUDIES",
+    "blog_subtitle": "Articles on custom software, artificial intelligence and blockchain, plus real projects we have built.",
+    "cases_title": "CASE STUDIES",
+    "articles_title": "ARTICLES",
+    "read_more": "READ MORE →",
+    "see_case": "VIEW CASE →",
+    "case_label": "CASE STUDY",
+    "services_label": "Services",
+    "back_blog": "← Back to blog",
+    "more_cases": "MORE CASE STUDIES",
+    "more_articles": "MORE ARTICLES",
+    "related_service": "Explore the service",
+    "published": "Published on"
   }
 }

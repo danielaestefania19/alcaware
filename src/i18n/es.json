@@ -3,7 +3,8 @@
     "home": "INICIO",
     "services": "SERVICIOS",
     "process": "PROCESO",
-    "about": "NOSOTROS"
+    "about": "NOSOTROS",
+    "blog": "BLOG"
   },
   "hero": {
     "title_line1": "SOFTWARE A MEDIDA PARA",
@@ -135,7 +136,8 @@
           "La solución incluye control de plazos, seguimiento de actuaciones y monitoreo de procesos legales, optimizando la gestión operativa de equipos legales y fortaleciendo la toma de decisiones con información centralizada en tiempo real."
         ]
       }
-    ]
+    ],
+    "read_case": "VER CASO COMPLETO →"
   },
   "testimonials": {
     "title": "TESTIMONIOS",
@@ -919,7 +921,8 @@
     "nav_links": [
       "Inicio",
       "Servicios",
-      "Nosotros"
+      "Nosotros",
+      "Blog"
     ],
     "visit_title": "Visítanos",
     "address": "Francisco Villa 650, Jardín Español, 64820 M Monterrey, N.L.",
@@ -930,5 +933,21 @@
     "title": "PÁGINA NO ENCONTRADA",
     "subtitle": "LA PÁGINA QUE BUSCAS NO EXISTE O FUE MOVIDA",
     "cta_home": "VOLVER AL INICIO"
+  },
+  "content": {
+    "blog_label": "BLOG",
+    "blog_title": "IDEAS Y CASOS DE ÉXITO",
+    "blog_subtitle": "Artículos sobre software a medida, inteligencia artificial y blockchain, y proyectos reales que hemos construido.",
+    "cases_title": "CASOS DE ÉXITO",
+    "articles_title": "ARTÍCULOS",
+    "read_more": "LEER MÁS →",
+    "see_case": "VER CASO →",
+    "case_label": "CASO DE ÉXITO",
+    "services_label": "Servicios",
+    "back_blog": "← Volver al blog",
+    "more_cases": "OTROS CASOS DE ÉXITO",
+    "more_articles": "MÁS ARTÍCULOS",
+    "related_service": "Conoce el servicio",
+    "published": "Publicado el"
   }
 }

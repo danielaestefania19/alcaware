@@ -1,6 +1,8 @@
 import es from "./i18n/es.json";
 import en from "./i18n/en.json";
-import { langFromPath, LANGS, pageFromPath, PAGE_PATHS, type Lang, type PageKey } from "./i18n/routes";
+import { ARTICLES } from "./content/articles";
+import { CASES } from "./content/cases";
+import { langFromPath, LANGS, pageFromPath, ROUTE_KEYS, ROUTE_PATHS, type Lang, type PageKey } from "./i18n/routes";
 
 export const SITE_URL = "https://www.alcaware.com";
 const OG_IMAGE = `${SITE_URL}/og-image.png`;
@@ -12,9 +14,10 @@ type RouteSeo = {
   description: string;
   faq?: FaqItem[];
   serviceName?: string;
+  article?: { headline: string; datePublished?: string };
 };
 
-const SEO: Record<PageKey, Record<Lang, RouteSeo>> = {
+const SEO: Partial<Record<PageKey, Record<Lang, RouteSeo>>> = {
   home: {
     es: {
       title: "Alcaware | Desarrollo de software a medida: web, móvil, blockchain e IA",
@@ -91,6 +94,37 @@ const SEO: Record<PageKey, Record<Lang, RouteSeo>> = {
   },
 };
 
+SEO.blog = {
+  es: {
+    title: "Blog y casos de éxito | Alcaware",
+    description:
+      "Artículos sobre desarrollo de software a medida, inteligencia artificial y blockchain para empresas, y casos de éxito de proyectos reales.",
+  },
+  en: {
+    title: "Blog and case studies | Alcaware",
+    description:
+      "Articles on custom software development, artificial intelligence and blockchain for businesses, plus case studies from real projects.",
+  },
+};
+
+function contentSeo(key: string, lang: Lang): RouteSeo | undefined {
+  const [kind, id] = key.split(":");
+  if (kind === "case") {
+    const c = CASES.find((item) => item.id === id);
+    if (c) return { title: `${c.title[lang]} | Alcaware`, description: c.description[lang], article: { headline: c.title[lang] } };
+  }
+  if (kind === "article") {
+    const a = ARTICLES.find((item) => item.id === id);
+    if (a)
+      return {
+        title: `${a.title[lang]} | Alcaware`,
+        description: a.description[lang],
+        article: { headline: a.title[lang], datePublished: a.date },
+      };
+  }
+  return undefined;
+}
+
 const notFoundSeo: Record<Lang, RouteSeo> = {
   es: { title: "Página no encontrada | Alcaware", description: "La página que buscas no existe." },
   en: { title: "Page not found | Alcaware", description: "The page you are looking for does not exist." },
@@ -99,7 +133,8 @@ const notFoundSeo: Record<Lang, RouteSeo> = {
 export function getRouteSeo(path: string) {
   const lang = langFromPath(path);
   const page = pageFromPath(path);
-  return { seo: page ? SEO[page][lang] : notFoundSeo[lang], indexable: Boolean(page), page, lang };
+  const seo = page ? (SEO[page as PageKey]?.[lang] ?? contentSeo(page, lang)) : undefined;
+  return { seo: seo ?? notFoundSeo[lang], indexable: Boolean(seo), page, lang };
 }
 
 export const absoluteUrl = (path: string) => `${SITE_URL}${path}`;
@@ -151,14 +186,14 @@ export function renderHeadTags(path: string) {
   }
 
   const alternates = LANGS.map(
-    (alt) => `<link rel="alternate" hreflang="${alt}" href="${absoluteUrl(PAGE_PATHS[page!][alt])}" />`,
+    (alt) => `<link rel="alternate" hreflang="${alt}" href="${absoluteUrl(ROUTE_PATHS[page!][alt])}" />`,
   );
-  alternates.push(`<link rel="alternate" hreflang="x-default" href="${absoluteUrl(PAGE_PATHS[page!].es)}" />`);
+  alternates.push(`<link rel="alternate" hreflang="x-default" href="${absoluteUrl(ROUTE_PATHS[page!].es)}" />`);
 
   tags.push(
     `<link rel="canonical" href="${url}" />`,
     ...alternates,
-    `<meta property="og:type" content="website" />`,
+    `<meta property="og:type" content="${seo.article ? "article" : "website"}" />`,
     `<meta property="og:site_name" content="Alcaware" />`,
     `<meta property="og:locale" content="${lang === "en" ? "en_US" : "es_MX"}" />`,
     `<meta property="og:locale:alternate" content="${lang === "en" ? "es_MX" : "en_US"}" />`,
@@ -186,6 +221,19 @@ export function renderHeadTags(path: string) {
       inLanguage: lang,
     });
   }
+  if (seo.article) {
+    graph.push({
+      "@type": "Article",
+      headline: seo.article.headline,
+      description: seo.description,
+      url,
+      image: OG_IMAGE,
+      inLanguage: lang,
+      ...(seo.article.datePublished ? { datePublished: seo.article.datePublished } : {}),
+      author: { "@id": organization["@id"] },
+      publisher: { "@id": organization["@id"] },
+    });
+  }
   if (seo.faq?.length) {
     graph.push({
       "@type": "FAQPage",
@@ -203,13 +251,13 @@ export function renderHeadTags(path: string) {
 
 // sitemap.xml con las dos versiones de cada página enlazadas por hreflang.
 export function renderSitemap(lastmod = new Date().toISOString().slice(0, 10)) {
-  const urls = (Object.keys(PAGE_PATHS) as PageKey[]).flatMap((page) =>
+  const urls = ROUTE_KEYS.flatMap((page) =>
     LANGS.map((lang) => {
       const links = LANGS.map(
         (alt) =>
-          `    <xhtml:link rel="alternate" hreflang="${alt}" href="${absoluteUrl(PAGE_PATHS[page][alt])}" />`,
+          `    <xhtml:link rel="alternate" hreflang="${alt}" href="${absoluteUrl(ROUTE_PATHS[page][alt])}" />`,
       ).join("\n");
-      return `  <url>\n    <loc>${absoluteUrl(PAGE_PATHS[page][lang])}</loc>\n    <lastmod>${lastmod}</lastmod>\n${links}\n  </url>`;
+      return `  <url>\n    <loc>${absoluteUrl(ROUTE_PATHS[page][lang])}</loc>\n    <lastmod>${lastmod}</lastmod>\n${links}\n  </url>`;
     }),
   );
   return `<?xml version="1.0" encoding="UTF-8"?>
