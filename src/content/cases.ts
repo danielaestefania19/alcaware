@@ -104,6 +104,11 @@ export const CASES: CaseStudy[] = [
         {
           p: "La plataforma reduce los tiempos de revisión documental y permite tomar decisiones respaldadas por información jurídica consistente, escalable y auditable.",
         },
+        {
+          quote:
+            "Necesitábamos centralizar todos nuestros expedientes y procesos jurídicos en un solo lugar. Alcaware entendió perfectamente el flujo de trabajo de un despacho legal y nos entregó una solución que mejoró la eficiencia de todo el equipo.",
+          author: "Martha Herce, CEO de ISA Legal",
+        },
       ],
       en: [
         { h2: "The challenge" },
@@ -121,6 +126,11 @@ export const CASES: CaseStudy[] = [
         { h2: "Results" },
         {
           p: "The platform reduces document review time and enables decisions backed by consistent, scalable and auditable legal information.",
+        },
+        {
+          quote:
+            "We needed to centralize all our case files and legal processes in one place. Alcaware perfectly understood the workflow of a law firm and delivered a solution that improved the efficiency of the entire team.",
+          author: "Martha Herce, CEO of ISA Legal",
         },
       ],
     },
@@ -155,11 +165,6 @@ export const CASES: CaseStudy[] = [
         {
           p: "El equipo aumentó su eficiencia operativa, redujo los tiempos de consulta y seguimiento de casos, fortaleció la trazabilidad documental y mejoró su capacidad de respuesta ante clientes y autoridades gracias a información centralizada y actualizada.",
         },
-        {
-          quote:
-            "Necesitábamos centralizar todos nuestros expedientes y procesos jurídicos en un solo lugar. Alcaware entendió perfectamente el flujo de trabajo de un despacho legal y nos entregó una solución que mejoró la eficiencia de todo el equipo.",
-          author: "Martha Herce, CEO de SJI Global",
-        },
       ],
       en: [
         { h2: "The challenge" },
@@ -174,11 +179,6 @@ export const CASES: CaseStudy[] = [
         { h2: "Results" },
         {
           p: "The team increased its operational efficiency, reduced case consultation and follow-up times, strengthened document traceability and improved its response to clients and authorities through centralized, up-to-date information.",
-        },
-        {
-          quote:
-            "We needed to centralize all our case files and legal processes in one place. Alcaware perfectly understood the workflow of a law firm and delivered a solution that improved the efficiency of the entire team.",
-          author: "Martha Herce, CEO of SJI Global",
         },
       ],
     },
