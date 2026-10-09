@@ -121,8 +121,10 @@ const organization = {
     postalCode: "64820",
     addressCountry: "MX",
   },
+  geo: { "@type": "GeoCoordinates", latitude: 25.6647094, longitude: -100.277955 },
+  hasMap: "https://maps.google.com/?cid=11676762792263704516",
   areaServed: "MX",
-  sameAs: ["https://www.instagram.com/alcaware_"],
+  sameAs: ["https://www.instagram.com/alcaware_", "https://maps.google.com/?cid=11676762792263704516"],
 };
 
 const escapeAttr = (value: string) =>

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import emailjs from "@emailjs/browser";
+import { trackEvent } from "../../../../analytics";
 
 type Fields = {
   name: string;
@@ -48,6 +49,7 @@ export default function Contact() {
         "1JZeeL5cy6SAxc48C"
       );
       setStatus("success");
+      trackEvent("generate_lead", { form: "contacto", service: fields.service, page_path: window.location.pathname });
       setFields(EMPTY);
     } catch {
       setStatus("error");
