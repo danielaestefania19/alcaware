@@ -50,6 +50,7 @@ export default function Navbar() {
   const current = options.find((o) => o.code === currentLang) ?? options[0];
   const isHome = location.pathname === to("home");
   const isNosotros = location.pathname === to("nosotros");
+  const isBlog = location.pathname.startsWith(to("blog")) || location.pathname.includes("/casos-de-exito/") || location.pathname.includes("/case-studies/");
 
   const handleLangChange = (code: string) => {
     navigate(switchLangPath(location.pathname, code as Lang) + location.hash);
@@ -104,6 +105,13 @@ export default function Navbar() {
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
             {t("navbar.about")}
+          </Link>
+          <Link
+            to={to("blog")}
+            className={`cursor-pointer transition-colors hover:text-primary ${isBlog ? "text-primary" : ""}`}
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          >
+            {t("navbar.blog")}
           </Link>
         </nav>
         <div className="flex items-center gap-4">
@@ -196,6 +204,13 @@ export default function Navbar() {
               onClick={() => { window.scrollTo({ top: 0, behavior: "smooth" }); setMenuOpen(false); }}
             >
               {t("navbar.about")}
+            </Link>
+            <Link
+              to={to("blog")}
+              className={`cursor-pointer transition-colors ${isBlog ? "text-primary" : ""}`}
+              onClick={() => { window.scrollTo({ top: 0, behavior: "smooth" }); setMenuOpen(false); }}
+            >
+              {t("navbar.blog")}
             </Link>
             <div className="flex gap-4 mt-2">
               {options.map((opt) => (

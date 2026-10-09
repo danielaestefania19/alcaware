@@ -2,62 +2,146 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.alcaware.com/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en" />
   </url>
   <url>
     <loc>https://www.alcaware.com/en</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en" />
   </url>
   <url>
     <loc>https://www.alcaware.com/web-mobil</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/web-mobil" />
     <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/web-mobile" />
   </url>
   <url>
     <loc>https://www.alcaware.com/en/web-mobile</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/web-mobil" />
     <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/web-mobile" />
   </url>
   <url>
     <loc>https://www.alcaware.com/blockchain</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/blockchain" />
     <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/blockchain" />
   </url>
   <url>
     <loc>https://www.alcaware.com/en/blockchain</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/blockchain" />
     <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/blockchain" />
   </url>
   <url>
     <loc>https://www.alcaware.com/inteligencia-artificial</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/inteligencia-artificial" />
     <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/artificial-intelligence" />
   </url>
   <url>
     <loc>https://www.alcaware.com/en/artificial-intelligence</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/inteligencia-artificial" />
     <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/artificial-intelligence" />
   </url>
   <url>
     <loc>https://www.alcaware.com/nosotros</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/nosotros" />
     <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/about-us" />
   </url>
   <url>
     <loc>https://www.alcaware.com/en/about-us</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/nosotros" />
     <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/about-us" />
+  </url>
+  <url>
+    <loc>https://www.alcaware.com/blog</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/blog" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/blog" />
+  </url>
+  <url>
+    <loc>https://www.alcaware.com/en/blog</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/blog" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/blog" />
+  </url>
+  <url>
+    <loc>https://www.alcaware.com/casos-de-exito/acm-suite</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/casos-de-exito/acm-suite" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/case-studies/acm-suite" />
+  </url>
+  <url>
+    <loc>https://www.alcaware.com/en/case-studies/acm-suite</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/casos-de-exito/acm-suite" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/case-studies/acm-suite" />
+  </url>
+  <url>
+    <loc>https://www.alcaware.com/casos-de-exito/isa-legal</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/casos-de-exito/isa-legal" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/case-studies/isa-legal" />
+  </url>
+  <url>
+    <loc>https://www.alcaware.com/en/case-studies/isa-legal</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/casos-de-exito/isa-legal" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/case-studies/isa-legal" />
+  </url>
+  <url>
+    <loc>https://www.alcaware.com/casos-de-exito/sji-global</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/casos-de-exito/sji-global" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/case-studies/sji-global" />
+  </url>
+  <url>
+    <loc>https://www.alcaware.com/en/case-studies/sji-global</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/casos-de-exito/sji-global" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/case-studies/sji-global" />
+  </url>
+  <url>
+    <loc>https://www.alcaware.com/blog/cuanto-cuesta-desarrollar-software-a-medida</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/blog/cuanto-cuesta-desarrollar-software-a-medida" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/blog/how-much-does-custom-software-cost" />
+  </url>
+  <url>
+    <loc>https://www.alcaware.com/en/blog/how-much-does-custom-software-cost</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/blog/cuanto-cuesta-desarrollar-software-a-medida" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/blog/how-much-does-custom-software-cost" />
+  </url>
+  <url>
+    <loc>https://www.alcaware.com/blog/chatbots-con-ia-para-empresas</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/blog/chatbots-con-ia-para-empresas" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/blog/ai-chatbots-for-businesses" />
+  </url>
+  <url>
+    <loc>https://www.alcaware.com/en/blog/ai-chatbots-for-businesses</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/blog/chatbots-con-ia-para-empresas" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/blog/ai-chatbots-for-businesses" />
+  </url>
+  <url>
+    <loc>https://www.alcaware.com/blog/blockchain-para-trazabilidad-documental</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/blog/blockchain-para-trazabilidad-documental" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/blog/blockchain-for-document-traceability" />
+  </url>
+  <url>
+    <loc>https://www.alcaware.com/en/blog/blockchain-for-document-traceability</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.alcaware.com/blog/blockchain-para-trazabilidad-documental" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.alcaware.com/en/blog/blockchain-for-document-traceability" />
   </url>
 </urlset>

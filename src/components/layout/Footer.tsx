@@ -6,7 +6,7 @@ import { useLocalePath } from "../../i18n/routes";
 export default function Footer() {
   const { t } = useTranslation();
   const { to } = useLocalePath();
-  const NAV_HREFS = [to("home"), to("home", "#servicios"), to("nosotros")];
+  const NAV_HREFS = [to("home"), to("home", "#servicios"), to("nosotros"), to("blog")];
   const navLinks = t("footer.nav_links", { returnObjects: true }) as string[];
 
   return (
